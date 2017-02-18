@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B824135D1E57CE88002A692F /* Search in a Big Sorted Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Search in a Big Sorted Array.playground"; sourceTree = "<group>"; };
 		B8AF4AC21E57C2540004E8A1 /* SwiftCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8AF4AC51E57C2540004E8A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8AF4AC71E57C2540004E8A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +139,7 @@
 				B8AF4AF61E57C3790004E8A1 /* Last Position of Target.playground */,
 				B8AF4AF71E57C5700004E8A1 /* First Position of Target.playground */,
 				B8AF4AF81E57C69F0004E8A1 /* Sqrt(x).playground */,
+				B824135D1E57CE88002A692F /* Search in a Big Sorted Array.playground */,
 			);
 			path = "Binary Search";
 			sourceTree = "<group>";
@@ -544,6 +546,7 @@
 				B8AF4AEC1E57C2540004E8A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8AF4AED1E57C2540004E8A1 /* Build configuration list for PBXNativeTarget "SwiftCodingTests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +555,7 @@
 				B8AF4AEF1E57C2540004E8A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8AF4AF01E57C2540004E8A1 /* Build configuration list for PBXNativeTarget "SwiftCodingUITests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +564,7 @@
 				B8AF4AF21E57C2540004E8A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
