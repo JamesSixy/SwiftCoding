@@ -48,6 +48,7 @@
 		B8AF4AE51E57C2540004E8A1 /* SwiftCodingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCodingUITests.swift; sourceTree = "<group>"; };
 		B8AF4AE71E57C2540004E8A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8AF4AF61E57C3790004E8A1 /* Last Position of Target.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Last Position of Target.playground"; sourceTree = "<group>"; };
+		B8AF4AF71E57C5700004E8A1 /* First Position of Target.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "First Position of Target.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				B8AF4AF61E57C3790004E8A1 /* Last Position of Target.playground */,
+				B8AF4AF71E57C5700004E8A1 /* First Position of Target.playground */,
 			);
 			path = "Binary Search";
 			sourceTree = "<group>";
