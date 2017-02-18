@@ -38,6 +38,7 @@
 		B824135E1E57D18B002A692F /* Find Minimum in Rotated Sorted Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Find Minimum in Rotated Sorted Array.playground"; sourceTree = "<group>"; };
 		B824135F1E57D345002A692F /* Find Peak Element.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Find Peak Element.playground"; sourceTree = "<group>"; };
 		B82413601E57D6B9002A692F /* First Bad Version.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "First Bad Version.playground"; sourceTree = "<group>"; };
+		B82413621E58CD1B002A692F /* Subtree with Maximum Average .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Subtree with Maximum Average .playground"; sourceTree = "<group>"; };
 		B8AF4AC21E57C2540004E8A1 /* SwiftCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8AF4AC51E57C2540004E8A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8AF4AC71E57C2540004E8A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B82413611E58CCF5002A692F /* Binary Tree */ = {
+			isa = PBXGroup;
+			children = (
+				B82413621E58CD1B002A692F /* Subtree with Maximum Average .playground */,
+			);
+			path = "Binary Tree";
+			sourceTree = "<group>";
+		};
 		B8AF4AB91E57C2540004E8A1 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +143,7 @@
 		B8AF4AF31E57C2F90004E8A1 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				B82413611E58CCF5002A692F /* Binary Tree */,
 				B8AF4AF41E57C2F90004E8A1 /* Binary Search */,
 			);
 			path = Categories;
