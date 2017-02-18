@@ -55,6 +55,7 @@
 		B8AF4AF71E57C5700004E8A1 /* First Position of Target.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "First Position of Target.playground"; sourceTree = "<group>"; };
 		B8AF4AF81E57C69F0004E8A1 /* Sqrt(x).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Sqrt(x).playground"; sourceTree = "<group>"; };
 		B8AF4AF91E57DC3D0004E8A1 /* Search in Rotated Sorted Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Search in Rotated Sorted Array.playground"; sourceTree = "<group>"; };
+		B8AF4AFA1E58BD410004E8A1 /*  Wood Cut.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = " Wood Cut.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +149,7 @@
 				B824135F1E57D345002A692F /* Find Peak Element.playground */,
 				B82413601E57D6B9002A692F /* First Bad Version.playground */,
 				B8AF4AF91E57DC3D0004E8A1 /* Search in Rotated Sorted Array.playground */,
+				B8AF4AFA1E58BD410004E8A1 /*  Wood Cut.playground */,
 			);
 			path = "Binary Search";
 			sourceTree = "<group>";
