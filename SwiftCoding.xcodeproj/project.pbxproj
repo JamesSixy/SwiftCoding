@@ -35,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		B824135D1E57CE88002A692F /* Search in a Big Sorted Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Search in a Big Sorted Array.playground"; sourceTree = "<group>"; };
+		B824135E1E57D18B002A692F /* Find Minimum in Rotated Sorted Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Find Minimum in Rotated Sorted Array.playground"; sourceTree = "<group>"; };
 		B8AF4AC21E57C2540004E8A1 /* SwiftCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8AF4AC51E57C2540004E8A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8AF4AC71E57C2540004E8A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +141,7 @@
 				B8AF4AF71E57C5700004E8A1 /* First Position of Target.playground */,
 				B8AF4AF81E57C69F0004E8A1 /* Sqrt(x).playground */,
 				B824135D1E57CE88002A692F /* Search in a Big Sorted Array.playground */,
+				B824135E1E57D18B002A692F /* Find Minimum in Rotated Sorted Array.playground */,
 			);
 			path = "Binary Search";
 			sourceTree = "<group>";
