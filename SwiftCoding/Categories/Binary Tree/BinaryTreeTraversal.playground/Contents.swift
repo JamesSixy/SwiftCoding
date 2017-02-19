@@ -78,6 +78,33 @@ func inorderTraversal(_ root: TreeNode?) -> [Int] {
 }
 
 /*
+ Postorder Traversal (Iterative)
+ */
+func postorderTraversal(_ root: TreeNode?) -> [Int] {
+    var res: [Int] = []
+    guard let root = root else {
+        return res
+    }
+    var stack = Stack<TreeNode>()
+    var reverse = Stack<Int>()
+    stack.push(root)
+    while !stack.isEmpty {
+        let cur = stack.pop()!
+        reverse.push(cur.val)
+        if let left = cur.left {//left first
+            stack.push(left)
+        }
+        if let right = cur.right {
+            stack.push(right)
+        }
+    }
+    while !reverse.isEmpty {
+        res.append(reverse.pop()!)
+    }
+    return res
+}
+
+/*
  Helper
  Convert Array to Binary Tree (from left to right)
  */
@@ -90,6 +117,13 @@ func arrayToBinaryTree(_ nums: [Int], _ pos: Int) -> TreeNode? {
     root.right = arrayToBinaryTree(nums, 2 * pos + 2)
     return root
 }
+
+//let root = arrayToBinaryTree([1, 2, 3, 4, 5, 6, 7], 0)
+//print(preorderTraversal(root))
+//print(inorderTraversal(root))
+//print(postorderTraversal(root))
+
+
 
 //func arrayToBinaryTree(_ nums: [Int]) -> TreeNode? {
 //    guard nums.count > 0 else { return nil }
@@ -119,7 +153,4 @@ func arrayToBinaryTree(_ nums: [Int], _ pos: Int) -> TreeNode? {
 //    }
 //    return root
 //}
-
-
-arrayToBinaryTree([1, 2, 3, 4, 5, 6, 7], 0)
 
