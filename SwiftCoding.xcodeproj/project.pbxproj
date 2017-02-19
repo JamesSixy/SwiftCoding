@@ -58,6 +58,8 @@
 		B8AF4AF91E57DC3D0004E8A1 /* Search in Rotated Sorted Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Search in Rotated Sorted Array.playground"; sourceTree = "<group>"; };
 		B8AF4AFA1E58BD410004E8A1 /*  Wood Cut.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = " Wood Cut.playground"; sourceTree = "<group>"; };
 		B8AF4AFB1E58C0C50004E8A1 /* Copy Books.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Copy Books.playground"; sourceTree = "<group>"; };
+		B8AF4AFC1E59FF640004E8A1 /* Minimum Subtree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Minimum Subtree.playground"; sourceTree = "<group>"; };
+		B8AF4AFD1E5A087C0004E8A1 /* Binary Tree Level Order Traversal.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Level Order Traversal.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				B82413621E58CD1B002A692F /* Subtree with Maximum Average .playground */,
+				B8AF4AFC1E59FF640004E8A1 /* Minimum Subtree.playground */,
+				B8AF4AFD1E5A087C0004E8A1 /* Binary Tree Level Order Traversal.playground */,
 			);
 			path = "Binary Tree";
 			sourceTree = "<group>";
