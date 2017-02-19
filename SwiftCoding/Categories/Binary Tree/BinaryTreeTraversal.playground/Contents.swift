@@ -59,6 +59,25 @@ func preorderTraversal(_ root: TreeNode?) -> [Int] {
 }
 
 /*
+ Inorder Traversal (Iterative
+ */
+func inorderTraversal(_ root: TreeNode?) -> [Int] {
+    var res: [Int] = []
+    var stack = Stack<TreeNode>()
+    var cur = root
+    while !stack.isEmpty || cur != nil {
+        while cur != nil {
+            stack.push(cur!)
+            cur = cur!.left
+        }
+        cur = stack.pop()
+        res.append(cur!.val)
+        cur = cur!.right
+    }
+    return res
+}
+
+/*
  Helper
  Convert Array to Binary Tree (from left to right)
  */
