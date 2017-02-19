@@ -34,12 +34,14 @@ private func helper(_ root: TreeNode?) -> Tuple {
 
 
 //Test
-var node0 = TreeNode(1)
-var node1 = TreeNode(-5)
-var node2 = TreeNode(2)
-var node3 = TreeNode(0)
-var node4 = TreeNode(2)
-var node5 = TreeNode(-4)
-var node6 = TreeNode(-5)
-
-
+let testData = [
+    [1, -5, 2, 0, 2, -4, -5],
+    [1, 2, -10],
+    [6]
+]
+for arr in testData {
+    let root = arrayToBinaryTree(arr, 0)
+    print(preorderTraversal(root))
+    print(findSubtree(root)!.val)
+    lastMinTuple = nil
+}
