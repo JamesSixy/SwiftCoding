@@ -14,6 +14,11 @@
 		B8AF4AD01E57C2540004E8A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8AF4ACE1E57C2540004E8A1 /* LaunchScreen.storyboard */; };
 		B8AF4ADB1E57C2540004E8A1 /* SwiftCodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF4ADA1E57C2540004E8A1 /* SwiftCodingTests.swift */; };
 		B8AF4AE61E57C2540004E8A1 /* SwiftCodingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF4AE51E57C2540004E8A1 /* SwiftCodingUITests.swift */; };
+		B8AF4B3E1E5A3E4D0004E8A1 /* ZHDataStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = B8AF4B3C1E5A3E4D0004E8A1 /* ZHDataStructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8AF4B411E5A3E4D0004E8A1 /* ZHDataStructure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8AF4B3A1E5A3E4D0004E8A1 /* ZHDataStructure.framework */; };
+		B8AF4B421E5A3E4D0004E8A1 /* ZHDataStructure.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B8AF4B3A1E5A3E4D0004E8A1 /* ZHDataStructure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B8AF4B4A1E5A3E720004E8A1 /* BinaryTreeTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF4B481E5A3E720004E8A1 /* BinaryTreeTraversal.swift */; };
+		B8AF4B4B1E5A3E720004E8A1 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF4B491E5A3E720004E8A1 /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,10 +36,30 @@
 			remoteGlobalIDString = B8AF4AC11E57C2540004E8A1;
 			remoteInfo = SwiftCoding;
 		};
+		B8AF4B3F1E5A3E4D0004E8A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8AF4ABA1E57C2540004E8A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8AF4B391E5A3E4D0004E8A1;
+			remoteInfo = ZHDataStructure;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B8AF4B461E5A3E4D0004E8A1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B8AF4B421E5A3E4D0004E8A1 /* ZHDataStructure.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		B811C86F1E5A31D9009E3483 /* BinaryTreeTraversal.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinaryTreeTraversal.playground; sourceTree = "<group>"; };
 		B824135D1E57CE88002A692F /* Search in a Big Sorted Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Search in a Big Sorted Array.playground"; sourceTree = "<group>"; };
 		B824135E1E57D18B002A692F /* Find Minimum in Rotated Sorted Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Find Minimum in Rotated Sorted Array.playground"; sourceTree = "<group>"; };
 		B824135F1E57D345002A692F /* Find Peak Element.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Find Peak Element.playground"; sourceTree = "<group>"; };
@@ -61,6 +86,11 @@
 		B8AF4AFB1E58C0C50004E8A1 /* Copy Books.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Copy Books.playground"; sourceTree = "<group>"; };
 		B8AF4AFC1E59FF640004E8A1 /* Minimum Subtree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Minimum Subtree.playground"; sourceTree = "<group>"; };
 		B8AF4AFD1E5A087C0004E8A1 /* Binary Tree Level Order Traversal.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Level Order Traversal.playground"; sourceTree = "<group>"; };
+		B8AF4B3A1E5A3E4D0004E8A1 /* ZHDataStructure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZHDataStructure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8AF4B3C1E5A3E4D0004E8A1 /* ZHDataStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHDataStructure.h; sourceTree = "<group>"; };
+		B8AF4B3D1E5A3E4D0004E8A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8AF4B481E5A3E720004E8A1 /* BinaryTreeTraversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTreeTraversal.swift; sourceTree = "<group>"; };
+		B8AF4B491E5A3E720004E8A1 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8AF4B411E5A3E4D0004E8A1 /* ZHDataStructure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,13 +116,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B8AF4B361E5A3E4D0004E8A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		B82413611E58CCF5002A692F /* Binary Tree */ = {
 			isa = PBXGroup;
 			children = (
-				B811C86F1E5A31D9009E3483 /* BinaryTreeTraversal.playground */,
 				B82413621E58CD1B002A692F /* Subtree with Maximum Average .playground */,
 				B8AF4AFC1E59FF640004E8A1 /* Minimum Subtree.playground */,
 				B8AF4AFD1E5A087C0004E8A1 /* Binary Tree Level Order Traversal.playground */,
@@ -105,6 +142,7 @@
 				B8AF4AC41E57C2540004E8A1 /* SwiftCoding */,
 				B8AF4AD91E57C2540004E8A1 /* SwiftCodingTests */,
 				B8AF4AE41E57C2540004E8A1 /* SwiftCodingUITests */,
+				B8AF4B3B1E5A3E4D0004E8A1 /* ZHDataStructure */,
 				B8AF4AC31E57C2540004E8A1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,6 +153,7 @@
 				B8AF4AC21E57C2540004E8A1 /* SwiftCoding.app */,
 				B8AF4AD61E57C2540004E8A1 /* SwiftCodingTests.xctest */,
 				B8AF4AE11E57C2540004E8A1 /* SwiftCodingUITests.xctest */,
+				B8AF4B3A1E5A3E4D0004E8A1 /* ZHDataStructure.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,7 +224,37 @@
 			name = Others;
 			sourceTree = "<group>";
 		};
+		B8AF4B3B1E5A3E4D0004E8A1 /* ZHDataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				B8AF4B471E5A3E600004E8A1 /* ZHClasses */,
+				B8AF4B3C1E5A3E4D0004E8A1 /* ZHDataStructure.h */,
+				B8AF4B3D1E5A3E4D0004E8A1 /* Info.plist */,
+			);
+			path = ZHDataStructure;
+			sourceTree = "<group>";
+		};
+		B8AF4B471E5A3E600004E8A1 /* ZHClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B8AF4B481E5A3E720004E8A1 /* BinaryTreeTraversal.swift */,
+				B8AF4B491E5A3E720004E8A1 /* Stack.swift */,
+			);
+			path = ZHClasses;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B8AF4B371E5A3E4D0004E8A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8AF4B3E1E5A3E4D0004E8A1 /* ZHDataStructure.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		B8AF4AC11E57C2540004E8A1 /* SwiftCoding */ = {
@@ -195,10 +264,12 @@
 				B8AF4ABE1E57C2540004E8A1 /* Sources */,
 				B8AF4ABF1E57C2540004E8A1 /* Frameworks */,
 				B8AF4AC01E57C2540004E8A1 /* Resources */,
+				B8AF4B461E5A3E4D0004E8A1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B8AF4B401E5A3E4D0004E8A1 /* PBXTargetDependency */,
 			);
 			name = SwiftCoding;
 			productName = SwiftCoding;
@@ -241,6 +312,24 @@
 			productReference = B8AF4AE11E57C2540004E8A1 /* SwiftCodingUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		B8AF4B391E5A3E4D0004E8A1 /* ZHDataStructure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8AF4B451E5A3E4D0004E8A1 /* Build configuration list for PBXNativeTarget "ZHDataStructure" */;
+			buildPhases = (
+				B8AF4B351E5A3E4D0004E8A1 /* Sources */,
+				B8AF4B361E5A3E4D0004E8A1 /* Frameworks */,
+				B8AF4B371E5A3E4D0004E8A1 /* Headers */,
+				B8AF4B381E5A3E4D0004E8A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHDataStructure;
+			productName = ZHDataStructure;
+			productReference = B8AF4B3A1E5A3E4D0004E8A1 /* ZHDataStructure.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -268,6 +357,12 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = B8AF4AC11E57C2540004E8A1;
 					};
+					B8AF4B391E5A3E4D0004E8A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4B6J56772J;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = B8AF4ABD1E57C2540004E8A1 /* Build configuration list for PBXProject "SwiftCoding" */;
@@ -286,6 +381,7 @@
 				B8AF4AC11E57C2540004E8A1 /* SwiftCoding */,
 				B8AF4AD51E57C2540004E8A1 /* SwiftCodingTests */,
 				B8AF4AE01E57C2540004E8A1 /* SwiftCodingUITests */,
+				B8AF4B391E5A3E4D0004E8A1 /* ZHDataStructure */,
 			);
 		};
 /* End PBXProject section */
@@ -309,6 +405,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B8AF4ADF1E57C2540004E8A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8AF4B381E5A3E4D0004E8A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -343,6 +446,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B8AF4B351E5A3E4D0004E8A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8AF4B4B1E5A3E720004E8A1 /* Stack.swift in Sources */,
+				B8AF4B4A1E5A3E720004E8A1 /* BinaryTreeTraversal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -355,6 +467,11 @@
 			isa = PBXTargetDependency;
 			target = B8AF4AC11E57C2540004E8A1 /* SwiftCoding */;
 			targetProxy = B8AF4AE21E57C2540004E8A1 /* PBXContainerItemProxy */;
+		};
+		B8AF4B401E5A3E4D0004E8A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8AF4B391E5A3E4D0004E8A1 /* ZHDataStructure */;
+			targetProxy = B8AF4B3F1E5A3E4D0004E8A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -474,6 +591,7 @@
 		B8AF4AEB1E57C2540004E8A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4B6J56772J;
 				INFOPLIST_FILE = SwiftCoding/Info.plist;
@@ -487,6 +605,7 @@
 		B8AF4AEC1E57C2540004E8A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4B6J56772J;
 				INFOPLIST_FILE = SwiftCoding/Info.plist;
@@ -555,6 +674,53 @@
 			};
 			name = Release;
 		};
+		B8AF4B431E5A3E4D0004E8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4B6J56772J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZHDataStructure/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planhola.ZHDataStructure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8AF4B441E5A3E4D0004E8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4B6J56772J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZHDataStructure/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planhola.ZHDataStructure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -593,6 +759,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		B8AF4B451E5A3E4D0004E8A1 /* Build configuration list for PBXNativeTarget "ZHDataStructure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8AF4B431E5A3E4D0004E8A1 /* Debug */,
+				B8AF4B441E5A3E4D0004E8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>ZHDataStructure.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>B8AF4AE01E57C2540004E8A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B8AF4B391E5A3E4D0004E8A1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
