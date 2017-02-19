@@ -36,36 +36,3 @@ func levelOrder(_ root: TreeNode?) -> [[Int]] {
     }
     return res
 }
-
-
-//func arrayToBinaryTree(_ nums: [Int]) -> TreeNode? {
-//    guard nums.count > 0 else { return nil }
-//    let root = TreeNode(nums[0])
-//    var queue: [TreeNode] = [root] //use array to mock queue
-//    var dict: [TreeNode : Int] = [:]
-//    dict[root] = 0
-//    while !queue.isEmpty {
-//        let size = queue.count
-//        for _ in 0 ..< size {
-//            let cur = queue.removeFirst()
-//            let parentIndex = dict[cur]
-//            let leftChildIndex = 2 * parentIndex + 1
-//            let rightChildIndex = 2 * parentIndex + 2
-//            
-//            if leftChildIndex < nums.count {
-//                let leftNode = TreeNode(nums[leftChildIndex])
-//                cur.left = leftNode
-//                queue.append(leftNode)
-//            }
-//            if rightChildIndex < nums.count {
-//                let rightNode = TreeNode(nums[rightChildIndex])
-//                cur.right = rightNode
-//                queue.append(rightNode)
-//            }
-//        }
-//    }
-//    return root
-//}
-
-
-//arrayToBinaryTree([1, 2, 3, 4, 5, 6, 7])
