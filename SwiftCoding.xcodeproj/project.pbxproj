@@ -91,6 +91,7 @@
 		B8AF4B3D1E5A3E4D0004E8A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8AF4B481E5A3E720004E8A1 /* BinaryTreeTraversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTreeTraversal.swift; sourceTree = "<group>"; };
 		B8AF4B491E5A3E720004E8A1 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		B8AF4B4C1E5A571F0004E8A1 /* Binary Tree Longest Consecutive Sequence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Longest Consecutive Sequence.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +133,7 @@
 				B82413621E58CD1B002A692F /* Subtree with Maximum Average .playground */,
 				B8AF4AFC1E59FF640004E8A1 /* Minimum Subtree.playground */,
 				B8AF4AFD1E5A087C0004E8A1 /* Binary Tree Level Order Traversal.playground */,
+				B8AF4B4C1E5A571F0004E8A1 /* Binary Tree Longest Consecutive Sequence.playground */,
 			);
 			path = "Binary Tree";
 			sourceTree = "<group>";
