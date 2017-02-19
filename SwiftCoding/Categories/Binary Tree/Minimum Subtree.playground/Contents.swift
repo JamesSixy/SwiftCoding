@@ -32,16 +32,44 @@ private func helper(_ root: TreeNode?) -> Tuple {
 
 //Solution2: D&C
 
+typealias DCTuple = (minNode: TreeNode?, minSum: Int, sum: Int)
+
+func findSubtreeDC(_ root: TreeNode?) -> TreeNode? {
+    return helperDC(root).minNode
+}
+
+private func helperDC(_ root: TreeNode?) -> DCTuple {
+    guard let root = root else {
+        return (nil, Int.max, 0)
+    }
+    var left = helperDC(root.left)
+    var right = helperDC(root.right)
+    
+    let sum = left.sum + right.sum + root.val
+    if sum < left.minSum && sum < right.minSum {
+        return (root, sum, sum)
+    } else if left.minSum < right.minSum {
+        left.sum = sum
+        return left
+    } else {
+        right.sum = sum
+        return right
+    }
+}
 
 //Test
-let testData = [
-    [1, -5, 2, 0, 2, -4, -5],
-    [1, 2, -10],
-    [6]
-]
-for arr in testData {
-    let root = arrayToBinaryTree(arr, 0)
-    print(preorderTraversal(root))
-    print(findSubtree(root)!.val)
-    lastMinTuple = nil
-}
+//let testData = [
+//    [1, -5, 2, 0, 2, -4, -5],
+//    [1, 2, -10],
+//    [6],
+//    [4, -3],
+//    [2, 4, -9]
+//]
+//for arr in testData {
+//    let root = arrayToBinaryTree(arr, 0)
+//    print(preorderTraversal(root))
+//    print(findSubtree(root)!.val)
+//    lastMinTuple = nil
+//    
+//    print(findSubtreeDC(root)!.val)
+//}
