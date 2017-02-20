@@ -13,6 +13,14 @@ public class TreeNode {
     }
 }
 
+public class DoublyListNode {
+    public var val: Int
+    public var next: DoublyListNode?, prev: DoublyListNode?
+    public init(_ val: Int) {
+        self.val = val
+    }
+}
+
 /*
  Preorder Traversal (Iterative
  */

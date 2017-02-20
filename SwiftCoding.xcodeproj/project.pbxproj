@@ -95,6 +95,7 @@
 		B8AF4B491E5A3E720004E8A1 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		B8AF4B4C1E5A571F0004E8A1 /* Binary Tree Longest Consecutive Sequence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Longest Consecutive Sequence.playground"; sourceTree = "<group>"; };
 		B8AF4B4D1E5A67520004E8A1 /* Validate Binary Search Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Validate Binary Search Tree.playground"; sourceTree = "<group>"; };
+		B8AF4B4E1E5A9F970004E8A1 /* convert binary search tree to doubly linked list.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "convert binary search tree to doubly linked list.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +141,7 @@
 				B8AF4B4D1E5A67520004E8A1 /* Validate Binary Search Tree.playground */,
 				B811C8701E5A859D009E3483 /* Lowest Common Ancestor.playground */,
 				B811C8711E5A8D15009E3483 /* Balanced Binary Tree.playground */,
+				B8AF4B4E1E5A9F970004E8A1 /* convert binary search tree to doubly linked list.playground */,
 			);
 			path = "Binary Tree";
 			sourceTree = "<group>";
