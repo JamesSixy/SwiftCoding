@@ -96,6 +96,7 @@
 		B8AF4B4C1E5A571F0004E8A1 /* Binary Tree Longest Consecutive Sequence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Longest Consecutive Sequence.playground"; sourceTree = "<group>"; };
 		B8AF4B4D1E5A67520004E8A1 /* Validate Binary Search Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Validate Binary Search Tree.playground"; sourceTree = "<group>"; };
 		B8AF4B4E1E5A9F970004E8A1 /* convert binary search tree to doubly linked list.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "convert binary search tree to doubly linked list.playground"; sourceTree = "<group>"; };
+		B8AF4B4F1E5BED5D0004E8A1 /* Flatten Binary Tree to Linked List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Flatten Binary Tree to Linked List.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +143,7 @@
 				B811C8701E5A859D009E3483 /* Lowest Common Ancestor.playground */,
 				B811C8711E5A8D15009E3483 /* Balanced Binary Tree.playground */,
 				B8AF4B4E1E5A9F970004E8A1 /* convert binary search tree to doubly linked list.playground */,
+				B8AF4B4F1E5BED5D0004E8A1 /* Flatten Binary Tree to Linked List.playground */,
 			);
 			path = "Binary Tree";
 			sourceTree = "<group>";
