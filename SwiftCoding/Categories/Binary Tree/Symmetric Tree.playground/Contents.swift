@@ -5,6 +5,7 @@ import ZHDataStructure
 /// https://leetcode.com/problems/symmetric-tree/?tab=Description
 /// - Parameter root:
 /// - Returns: Bool
+/// Can we use divide & Conquer to solve this? or preorder? when should we use preorder?
 
 func isSymmetric(_ root: TreeNode?) -> Bool {
     guard let root = root else {
