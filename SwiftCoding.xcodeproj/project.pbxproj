@@ -102,6 +102,7 @@
 		B8AF4B4F1E5BED5D0004E8A1 /* Flatten Binary Tree to Linked List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Flatten Binary Tree to Linked List.playground"; sourceTree = "<group>"; };
 		B8BC1C0F1E5FCA12000B20AB /* StrStr.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StrStr.playground; sourceTree = "<group>"; };
 		B8BC1C101E5FCDBE000B20AB /* Subset.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subset.playground; sourceTree = "<group>"; };
+		B8BC1C111E5FDBDD000B20AB /* Combination.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Combination.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -333,6 +334,7 @@
 			children = (
 				B8BC1C101E5FCDBE000B20AB /* Subset.playground */,
 				B811C87C1E5FD2EC009E3483 /* Permutation.playground */,
+				B8BC1C111E5FDBDD000B20AB /* Combination.playground */,
 			);
 			path = DFS;
 			sourceTree = "<group>";
