@@ -103,6 +103,7 @@
 		B8BC1C0F1E5FCA12000B20AB /* StrStr.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StrStr.playground; sourceTree = "<group>"; };
 		B8BC1C101E5FCDBE000B20AB /* Subset.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subset.playground; sourceTree = "<group>"; };
 		B8BC1C111E5FDBDD000B20AB /* Combination.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Combination.playground; sourceTree = "<group>"; };
+		B8BC1C121E5FE21F000B20AB /* Combination Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Combination Sum.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -335,6 +336,7 @@
 				B8BC1C101E5FCDBE000B20AB /* Subset.playground */,
 				B811C87C1E5FD2EC009E3483 /* Permutation.playground */,
 				B8BC1C111E5FDBDD000B20AB /* Combination.playground */,
+				B8BC1C121E5FE21F000B20AB /* Combination Sum.playground */,
 			);
 			path = DFS;
 			sourceTree = "<group>";
