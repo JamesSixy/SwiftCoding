@@ -66,6 +66,8 @@
 		B811C8731E5D5129009E3483 /* Symmetric Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Symmetric Tree.playground"; sourceTree = "<group>"; };
 		B811C87C1E5FD2EC009E3483 /* Permutation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Permutation.playground; sourceTree = "<group>"; };
 		B81C048B1E6149C400E9F997 /* Combination Sum III.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Combination Sum III.playground"; sourceTree = "<group>"; };
+		B81C048C1E624B7400E9F997 /* Palindrome Partitioning.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Palindrome Partitioning.playground"; sourceTree = "<group>"; };
+		B81C048E1E624C1800E9F997 /* Word Squares.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Word Squares.playground"; sourceTree = "<group>"; };
 		B824135D1E57CE88002A692F /* Search in a Big Sorted Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Search in a Big Sorted Array.playground"; sourceTree = "<group>"; };
 		B824135E1E57D18B002A692F /* Find Minimum in Rotated Sorted Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Find Minimum in Rotated Sorted Array.playground"; sourceTree = "<group>"; };
 		B824135F1E57D345002A692F /* Find Peak Element.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Find Peak Element.playground"; sourceTree = "<group>"; };
@@ -341,6 +343,8 @@
 				B8BC1C121E5FE21F000B20AB /* Combination Sum.playground */,
 				B8BC1C131E613F27000B20AB /* Combination Sum II.playground */,
 				B81C048B1E6149C400E9F997 /* Combination Sum III.playground */,
+				B81C048C1E624B7400E9F997 /* Palindrome Partitioning.playground */,
+				B81C048E1E624C1800E9F997 /* Word Squares.playground */,
 			);
 			path = DFS;
 			sourceTree = "<group>";
