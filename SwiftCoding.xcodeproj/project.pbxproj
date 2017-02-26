@@ -110,6 +110,7 @@
 		B8BC1C111E5FDBDD000B20AB /* Combination.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Combination.playground; sourceTree = "<group>"; };
 		B8BC1C121E5FE21F000B20AB /* Combination Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Combination Sum.playground"; sourceTree = "<group>"; };
 		B8BC1C131E613F27000B20AB /* Combination Sum II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Combination Sum II.playground"; sourceTree = "<group>"; };
+		B8C908431E635BFE004BBACA /* Number of Islands DFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Number of Islands DFS.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -349,6 +350,7 @@
 				B81C048E1E624C1800E9F997 /* Word Squares.playground */,
 				B81C048F1E624C7A00E9F997 /* Letter Combinations of a Phone Number.playground */,
 				41C140371E63480A00F86BF8 /* String Permutation II.playground */,
+				B8C908431E635BFE004BBACA /* Number of Islands DFS.playground */,
 			);
 			path = DFS;
 			sourceTree = "<group>";
