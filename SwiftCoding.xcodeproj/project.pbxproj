@@ -64,9 +64,16 @@
 /* Begin PBXFileReference section */
 		41C140371E63480A00F86BF8 /* String Permutation II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "String Permutation II.playground"; sourceTree = "<group>"; };
 		41C1403B1E63658800F86BF8 /* Expression Expand.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Expression Expand.playground"; sourceTree = "<group>"; };
-		41C1403C1E63686B00F86BF8 /* 20. Valid Parentheses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "20. Valid Parentheses.playground"; sourceTree = "<group>"; };
 		41C1403D1E6368FA00F86BF8 /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		41C1403E1E6368FA00F86BF8 /* PriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		41C140411E63694E00F86BF8 /* Valid Parentheses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Valid Parentheses.playground"; sourceTree = "<group>"; };
+		41C140421E6369E600F86BF8 /* Binary Tree Iterative Traversals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Iterative Traversals.playground"; sourceTree = "<group>"; };
+		41C140431E636A4500F86BF8 /* Longest Valid Parentheses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Longest Valid Parentheses.playground"; sourceTree = "<group>"; };
+		41C140441E636B2900F86BF8 /* Simplify Path.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Simplify Path.playground"; sourceTree = "<group>"; };
+		41C140451E636B7C00F86BF8 /* Ternary Expression Parser.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Ternary Expression Parser.playground"; sourceTree = "<group>"; };
+		41C140461E636BDB00F86BF8 /* Remove K Digits.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove K Digits.playground"; sourceTree = "<group>"; };
+		41C140471E636C1600F86BF8 /* Evaluate Reverse Polish Notation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Evaluate Reverse Polish Notation.playground"; sourceTree = "<group>"; };
+		41C140481E636D1400F86BF8 /* Regular Expression Matching.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Regular Expression Matching.playground"; sourceTree = "<group>"; };
 		B811C8701E5A859D009E3483 /* Lowest Common Ancestor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lowest Common Ancestor.playground"; sourceTree = "<group>"; };
 		B811C8711E5A8D15009E3483 /* Balanced Binary Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Balanced Binary Tree.playground"; sourceTree = "<group>"; };
 		B811C8721E5D3D30009E3483 /* Binary Tree Paths.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Paths.playground"; sourceTree = "<group>"; };
@@ -157,7 +164,13 @@
 			isa = PBXGroup;
 			children = (
 				41C1403B1E63658800F86BF8 /* Expression Expand.playground */,
-				41C1403C1E63686B00F86BF8 /* 20. Valid Parentheses.playground */,
+				41C140411E63694E00F86BF8 /* Valid Parentheses.playground */,
+				41C140421E6369E600F86BF8 /* Binary Tree Iterative Traversals.playground */,
+				41C140431E636A4500F86BF8 /* Longest Valid Parentheses.playground */,
+				41C140441E636B2900F86BF8 /* Simplify Path.playground */,
+				41C140451E636B7C00F86BF8 /* Ternary Expression Parser.playground */,
+				41C140461E636BDB00F86BF8 /* Remove K Digits.playground */,
+				41C140471E636C1600F86BF8 /* Evaluate Reverse Polish Notation.playground */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -379,6 +392,7 @@
 			isa = PBXGroup;
 			children = (
 				B8BC1C0F1E5FCA12000B20AB /* StrStr.playground */,
+				41C140481E636D1400F86BF8 /* Regular Expression Matching.playground */,
 			);
 			path = String;
 			sourceTree = "<group>";
