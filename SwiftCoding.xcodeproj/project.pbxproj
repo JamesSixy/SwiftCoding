@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41C1403F1E6368FA00F86BF8 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C1403D1E6368FA00F86BF8 /* Heap.swift */; };
+		41C140401E6368FA00F86BF8 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C1403E1E6368FA00F86BF8 /* PriorityQueue.swift */; };
 		B8AF4AC61E57C2540004E8A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF4AC51E57C2540004E8A1 /* AppDelegate.swift */; };
 		B8AF4AC81E57C2540004E8A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF4AC71E57C2540004E8A1 /* ViewController.swift */; };
 		B8AF4ACB1E57C2540004E8A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8AF4AC91E57C2540004E8A1 /* Main.storyboard */; };
@@ -61,6 +63,10 @@
 
 /* Begin PBXFileReference section */
 		41C140371E63480A00F86BF8 /* String Permutation II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "String Permutation II.playground"; sourceTree = "<group>"; };
+		41C1403B1E63658800F86BF8 /* Expression Expand.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Expression Expand.playground"; sourceTree = "<group>"; };
+		41C1403C1E63686B00F86BF8 /* 20. Valid Parentheses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "20. Valid Parentheses.playground"; sourceTree = "<group>"; };
+		41C1403D1E6368FA00F86BF8 /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		41C1403E1E6368FA00F86BF8 /* PriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 		B811C8701E5A859D009E3483 /* Lowest Common Ancestor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lowest Common Ancestor.playground"; sourceTree = "<group>"; };
 		B811C8711E5A8D15009E3483 /* Balanced Binary Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Balanced Binary Tree.playground"; sourceTree = "<group>"; };
 		B811C8721E5D3D30009E3483 /* Binary Tree Paths.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Paths.playground"; sourceTree = "<group>"; };
@@ -147,6 +153,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41C1403A1E63651600F86BF8 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				41C1403B1E63658800F86BF8 /* Expression Expand.playground */,
+				41C1403C1E63686B00F86BF8 /* 20. Valid Parentheses.playground */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
 		B811C8741E5E7C02009E3483 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,6 +296,7 @@
 		B8AF4AF31E57C2F90004E8A1 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				41C1403A1E63651600F86BF8 /* Stack */,
 				B8BC1C0E1E5FCA01000B20AB /* String */,
 				B8C908441E636283004BBACA /* BFS */,
 				B8BC1C0D1E5FC9AF000B20AB /* DFS */,
@@ -333,6 +349,8 @@
 		B8AF4B471E5A3E600004E8A1 /* ZHClasses */ = {
 			isa = PBXGroup;
 			children = (
+				41C1403D1E6368FA00F86BF8 /* Heap.swift */,
+				41C1403E1E6368FA00F86BF8 /* PriorityQueue.swift */,
 				B8AF4B481E5A3E720004E8A1 /* BinaryTreeTraversal.swift */,
 				B8AF4B491E5A3E720004E8A1 /* Stack.swift */,
 			);
@@ -581,6 +599,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C1403F1E6368FA00F86BF8 /* Heap.swift in Sources */,
+				41C140401E6368FA00F86BF8 /* PriorityQueue.swift in Sources */,
 				B8AF4B4B1E5A3E720004E8A1 /* Stack.swift in Sources */,
 				B8AF4B4A1E5A3E720004E8A1 /* BinaryTreeTraversal.swift in Sources */,
 			);
