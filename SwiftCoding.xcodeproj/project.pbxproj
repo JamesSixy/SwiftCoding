@@ -60,6 +60,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		41C140371E63480A00F86BF8 /* String Permutation II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "String Permutation II.playground"; sourceTree = "<group>"; };
 		B811C8701E5A859D009E3483 /* Lowest Common Ancestor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lowest Common Ancestor.playground"; sourceTree = "<group>"; };
 		B811C8711E5A8D15009E3483 /* Balanced Binary Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Balanced Binary Tree.playground"; sourceTree = "<group>"; };
 		B811C8721E5D3D30009E3483 /* Binary Tree Paths.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Paths.playground"; sourceTree = "<group>"; };
@@ -347,6 +348,7 @@
 				B81C048C1E624B7400E9F997 /* Palindrome Partitioning.playground */,
 				B81C048E1E624C1800E9F997 /* Word Squares.playground */,
 				B81C048F1E624C7A00E9F997 /* Letter Combinations of a Phone Number.playground */,
+				41C140371E63480A00F86BF8 /* String Permutation II.playground */,
 			);
 			path = DFS;
 			sourceTree = "<group>";
