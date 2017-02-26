@@ -7,5 +7,5 @@
 /// - Returns: <#return value description#>
 
 func isMatch(_ s: String, _ p: String) -> Bool {
-    
+    return false
 }

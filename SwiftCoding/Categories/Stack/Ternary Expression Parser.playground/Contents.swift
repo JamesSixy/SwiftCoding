@@ -7,5 +7,5 @@ import ZHDataStructure
 /// - Returns: <#return value description#>
 
 func parseTernary(_ expression: String) -> String {
-    
+    return []
 }

@@ -7,5 +7,5 @@ import ZHDataStructure
 /// - Returns: <#return value description#>
 
 func simplifyPath(_ path: String) -> String {
-    
+    return ""
 }

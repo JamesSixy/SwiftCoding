@@ -4,5 +4,5 @@
 /// - Parameter s: <#s description#>
 /// - Returns: <#return value description#>
 func longestValidParentheses(_ s: String) -> Int {
-    
+    return 0
 }

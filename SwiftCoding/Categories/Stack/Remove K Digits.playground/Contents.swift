@@ -9,5 +9,5 @@ import ZHDataStructure
 /// - Returns: <#return value description#>
 
 func removeKdigits(_ num: String, _ k: Int) -> String {
-    
+    return ""
 }
