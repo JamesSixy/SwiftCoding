@@ -17,18 +17,18 @@ import ZHDataStructure
 
 func removeKdigits(_ num: String, _ k: Int) -> String {
     var stack = [Character](), k = k
-    let chars = num.characters, size = chars.count - k
+    let chars = num.characters, finalSize = chars.count - k
     
     for char in chars {
         while k > 0 &&
-            stack.count > 0 &&
+            !stack.isEmpty &&
             charToInt(stack.last!) > charToInt(char) {
             stack.removeLast() //pop stack top
             k -= 1
         }
         stack.append(char) //push
     }
-    stack = Array(stack[0 ..< size]) //Removed k, shrink
+    stack = Array(stack[0 ..< finalSize]) //Removed k, shrink
     for char in stack {
         if char != "0" {
             break
