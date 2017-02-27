@@ -7,5 +7,23 @@ import ZHDataStructure
 /// - Returns: <#return value description#>
 
 func parseTernary(_ expression: String) -> String {
-    return []
+    let arr = Array(expression.characters)
+    guard arr.count > 0 else { return "" }
+    var stack = [Character]()
+    for char in arr.reversed() {
+        if !stack.isEmpty && stack.last! == "?" {
+            stack.removeLast() //pop "?"
+            let first = stack.removeLast()
+            stack.removeLast() //pop ":"
+            let second = stack.removeLast()
+            if char == "T" {
+                stack.append(first)
+            } else {
+                stack.append(second)
+            }
+        } else {
+            stack.append(char) //push
+        }
+    }
+    return stack.isEmpty ? "" : String(stack.last!)
 }
