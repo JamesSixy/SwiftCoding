@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		419638041E651CEA00B34585 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419638031E651CEA00B34585 /* Graph.swift */; };
+		419638081E65AE0800B34585 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419638071E65AE0800B34585 /* String+Extension.swift */; };
 		41C1403F1E6368FA00F86BF8 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C1403D1E6368FA00F86BF8 /* Heap.swift */; };
 		41C140401E6368FA00F86BF8 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C1403E1E6368FA00F86BF8 /* PriorityQueue.swift */; };
 		B8AF4AC61E57C2540004E8A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF4AC51E57C2540004E8A1 /* AppDelegate.swift */; };
@@ -70,6 +71,7 @@
 		419638021E651CCC00B34585 /* Search Graph Nodes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Search Graph Nodes.playground"; sourceTree = "<group>"; };
 		419638031E651CEA00B34585 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		419638061E65AA1B00B34585 /* Maximal Square.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maximal Square.playground"; sourceTree = "<group>"; };
+		419638071E65AE0800B34585 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		41C140371E63480A00F86BF8 /* String Permutation II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "String Permutation II.playground"; sourceTree = "<group>"; };
 		41C1403B1E63658800F86BF8 /* Expression Expand.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Expression Expand.playground"; sourceTree = "<group>"; };
 		41C1403D1E6368FA00F86BF8 /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
@@ -384,6 +386,7 @@
 				B8AF4B481E5A3E720004E8A1 /* BinaryTreeTraversal.swift */,
 				B8AF4B491E5A3E720004E8A1 /* Stack.swift */,
 				419638031E651CEA00B34585 /* Graph.swift */,
+				419638071E65AE0800B34585 /* String+Extension.swift */,
 			);
 			path = ZHClasses;
 			sourceTree = "<group>";
@@ -640,6 +643,7 @@
 				41C140401E6368FA00F86BF8 /* PriorityQueue.swift in Sources */,
 				B8AF4B4B1E5A3E720004E8A1 /* Stack.swift in Sources */,
 				B8AF4B4A1E5A3E720004E8A1 /* BinaryTreeTraversal.swift in Sources */,
+				419638081E65AE0800B34585 /* String+Extension.swift in Sources */,
 				419638041E651CEA00B34585 /* Graph.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
