@@ -62,6 +62,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		419637F91E6507B900B34585 /* Word Break II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Word Break II.playground"; sourceTree = "<group>"; };
+		419637FA1E6509D700B34585 /* Word Break I.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Word Break I.playground"; sourceTree = "<group>"; };
 		41C140371E63480A00F86BF8 /* String Permutation II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "String Permutation II.playground"; sourceTree = "<group>"; };
 		41C1403B1E63658800F86BF8 /* Expression Expand.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Expression Expand.playground"; sourceTree = "<group>"; };
 		41C1403D1E6368FA00F86BF8 /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
@@ -384,6 +386,8 @@
 				B81C048F1E624C7A00E9F997 /* Letter Combinations of a Phone Number.playground */,
 				41C140371E63480A00F86BF8 /* String Permutation II.playground */,
 				B8C908431E635BFE004BBACA /* Number of Islands DFS.playground */,
+				419637FA1E6509D700B34585 /* Word Break I.playground */,
+				419637F91E6507B900B34585 /* Word Break II.playground */,
 			);
 			path = DFS;
 			sourceTree = "<group>";
