@@ -6,9 +6,8 @@
 /// - Returns: <#return value description#>
 
 func numIslands(_ grid: [[Character]]) -> Int {
-    var grid = grid
+    var grid = grid, count = 0
     guard grid.count > 0 else { return 0 }
-    var count = 0
     for (i , row) in grid.enumerated() {
         for (j, _) in row.enumerated() {
             if grid[i][j] == "1" {
@@ -39,11 +38,6 @@ private func helperDFS(_ grid: inout [[Character]],
 private func isValid(_ i: Int,
                      _ j: Int,
                      _ grid: [[Character]]) -> Bool {
-    guard i >= 0 &&
-        i < grid.count &&
-        j >= 0 &&
-        j < grid[0].count && grid[i][j] == "1" else {
-        return false
-    }
-    return true
+    return i >= 0 && i < grid.count && j >= 0 &&
+        j < grid[0].count && grid[i][j] == "1"
 }
