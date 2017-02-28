@@ -37,6 +37,7 @@ private func islandBFS(_ grid: inout [[Character]],
         for k in 0 ..< 4 {
             let x = dx[k] + cur.x
             let y = dy[k] + cur.y
+            
             guard isValid(x, y, grid) else { continue }
             
             queue.append((x, y)) //enqueue
