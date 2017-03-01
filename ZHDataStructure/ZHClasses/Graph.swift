@@ -1,6 +1,10 @@
 
 import Foundation
 
+public class DirectedGraphNode: UndirectedGraphNode {
+    //super class
+}
+
 public class UndirectedGraphNode {
     public let label: Int
     public let neighbors: [UndirectedGraphNode]
