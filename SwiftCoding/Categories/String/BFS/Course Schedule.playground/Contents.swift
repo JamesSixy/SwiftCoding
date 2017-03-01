@@ -46,15 +46,42 @@ private func getEdges(_ numCourses: Int, _ prerequisites: [[Int]]) -> [[Int]] {
     return res
 }
 
-let testCases = [
-    (2, []),
-    (2, [[0, 1]])
-]
 //** TEST
+//let testCases = [
+//    (2, []),
+//    (2, [[0, 1]])
+//]
 //for tuple in testCases {
 //    print(canFinish(tuple.0, tuple.1))
 //}
 
-//func findOrder(_ numCourses: Int, _ prerequisites: [[Int]]) -> [Int] {
-//    
-//}
+
+/// 210. Course Schedule II
+/// https://leetcode.com/problems/course-schedule-ii/?tab=Description
+/// - Parameters:
+///   - numCourses: <#numCourses description#>
+///   - prerequisites: <#prerequisites description#>
+/// - Returns: <#return value description#>
+
+func findOrder(_ numCourses: Int, _ prerequisites: [[Int]]) -> [Int] {
+    var res: [Int] = Array(repeatElement(0, count: numCourses))
+    var indegree = getInDegree(numCourses, prerequisites)
+    let edges = getEdges(numCourses, prerequisites)
+    
+    var queue = indegree.enumerated().filter {
+        $0.element == 0
+        }.map { $0.offset }
+    var count = 0
+    while !queue.isEmpty {
+        let cur = queue.removeFirst()
+        res[count] = cur
+        count += 1
+        for neighbor in edges[cur] {
+            indegree[neighbor] -= 1
+            if indegree[neighbor] == 0 {
+                queue.append(neighbor)
+            }
+        }
+    }
+    return count == numCourses ? res : []
+}
