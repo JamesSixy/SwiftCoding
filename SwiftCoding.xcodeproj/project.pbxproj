@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		419638041E651CEA00B34585 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419638031E651CEA00B34585 /* Graph.swift */; };
 		419638081E65AE0800B34585 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419638071E65AE0800B34585 /* String+Extension.swift */; };
+		4196380E1E66FC9A00B34585 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196380D1E66FC9A00B34585 /* Point.swift */; };
 		41C1403F1E6368FA00F86BF8 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C1403D1E6368FA00F86BF8 /* Heap.swift */; };
 		41C140401E6368FA00F86BF8 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C1403E1E6368FA00F86BF8 /* PriorityQueue.swift */; };
 		B8AF4AC61E57C2540004E8A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF4AC51E57C2540004E8A1 /* AppDelegate.swift */; };
@@ -74,6 +75,9 @@
 		419638071E65AE0800B34585 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		419638091E6667EC00B34585 /* Course Schedule.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Course Schedule.playground"; sourceTree = "<group>"; };
 		4196380B1E668ABB00B34585 /* Zombie in Matrix.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Zombie in Matrix.playground"; sourceTree = "<group>"; };
+		4196380C1E66FC3300B34585 /* Knight Shortest Path.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Knight Shortest Path.playground"; sourceTree = "<group>"; };
+		4196380D1E66FC9A00B34585 /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		419638111E6706D400B34585 /* Word Ladder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Word Ladder.playground"; sourceTree = "<group>"; };
 		41C140371E63480A00F86BF8 /* String Permutation II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "String Permutation II.playground"; sourceTree = "<group>"; };
 		41C1403B1E63658800F86BF8 /* Expression Expand.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Expression Expand.playground"; sourceTree = "<group>"; };
 		41C1403D1E6368FA00F86BF8 /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
@@ -390,6 +394,7 @@
 				B8AF4B491E5A3E720004E8A1 /* Stack.swift */,
 				419638031E651CEA00B34585 /* Graph.swift */,
 				419638071E65AE0800B34585 /* String+Extension.swift */,
+				4196380D1E66FC9A00B34585 /* Point.swift */,
 			);
 			path = ZHClasses;
 			sourceTree = "<group>";
@@ -433,6 +438,8 @@
 				B8C908461E666C9D004BBACA /* Topological Sorting.playground */,
 				419638091E6667EC00B34585 /* Course Schedule.playground */,
 				4196380B1E668ABB00B34585 /* Zombie in Matrix.playground */,
+				4196380C1E66FC3300B34585 /* Knight Shortest Path.playground */,
+				419638111E6706D400B34585 /* Word Ladder.playground */,
 			);
 			name = BFS;
 			path = String/BFS;
@@ -649,6 +656,7 @@
 				41C140401E6368FA00F86BF8 /* PriorityQueue.swift in Sources */,
 				B8AF4B4B1E5A3E720004E8A1 /* Stack.swift in Sources */,
 				B8AF4B4A1E5A3E720004E8A1 /* BinaryTreeTraversal.swift in Sources */,
+				4196380E1E66FC9A00B34585 /* Point.swift in Sources */,
 				419638081E65AE0800B34585 /* String+Extension.swift in Sources */,
 				419638041E651CEA00B34585 /* Graph.swift in Sources */,
 			);
