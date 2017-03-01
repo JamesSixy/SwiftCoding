@@ -10,4 +10,7 @@ func canFinish(_ numCourses: Int, _ prerequisites: [[Int]]) -> Bool {
     
 }
 
-//
+
+func findOrder(_ numCourses: Int, _ prerequisites: [[Int]]) -> [Int] {
+    
+}
