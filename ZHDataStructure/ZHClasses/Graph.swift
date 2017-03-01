@@ -1,8 +1,23 @@
 
 import Foundation
 
-public class DirectedGraphNode: UndirectedGraphNode {
-    //super class
+public class DirectedGraphNode {
+    public let label: Int
+    public let neighbors: [DirectedGraphNode]
+    init(label: Int, neighbors: [DirectedGraphNode] = []) {
+        self.label = label
+        self.neighbors = neighbors
+    }
+}
+
+extension DirectedGraphNode: Hashable {
+    public var hashValue: Int {
+        return label.hashValue ^ String(describing: neighbors).hashValue
+    }
+    
+    public static func ==(lhs: DirectedGraphNode, rhs: DirectedGraphNode) -> Bool {
+        return lhs === rhs
+    }
 }
 
 public class UndirectedGraphNode {
