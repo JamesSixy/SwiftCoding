@@ -73,6 +73,7 @@
 		419638061E65AA1B00B34585 /* Maximal Square.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maximal Square.playground"; sourceTree = "<group>"; };
 		419638071E65AE0800B34585 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		419638091E6667EC00B34585 /* Course Schedule.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Course Schedule.playground"; sourceTree = "<group>"; };
+		4196380B1E668ABB00B34585 /* Zombie in Matrix.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Zombie in Matrix.playground"; sourceTree = "<group>"; };
 		41C140371E63480A00F86BF8 /* String Permutation II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "String Permutation II.playground"; sourceTree = "<group>"; };
 		41C1403B1E63658800F86BF8 /* Expression Expand.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Expression Expand.playground"; sourceTree = "<group>"; };
 		41C1403D1E6368FA00F86BF8 /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
@@ -431,6 +432,7 @@
 				419638021E651CCC00B34585 /* Search Graph Nodes.playground */,
 				B8C908461E666C9D004BBACA /* Topological Sorting.playground */,
 				419638091E6667EC00B34585 /* Course Schedule.playground */,
+				4196380B1E668ABB00B34585 /* Zombie in Matrix.playground */,
 			);
 			name = BFS;
 			path = String/BFS;
