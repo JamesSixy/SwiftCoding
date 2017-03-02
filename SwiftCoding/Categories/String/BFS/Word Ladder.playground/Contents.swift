@@ -9,38 +9,72 @@ import UIKit
 ///   - wordList: <#wordList description#>
 /// - Returns: Shortest length of transformation
 
+
+//Solution: TLE WTF?!
 func ladderLength(_ beginWord: String, _ endWord: String, _ wordList: [String]) -> Int {
     
     guard beginWord != endWord,
         wordList.count > 0 else { return 0 }
-
-    let set = Set(wordList)
-    var visited = [String : Int]()
-    var queue = [beginWord]
-    visited[beginWord] = 0
     
+    let set = Set(wordList)
+    //Leetcode doesn't contain begin & end, while lintcode contains
+    //    set.insert(beginWord)
+    //    set.insert(endWord)
+    
+    var visited = Set<String>()
+    var queue = [beginWord]
+    visited.insert(beginWord)
+    
+    var res = 1
     while !queue.isEmpty {
-        let cur = queue.removeFirst() //dequeue
-        for word in transformedWordsInDict(beginWord, set) {
-            if let word = visited[word] {
+        res += 1
+        let size = queue.count
+        for _ in 0 ..< size {
+            let cur = queue.removeFirst() //dequeue
+            for word in transformedWordsInDict(cur, set) {
+                if visited.contains(word) {
+                    continue
+                }
+                if word == endWord {
+                    return res
+                }
+                queue.append(word)
+                visited.insert(word)
             }
         }
     }
     return 0
 }
 
-private func transformedWordsInDict(_ beginWord: String, _ set: Set<String>) -> [String] {
+private func transformedWordsInDict(_ beginWord: String,
+                                    _ set: Set<String>) -> [String] {
     var res = [String]()
-    let letters = (0 ..< 26).map { Character(UnicodeScalar($0)) }
-    for i in letters {
-        for (index, _) in beginWord.characters.enumerated() {
+    let letters = "abcdefghijklmnopqrstuvwxyz"
+    for (index, cur) in beginWord.characters.enumerated() {
+        for i in letters.characters {
+            if cur == i {
+                continue
+            }
+            //replace
             var replacedArr = Array(beginWord.characters)
             replacedArr[index] = i
             let str = String(replacedArr)
+            
             if set.contains(str) {
                 res.append(str)
             }
         }
     }
+    //    print(res)
     return res
 }
+
+//let testCase = [
+//    ("hit", "cog", ["hot","dot","dog","lot","log","cog"]),
+//    ("dad", "gad", ["fad"]),
+//    ("hit", "cog", ["hot","dot","dog","lot","log"])
+//]
+//for tuple in testCase {
+//    print(ladderLength(tuple.0, tuple.1, tuple.2))
+//}
+
