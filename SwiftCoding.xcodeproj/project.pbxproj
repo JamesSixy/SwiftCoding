@@ -82,6 +82,8 @@
 		419638111E6706D400B34585 /* Word Ladder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Word Ladder.playground"; sourceTree = "<group>"; };
 		419638121E67C55000B34585 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		419638141E67C59800B34585 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		419638161E684D4200B34585 /* Clone Graph.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Clone Graph.playground"; sourceTree = "<group>"; };
+		419638171E684D5A00B34585 /* Binary Tree Serialization.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Serialization.playground"; sourceTree = "<group>"; };
 		41C140371E63480A00F86BF8 /* String Permutation II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "String Permutation II.playground"; sourceTree = "<group>"; };
 		41C1403B1E63658800F86BF8 /* Expression Expand.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Expression Expand.playground"; sourceTree = "<group>"; };
 		41C1403D1E6368FA00F86BF8 /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
@@ -446,6 +448,8 @@
 				4196380B1E668ABB00B34585 /* Zombie in Matrix.playground */,
 				4196380C1E66FC3300B34585 /* Knight Shortest Path.playground */,
 				419638111E6706D400B34585 /* Word Ladder.playground */,
+				419638161E684D4200B34585 /* Clone Graph.playground */,
+				419638171E684D5A00B34585 /* Binary Tree Serialization.playground */,
 			);
 			name = BFS;
 			path = String/BFS;
