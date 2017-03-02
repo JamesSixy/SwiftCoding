@@ -1,5 +1,6 @@
 
 import UIKit
+import ZHDataStructure
 
 /// 127. Word Ladder
 /// https://leetcode.com/problems/word-ladder/?tab=Description
@@ -22,15 +23,16 @@ func ladderLength(_ beginWord: String, _ endWord: String, _ wordList: [String]) 
     //    set.insert(endWord)
     
     var visited = Set<String>()
-    var queue = [beginWord]
+    var queue = Queue<String>()
     visited.insert(beginWord)
+    queue.enqueue(beginWord)
     
     var res = 1
     while !queue.isEmpty {
         res += 1
         let size = queue.count
         for _ in 0 ..< size {
-            let cur = queue.removeFirst() //dequeue
+            let cur = queue.dequeue()! //dequeue
             for word in transformedWordsInDict(cur, set) {
                 if visited.contains(word) {
                     continue
@@ -38,7 +40,7 @@ func ladderLength(_ beginWord: String, _ endWord: String, _ wordList: [String]) 
                 if word == endWord {
                     return res
                 }
-                queue.append(word)
+                queue.enqueue(word)
                 visited.insert(word)
             }
         }
@@ -47,27 +49,43 @@ func ladderLength(_ beginWord: String, _ endWord: String, _ wordList: [String]) 
 }
 
 private func transformedWordsInDict(_ beginWord: String,
-                                    _ set: Set<String>) -> [String] {
+                    _ set: Set<String>) -> [String] {
     var res = [String]()
     let letters = "abcdefghijklmnopqrstuvwxyz"
     for (index, cur) in beginWord.characters.enumerated() {
         for i in letters.characters {
-            if cur == i {
-                continue
-            }
-            //replace
-            var replacedArr = Array(beginWord.characters)
-            replacedArr[index] = i
-            let str = String(replacedArr)
-            
-            if set.contains(str) {
-                res.append(str)
+            if cur != i {
+                let str = beginWord[0 ..< index] + String(i) + beginWord[index + 1 ..< beginWord.characters.count]
+                if set.contains(str) {
+                    res.append(str)
+                }
             }
         }
     }
-    //    print(res)
     return res
 }
+
+//private func transformedWordsInDict(_ beginWord: String,
+//                                    _ set: Set<String>) -> [String] {
+//    var res = [String]()
+//    let letters = "abcdefghijklmnopqrstuvwxyz"
+//    for (index, cur) in beginWord.characters.enumerated() {
+//        for i in letters.characters {
+//            if cur == i {
+//                continue
+//            }
+//            //replace
+//            var replacedArr = Array(beginWord.characters)
+//            replacedArr[index] = i
+//            let str = String(replacedArr)
+//            
+//            if set.contains(str) {
+//                res.append(str)
+//            }
+//        }
+//    }
+//    return res
+//}
 
 //let testCase = [
 //    ("hit", "cog", ["hot","dot","dog","lot","log","cog"]),
