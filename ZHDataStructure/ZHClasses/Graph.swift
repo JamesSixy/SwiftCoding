@@ -22,8 +22,8 @@ extension DirectedGraphNode: Hashable {
 
 public class UndirectedGraphNode {
     public let label: Int
-    public let neighbors: [UndirectedGraphNode]
-    init(label: Int, neighbors: [UndirectedGraphNode] = []) {
+    public var neighbors: [UndirectedGraphNode]
+    public init(_ label: Int, _ neighbors: [UndirectedGraphNode] = []) {
         self.label = label
         self.neighbors = neighbors
     }
