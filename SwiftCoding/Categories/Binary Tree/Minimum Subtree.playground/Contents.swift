@@ -32,28 +32,27 @@ private func helper(_ root: TreeNode?) -> Tuple {
 
 //Solution2: D&C
 
-typealias DCTuple = (minNode: TreeNode?, minSum: Int, sum: Int)
+typealias FindSubtreeTuple = (minRoot: TreeNode?, minSum: Int, allSum: Int)
 
 func findSubtreeDC(_ root: TreeNode?) -> TreeNode? {
-    return helperDC(root).minNode
+    return minSubHelper(root).minRoot
 }
 
-private func helperDC(_ root: TreeNode?) -> DCTuple {
+private func minSubHelper(_ root: TreeNode?) -> FindSubtreeTuple {
     guard let root = root else {
         return (nil, Int.max, 0)
     }
-    var left = helperDC(root.left)
-    var right = helperDC(root.right)
+    let left = minSubHelper(root.left)
+    let right = minSubHelper(root.right)
     
-    let sum = left.sum + right.sum + root.val
+    let sum = left.allSum + right.allSum + root.val
+    
     if sum < left.minSum && sum < right.minSum {
         return (root, sum, sum)
     } else if left.minSum < right.minSum {
-        left.sum = sum
-        return left
+        return (left.minRoot, left.minSum, sum)
     } else {
-        right.sum = sum
-        return right
+        return (right.minRoot, right.minSum, sum)
     }
 }
 
@@ -73,3 +72,8 @@ private func helperDC(_ root: TreeNode?) -> DCTuple {
 //    
 //    print(findSubtreeDC(root)!.val)
 //}
+
+
+
+
+
