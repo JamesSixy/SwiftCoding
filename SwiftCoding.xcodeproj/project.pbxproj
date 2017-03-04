@@ -287,12 +287,12 @@
 				B8AF4AFC1E59FF640004E8A1 /* Minimum Subtree.playground */,
 				B8AF4B4C1E5A571F0004E8A1 /* Binary Tree Longest Consecutive Sequence.playground */,
 				B811C8721E5D3D30009E3483 /* Binary Tree Paths.playground */,
+				B8AF4B4F1E5BED5D0004E8A1 /* Flatten Binary Tree to Linked List.playground */,
 				B8AF4AFD1E5A087C0004E8A1 /* Binary Tree Level Order Traversal.playground */,
 				B8AF4B4D1E5A67520004E8A1 /* Validate Binary Search Tree.playground */,
 				B811C8701E5A859D009E3483 /* Lowest Common Ancestor.playground */,
 				B811C8711E5A8D15009E3483 /* Balanced Binary Tree.playground */,
 				B8AF4B4E1E5A9F970004E8A1 /* convert binary search tree to doubly linked list.playground */,
-				B8AF4B4F1E5BED5D0004E8A1 /* Flatten Binary Tree to Linked List.playground */,
 				B811C8731E5D5129009E3483 /* Symmetric Tree.playground */,
 			);
 			path = "Binary Tree";
