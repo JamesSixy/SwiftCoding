@@ -284,8 +284,8 @@
 			children = (
 				B82413621E58CD1B002A692F /* Subtree with Maximum Average .playground */,
 				B8AF4AFC1E59FF640004E8A1 /* Minimum Subtree.playground */,
-				B8AF4AFD1E5A087C0004E8A1 /* Binary Tree Level Order Traversal.playground */,
 				B8AF4B4C1E5A571F0004E8A1 /* Binary Tree Longest Consecutive Sequence.playground */,
+				B8AF4AFD1E5A087C0004E8A1 /* Binary Tree Level Order Traversal.playground */,
 				B8AF4B4D1E5A67520004E8A1 /* Validate Binary Search Tree.playground */,
 				B811C8701E5A859D009E3483 /* Lowest Common Ancestor.playground */,
 				B811C8711E5A8D15009E3483 /* Balanced Binary Tree.playground */,

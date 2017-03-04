@@ -33,28 +33,29 @@ func helper(_ root: TreeNode?) -> Int {
 
 //Solution2 - DC
 
-typealias Tuple = (maxInSubtree: Int, maxFromRoot: Int)
+typealias LongestConsecutiveTuple = (maxInSub: Int, maxFromRoot: Int)
 
 func longestConsecutiveDC(_ root: TreeNode?) -> Int {
-    return helperDC(root).maxInSubtree
+    return longestConsecutiveHelper(root).maxInSub
 }
 
-func helperDC(_ root: TreeNode?) -> Tuple {
+private func longestConsecutiveHelper(_ root: TreeNode?) -> LongestConsecutiveTuple {
     guard let root = root else {
         return (0, 0)
     }
-    let left = helperDC(root.left)
-    let right = helperDC(root.right)
-    var cur: Tuple = (1, 1)
+    let left = longestConsecutiveHelper(root.left)
+    let right = longestConsecutiveHelper(root.right)
+    
+    var maxFromRoot = 1
     if let leftNode = root.left, root.val + 1 == leftNode.val {
-        cur.maxFromRoot = max(cur.maxFromRoot, left.maxFromRoot + 1)
+        maxFromRoot = max(maxFromRoot, left.maxFromRoot + 1)
     }
     if let rightNode = root.right, root.val + 1 == rightNode.val {
-        cur.maxFromRoot = max(cur.maxFromRoot, right.maxFromRoot + 1)
+        maxFromRoot = max(maxFromRoot, right.maxFromRoot + 1)
     }
-    cur.maxInSubtree = max(cur.maxFromRoot, max(left.maxInSubtree, right.maxInSubtree))
-    return cur
+    return (max(left.maxInSub, right.maxInSub, maxFromRoot), maxFromRoot)
 }
+
 
 
 

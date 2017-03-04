@@ -25,3 +25,27 @@ private func minSubHelper(_ root: TreeNode?) -> FindSubtreeTuple {
         return (right.minRoot, right.minSum, sum)
     }
 }
+
+typealias LongestConsecutiveTuple = (maxLen: Int, maxFromRoot: Int)
+
+func longestConsecutive(_ root: TreeNode?) -> Int {
+    return longestConsecutiveHelper(root).maxLen
+}
+
+private func longestConsecutiveHelper(_ root: TreeNode?) -> LongestConsecutiveTuple {
+    guard let root = root else {
+        return (0, 0)
+    }
+    let left = longestConsecutiveHelper(root.left)
+    let right = longestConsecutiveHelper(root.right)
+    
+    var maxFromRoot = 1
+    if let leftNode = root.left, root.val + 1 == leftNode.val {
+        maxFromRoot = max(maxFromRoot, left.maxFromRoot + 1)
+    }
+    if let rightNode = root.right, root.val + 1 == rightNode.val {
+        maxFromRoot = max(maxFromRoot, right.maxFromRoot + 1)
+    }
+    return (max(left.maxLen, right.maxLen, maxFromRoot), maxFromRoot)
+}
+
