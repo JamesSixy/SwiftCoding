@@ -147,6 +147,7 @@
 		B8BC1C111E5FDBDD000B20AB /* Combination.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Combination.playground; sourceTree = "<group>"; };
 		B8BC1C121E5FE21F000B20AB /* Combination Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Combination Sum.playground"; sourceTree = "<group>"; };
 		B8BC1C131E613F27000B20AB /* Combination Sum II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Combination Sum II.playground"; sourceTree = "<group>"; };
+		B8C1B38D1E6B6E9000C315BC /* Binary Tree Path Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Path Sum.playground"; sourceTree = "<group>"; };
 		B8C908431E635BFE004BBACA /* Number of Islands DFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Number of Islands DFS.playground"; sourceTree = "<group>"; };
 		B8C908451E636298004BBACA /* Number of Islands BFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Number of Islands BFS.playground"; sourceTree = "<group>"; };
 		B8C908461E666C9D004BBACA /* Topological Sorting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Topological Sorting.playground"; sourceTree = "<group>"; };
@@ -285,6 +286,7 @@
 				B82413621E58CD1B002A692F /* Subtree with Maximum Average .playground */,
 				B8AF4AFC1E59FF640004E8A1 /* Minimum Subtree.playground */,
 				B8AF4B4C1E5A571F0004E8A1 /* Binary Tree Longest Consecutive Sequence.playground */,
+				B8C1B38D1E6B6E9000C315BC /* Binary Tree Path Sum.playground */,
 				B8AF4AFD1E5A087C0004E8A1 /* Binary Tree Level Order Traversal.playground */,
 				B8AF4B4D1E5A67520004E8A1 /* Validate Binary Search Tree.playground */,
 				B811C8701E5A859D009E3483 /* Lowest Common Ancestor.playground */,
