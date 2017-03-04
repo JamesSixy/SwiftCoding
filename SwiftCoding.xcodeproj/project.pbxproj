@@ -84,6 +84,7 @@
 		419638141E67C59800B34585 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		419638161E684D4200B34585 /* Clone Graph.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Clone Graph.playground"; sourceTree = "<group>"; };
 		419638171E684D5A00B34585 /* Binary Tree Serialization.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Serialization.playground"; sourceTree = "<group>"; };
+		41BE854F1E69AA70003F3861 /* Count and Say.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Count and Say.playground"; sourceTree = "<group>"; };
 		41C140371E63480A00F86BF8 /* String Permutation II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "String Permutation II.playground"; sourceTree = "<group>"; };
 		41C1403B1E63658800F86BF8 /* Expression Expand.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Expression Expand.playground"; sourceTree = "<group>"; };
 		41C1403D1E6368FA00F86BF8 /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
@@ -433,6 +434,7 @@
 			children = (
 				B8BC1C0F1E5FCA12000B20AB /* StrStr.playground */,
 				41C140481E636D1400F86BF8 /* Regular Expression Matching.playground */,
+				41BE854F1E69AA70003F3861 /* Count and Say.playground */,
 			);
 			path = String;
 			sourceTree = "<group>";
