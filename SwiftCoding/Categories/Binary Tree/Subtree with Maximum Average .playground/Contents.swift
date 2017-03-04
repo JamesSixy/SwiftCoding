@@ -6,31 +6,29 @@ import ZHDataStructure
 /// - Parameter root:
 /// - Returns: max average root of subtree
 
-typealias Tuple = (sum: Int, size: Int)
+typealias Tuple = (root: TreeNode?, sum: Int, size: Int)
 
 var lastTuple: Tuple?
-var lastSubtree: TreeNode?
 
 //Traverse + D&C
 func findSubtree2(_ root: TreeNode?) -> TreeNode? {
     helper(root)
-    return lastSubtree
+    return lastTuple?.root
 }
 
 private func helper(_ root: TreeNode?) -> Tuple {
     guard let root = root else {
-        return (0, 0)
+        return (nil, 0, 0)
     }
     let left = helper(root.left)
     let right = helper(root.right)
     
     let sum = left.sum + right.sum + root.val
     let size = left.size + right.size + 1
-    let rootTriple: Tuple = (sum, size)
+    let rootTriple: Tuple = (root, sum, size)
 
     if lastTuple == nil || sum * lastTuple!.size > size * lastTuple!.sum {
         lastTuple = rootTriple
-        lastSubtree = root
     }
     return rootTriple
 }
@@ -78,20 +76,20 @@ private func helper(_ root: TreeNode?) -> Tuple {
 
 //Test
 let testData = [
-    [1, -5, 11, 1, 2, 4, -2],
-    [1, 2, 1],
-    [0, 6],
-    [6],
-    [4, -3],
-    [2, 4, 3]
+    [1, -5, 11, 1, 2, 4, -2], //11
+    [1, 2, 1], //2
+    [0, 6],//6
+    [6],//6
+    [4, -3],//4
+    [2, 4, 3]//4
 ]
 for arr in testData {
     let root = arrayToBinaryTree(arr, 0)
     print(preorderTraversal(root))
     print(findSubtree2(root)!.val)
     lastTuple = nil
-    lastSubtree = nil
 
 //    print(findSubtree2DC(root)!.val)
 }
+
 
