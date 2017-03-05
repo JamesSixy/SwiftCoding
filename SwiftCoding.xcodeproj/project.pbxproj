@@ -89,6 +89,17 @@
 		41BE85521E6B9DEE003F3861 /* Maximum Depth of Binary Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maximum Depth of Binary Tree.playground"; sourceTree = "<group>"; };
 		41BE85531E6C5D7A003F3861 /* Lowest Common Ancestor of a Binary Search Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lowest Common Ancestor of a Binary Search Tree.playground"; sourceTree = "<group>"; };
 		41BE85541E6C8EEF003F3861 /* Minimum Depth of Binary Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Minimum Depth of Binary Tree.playground"; sourceTree = "<group>"; };
+		41BE85561E6C9672003F3861 /* Binary Tree Path Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Path Sum.playground"; sourceTree = "<group>"; };
+		41BE85571E6CAF03003F3861 /* Two Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Two Sum.playground"; sourceTree = "<group>"; };
+		41BE85581E6CAF2C003F3861 /* Remove Duplicate Numbers in Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Duplicate Numbers in Array.playground"; sourceTree = "<group>"; };
+		41BE85591E6CAF40003F3861 /* Two Sum - Less than or equal to target.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Two Sum - Less than or equal to target.playground"; sourceTree = "<group>"; };
+		41BE855B1E6CAF66003F3861 /* Two Sum - Unique pairs.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Two Sum - Unique pairs.playground"; sourceTree = "<group>"; };
+		41BE855D1E6CAF81003F3861 /* Sort Colors.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Sort Colors.playground"; sourceTree = "<group>"; };
+		41BE855F1E6CAF95003F3861 /* 3Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 3Sum.playground; sourceTree = "<group>"; };
+		41BE85601E6CAFB6003F3861 /* Two Sum - Input array is sorted.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Two Sum - Input array is sorted.playground"; sourceTree = "<group>"; };
+		41BE85611E6CAFC9003F3861 /* Two Sum - Closest to target.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Two Sum - Closest to target.playground"; sourceTree = "<group>"; };
+		41BE85621E6CAFDD003F3861 /* Sort Colors II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Sort Colors II.playground"; sourceTree = "<group>"; };
+		41BE85631E6CAFF1003F3861 /* Partition Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Partition Array.playground"; sourceTree = "<group>"; };
 		41C140371E63480A00F86BF8 /* String Permutation II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "String Permutation II.playground"; sourceTree = "<group>"; };
 		41C1403B1E63658800F86BF8 /* Expression Expand.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Expression Expand.playground"; sourceTree = "<group>"; };
 		41C1403D1E6368FA00F86BF8 /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
@@ -205,6 +216,23 @@
 			path = Practice;
 			sourceTree = "<group>";
 		};
+		41BE85551E6C937C003F3861 /* Two Pointers */ = {
+			isa = PBXGroup;
+			children = (
+				41BE85571E6CAF03003F3861 /* Two Sum.playground */,
+				41BE85581E6CAF2C003F3861 /* Remove Duplicate Numbers in Array.playground */,
+				41BE85591E6CAF40003F3861 /* Two Sum - Less than or equal to target.playground */,
+				41BE85601E6CAFB6003F3861 /* Two Sum - Input array is sorted.playground */,
+				41BE855B1E6CAF66003F3861 /* Two Sum - Unique pairs.playground */,
+				41BE85611E6CAFC9003F3861 /* Two Sum - Closest to target.playground */,
+				41BE855D1E6CAF81003F3861 /* Sort Colors.playground */,
+				41BE85621E6CAFDD003F3861 /* Sort Colors II.playground */,
+				41BE855F1E6CAF95003F3861 /* 3Sum.playground */,
+				41BE85631E6CAFF1003F3861 /* Partition Array.playground */,
+			);
+			path = "Two Pointers";
+			sourceTree = "<group>";
+		};
 		41C1403A1E63651600F86BF8 /* Stack */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,6 +317,7 @@
 				B82413621E58CD1B002A692F /* Subtree with Maximum Average .playground */,
 				B8AF4AFC1E59FF640004E8A1 /* Minimum Subtree.playground */,
 				B8AF4B4C1E5A571F0004E8A1 /* Binary Tree Longest Consecutive Sequence.playground */,
+				41BE85561E6C9672003F3861 /* Binary Tree Path Sum.playground */,
 				B811C8721E5D3D30009E3483 /* Binary Tree Paths.playground */,
 				B8AF4B4F1E5BED5D0004E8A1 /* Flatten Binary Tree to Linked List.playground */,
 				41BE85521E6B9DEE003F3861 /* Maximum Depth of Binary Tree.playground */,
@@ -358,13 +387,14 @@
 		B8AF4AF31E57C2F90004E8A1 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				B8C908441E636283004BBACA /* BFS */,
+				B8AF4AF41E57C2F90004E8A1 /* Binary Search */,
+				B82413611E58CCF5002A692F /* Binary Tree */,
+				B8BC1C0D1E5FC9AF000B20AB /* DFS */,
+				419638051E65AA0B00B34585 /* DP */,
 				41C1403A1E63651600F86BF8 /* Stack */,
 				B8BC1C0E1E5FCA01000B20AB /* String */,
-				B8C908441E636283004BBACA /* BFS */,
-				B8BC1C0D1E5FC9AF000B20AB /* DFS */,
-				B82413611E58CCF5002A692F /* Binary Tree */,
-				B8AF4AF41E57C2F90004E8A1 /* Binary Search */,
-				419638051E65AA0B00B34585 /* DP */,
+				41BE85551E6C937C003F3861 /* Two Pointers */,
 			);
 			path = Categories;
 			sourceTree = "<group>";

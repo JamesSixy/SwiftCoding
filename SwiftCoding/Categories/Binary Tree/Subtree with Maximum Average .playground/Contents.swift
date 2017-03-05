@@ -33,7 +33,7 @@ private func helper(_ root: TreeNode?) -> Tuple {
     return rootTriple
 }
 
-//D&C
+//D&C ... not Done yet
 
 //typealias TupleDC = (maxRoot: TreeNode?,
 //                         sum: Int,
@@ -74,22 +74,22 @@ private func helper(_ root: TreeNode?) -> Tuple {
 //}
 
 
-//Test
-let testData = [
-    [1, -5, 11, 1, 2, 4, -2], //11
-    [1, 2, 1], //2
-    [0, 6],//6
-    [6],//6
-    [4, -3],//4
-    [2, 4, 3]//4
-]
-for arr in testData {
-    let root = arrayToBinaryTree(arr, 0)
-    print(preorderTraversal(root))
-    print(findSubtree2(root)!.val)
-    lastTuple = nil
-
-//    print(findSubtree2DC(root)!.val)
-}
+////Test
+//let testData = [
+//    [1, -5, 11, 1, 2, 4, -2], //11
+//    [1, 2, 1], //2
+//    [0, 6],//6
+//    [6],//6
+//    [4, -3],//4
+//    [2, 4, 3]//4
+//]
+//for arr in testData {
+//    let root = arrayToBinaryTree(arr, 0)
+//    print(preorderTraversal(root))
+//    print(findSubtree2(root)!.val)
+//    lastTuple = nil
+//
+////    print(findSubtree2DC(root)!.val)
+//}
 
 
