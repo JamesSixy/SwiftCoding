@@ -110,7 +110,40 @@ private func isBalancedHelper(_ root: TreeNode?) -> IsBalancedTuple {
     return (true, max(left.maxDepth, right.maxDepth) + 1)
 }
 
+typealias LCA3Tuple = (aExists: Bool, bExists: Bool, node: TreeNode?)
 
+func lowestCommonAncestor3(_ root: TreeNode?,
+                           _ A: TreeNode?,
+                           _ B: TreeNode?) -> TreeNode? {
+    let tuple = lowestCommonAncestor3Helper(root, A, B)
+    return tuple.aExists && tuple.bExists ? tuple.node : nil
+}
+
+private func lowestCommonAncestor3Helper(_ root: TreeNode?,
+                                   _ A: TreeNode?,
+                                   _ B: TreeNode?) -> LCA3Tuple {
+    guard let root = root else {
+        return (false, false, nil)
+    }
+    let left = lowestCommonAncestor3Helper(root.left, A, B)
+    let right = lowestCommonAncestor3Helper(root.right, A, B)
+    
+    let aExists = left.aExists || right.aExists || root === A
+    let bExists = left.bExists || right.bExists || root === B
+    
+    if root === A || root === B {
+        return (aExists, bExists, root)
+    }
+    if let _ = left.node, let _ = right.node {
+        return (aExists, bExists, root)
+    } else if let leftNode = left.node {
+        return (aExists, bExists, leftNode)
+    } else if let rightNode = right.node {
+        return (aExists, bExists, rightNode)
+    } else {
+        return (aExists, bExists, nil)
+    }
+}
 
 
 

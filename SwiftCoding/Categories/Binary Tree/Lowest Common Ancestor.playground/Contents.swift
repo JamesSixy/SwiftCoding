@@ -8,45 +8,42 @@ import ZHDataStructure
 ///   - A: <#A description#>
 ///   - B: <#B description#>
 /// - Returns: <#return value description#>
+/// what should we check after left right devision?
+/// if root is A or B, then return aExists, bExists. Check node
 
-typealias Tuple = (aExists: Bool, bExists: Bool, node: TreeNode?)
+typealias LCA3Tuple = (aExists: Bool, bExists: Bool, node: TreeNode?)
 
-public func lowestCommonAncestor3(_ root: TreeNode?,
-                                  _ A: TreeNode?,
-                                  _ B: TreeNode?) -> TreeNode? {
-    let tuple = helper3(root, A, B)
-    if tuple.aExists && tuple.bExists {
-        return tuple.node
-    }
-    return nil
+func lowestCommonAncestor3(_ root: TreeNode?,
+                           _ A: TreeNode?,
+                           _ B: TreeNode?) -> TreeNode? {
+    let tuple = lowestCommonAncestor3Helper(root, A, B)
+    return tuple.aExists && tuple.bExists ? tuple.node : nil
 }
 
-private func helper3(_ root: TreeNode?,
-                     _ A: TreeNode?,
-                     _ B: TreeNode?) -> Tuple {
+private func lowestCommonAncestor3Helper(_ root: TreeNode?,
+                                         _ A: TreeNode?,
+                                         _ B: TreeNode?) -> LCA3Tuple {
     guard let root = root else {
         return (false, false, nil)
     }
-    let left = helper3(root.left, A, B)
-    let right = helper3(root.right, A, B)
+    let left = lowestCommonAncestor3Helper(root.left, A, B)
+    let right = lowestCommonAncestor3Helper(root.right, A, B)
     
     let aExists = left.aExists || right.aExists || root === A
     let bExists = left.bExists || right.bExists || root === B
-    
-    // what should we check here?
-    //if root is A or B, then return aExists, bExists
     
     if root === A || root === B {
         return (aExists, bExists, root)
     }
     if let _ = left.node, let _ = right.node {
         return (aExists, bExists, root)
-    } else if let node = left.node {
-        return (aExists, bExists, node)
-    } else if let node = right.node {
-        return (aExists, bExists, node)
+    } else if let leftNode = left.node {
+        return (aExists, bExists, leftNode)
+    } else if let rightNode = right.node {
+        return (aExists, bExists, rightNode)
+    } else {
+        return (aExists, bExists, nil)
     }
-    return (aExists, bExists, nil)
 }
 
 //Test
