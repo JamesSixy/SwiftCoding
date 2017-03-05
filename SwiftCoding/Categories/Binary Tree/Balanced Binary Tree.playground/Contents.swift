@@ -6,25 +6,24 @@ import ZHDataStructure
 /// - Parameter root: <#root description#>
 /// - Returns: <#return value description#>
 
-typealias Tuple = (isBalanced: Bool, depth: Int)
+typealias IsBalancedTuple = (isBalanced: Bool, maxDepth: Int)
 
 func isBalanced(_ root: TreeNode?) -> Bool {
-    let tuple = helper(root)
-    return tuple.isBalanced
+    return isBalancedHelper(root).isBalanced
 }
 
-private func helper(_ root: TreeNode?) -> Tuple {
+private func isBalancedHelper(_ root: TreeNode?) -> IsBalancedTuple {
     guard let root = root else {
         return (true, 0)
     }
-    let left = helper(root.left)
-    let right = helper(root.right)
+    let left = isBalancedHelper(root.left)
+    let right = isBalancedHelper(root.right)
     
     if !left.isBalanced || !right.isBalanced {
         return (false, 0)
     }
-    if abs(left.depth - right.depth) > 1 {
+    if abs(left.maxDepth - right.maxDepth) > 1 {
         return (false, 0)
     }
-    return (true, max(left.depth, right.depth) + 1)
+    return (true, max(left.maxDepth, right.maxDepth) + 1)
 }
