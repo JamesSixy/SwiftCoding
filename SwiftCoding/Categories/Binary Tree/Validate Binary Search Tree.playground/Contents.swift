@@ -58,10 +58,10 @@ func isValidBSTIterative(_ root: TreeNode?) -> Bool {
     var cur: TreeNode? = root, prev: TreeNode? = nil
     while !stack.isEmpty || cur != nil {
         while cur != nil {
-            stack.append(cur!)
+            stack.append(cur!) //push
             cur = cur?.left
         }
-        cur = stack.removeLast()
+        cur = stack.removeLast() //pop
         if prev == nil || cur!.val > prev!.val {
             prev = cur
         } else {

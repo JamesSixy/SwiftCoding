@@ -21,7 +21,7 @@ func maxDepthBFS(_ root: TreeNode?) -> Int {
     while !queue.isEmpty {
         let size = queue.count
         for _ in 0 ..< size {
-            let cur = queue.removeFirst()
+            let cur = queue.removeFirst() //dequeue
             if let left = cur.left {
                 queue.append(left)
             }
