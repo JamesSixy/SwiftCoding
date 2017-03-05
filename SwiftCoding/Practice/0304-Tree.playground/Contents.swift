@@ -145,5 +145,31 @@ private func lowestCommonAncestor3Helper(_ root: TreeNode?,
     }
 }
 
+typealias IsBSTTuple = (isBST: Bool, minVal: Int, maxVal: Int)
+
+func isValidBST(_ root: TreeNode?) -> Bool {
+    return isValidBSTHelper(root).isBST
+}
+
+func isValidBSTHelper(_ root: TreeNode?) -> IsBSTTuple {
+    guard let root = root else {
+        return (true, Int.max, Int.min)
+    }
+    let left = isValidBSTHelper(root.left)
+    let right = isValidBSTHelper(root.right)
+    
+    if !left.isBST || !right.isBST {
+        return (false, 0, 0)
+    }
+    if root.left == nil && root.right == nil {
+        return (true, root.val, root.val)
+    }
+    if root.val > left.maxVal && root.val < right.minVal {
+        return (true, min(left.minVal, root.val),
+                max(right.maxVal, root.val))
+    }
+    return (false, 0, 0)
+}
+
 
 

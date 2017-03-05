@@ -13,27 +13,61 @@ import ZHDataStructure
 /// 5.left is nil - then return (true if 1,2,3,4 is true, min = root.val, max = right.maxValue)
 /// 6. right is nil - similar to 5
 
-typealias Tuple = (isBST: Bool, minVal: Int, maxVal: Int)
+
+typealias IsBSTTuple = (isBST: Bool, minVal: Int, maxVal: Int)
 
 func isValidBST(_ root: TreeNode?) -> Bool {
-    return helper(root).isBST
+    return isValidBSTHelper(root).isBST
 }
 
-private func helper(_ root: TreeNode?) -> Tuple {
+func isValidBSTHelper(_ root: TreeNode?) -> IsBSTTuple {
     guard let root = root else {
         return (true, Int.max, Int.min)
     }
-    let left = helper(root.left)
-    let right = helper(root.right)
+    let left = isValidBSTHelper(root.left)
+    let right = isValidBSTHelper(root.right)
     
     if !left.isBST || !right.isBST {
         return (false, 0, 0)
     }
-    
-    if root.left != nil && left.maxVal >= root.val
-        || root.right != nil && right.minVal <= root.val {
-        return (false, 0, 0)
+    if root.left == nil && root.right == nil {
+        return (true, root.val, root.val)
     }
-    return (true, min(root.val, left.minVal),
-            max(root.val, right.maxVal))
+    if root.val > left.maxVal && root.val < right.minVal {
+        return (true, min(left.minVal, root.val),
+                max(right.maxVal, root.val))
+    }
+    
+    return (false, 0, 0)
+    
+    //Another way (after left right division)
+//    if !left.isBST || !right.isBST {
+//        return (false, 0, 0)
+//    }
+//    if root.left != nil && left.maxVal >= root.val
+//        || root.right != nil && right.minVal <= root.val {
+//        return (false, 0, 0)
+//    }
+//    return (true, min(root.val, left.minVal),
+//            max(root.val, right.maxVal))
+}
+
+func isValidBSTIterative(_ root: TreeNode?) -> Bool {
+    guard let root = root else { return true }
+    var stack = [TreeNode]()
+    var cur: TreeNode? = root, prev: TreeNode? = nil
+    while !stack.isEmpty || cur != nil {
+        while cur != nil {
+            stack.append(cur!)
+            cur = cur?.left
+        }
+        cur = stack.removeLast()
+        if prev == nil || cur!.val > prev!.val {
+            prev = cur
+        } else {
+            return false
+        }
+        cur = cur!.right
+    }
+    return true
 }
