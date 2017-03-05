@@ -6,7 +6,7 @@
 ///   - target: <#target description#>
 /// - Returns: <#return value description#>
 
-//Solution 1: Two pointers with wrapping
+//Solution 1: Two pointers - O(nlogn) time, O(n) space in Swift
 func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
     let res: [Int] = []
     guard nums.count > 0 else { return res }
@@ -27,3 +27,23 @@ func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
     }
     return res
 }
+
+//Solution 2 HashMap - O(n) time, O(n) space
+func twoSumHM(_ nums: [Int], _ target: Int) -> [Int] {
+    let res: [Int] = []
+    guard nums.count > 0 else { return res }
+    var dict = [Int : Int]()
+    for (i, ele) in nums.enumerated() {
+        if let lastI = dict[ele] {
+            return [lastI, i]
+        } else {
+            dict[target - ele] = i
+        }
+    }
+    return res
+}
+
+
+
+
+
