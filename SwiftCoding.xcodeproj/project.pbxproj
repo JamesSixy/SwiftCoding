@@ -71,20 +71,12 @@
 		419637F91E6507B900B34585 /* Word Break II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Word Break II.playground"; sourceTree = "<group>"; };
 		419637FA1E6509D700B34585 /* Word Break I.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Word Break I.playground"; sourceTree = "<group>"; };
 		419638001E6516A400B34585 /* Remove Invalid Parentheses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Invalid Parentheses.playground"; sourceTree = "<group>"; };
-		419638011E651C3E00B34585 /* Graph Valid Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Graph Valid Tree.playground"; sourceTree = "<group>"; };
-		419638021E651CCC00B34585 /* Search Graph Nodes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Search Graph Nodes.playground"; sourceTree = "<group>"; };
 		419638031E651CEA00B34585 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		419638061E65AA1B00B34585 /* Maximal Square.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maximal Square.playground"; sourceTree = "<group>"; };
 		419638071E65AE0800B34585 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
-		419638091E6667EC00B34585 /* Course Schedule.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Course Schedule.playground"; sourceTree = "<group>"; };
-		4196380B1E668ABB00B34585 /* Zombie in Matrix.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Zombie in Matrix.playground"; sourceTree = "<group>"; };
-		4196380C1E66FC3300B34585 /* Knight Shortest Path.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Knight Shortest Path.playground"; sourceTree = "<group>"; };
 		4196380D1E66FC9A00B34585 /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
-		419638111E6706D400B34585 /* Word Ladder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Word Ladder.playground"; sourceTree = "<group>"; };
 		419638121E67C55000B34585 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		419638141E67C59800B34585 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
-		419638161E684D4200B34585 /* Clone Graph.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Clone Graph.playground"; sourceTree = "<group>"; };
-		419638171E684D5A00B34585 /* Binary Tree Serialization.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Serialization.playground"; sourceTree = "<group>"; };
 		41BE85511E6B65FF003F3861 /* 0304-Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0304-Tree.playground"; sourceTree = "<group>"; };
 		41BE85521E6B9DEE003F3861 /* Maximum Depth of Binary Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maximum Depth of Binary Tree.playground"; sourceTree = "<group>"; };
 		41BE85531E6C5D7A003F3861 /* Lowest Common Ancestor of a Binary Search Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lowest Common Ancestor of a Binary Search Tree.playground"; sourceTree = "<group>"; };
@@ -108,20 +100,23 @@
 		41BE856D1E6D1962003F3861 /* Merge Intervals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Merge Intervals.playground"; sourceTree = "<group>"; };
 		41BE856E1E6D1992003F3861 /* Insert Interval.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Insert Interval.playground"; sourceTree = "<group>"; };
 		41BE85711E6D1A41003F3861 /* Add Binary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Add Binary.playground"; sourceTree = "<group>"; };
-		41BE85731E6D1A41003F3861 /* Binary Tree Serialization.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Serialization.playground"; sourceTree = "<group>"; };
-		41BE85741E6D1A41003F3861 /* Clone Graph.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Clone Graph.playground"; sourceTree = "<group>"; };
-		41BE85751E6D1A41003F3861 /* Course Schedule.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Course Schedule.playground"; sourceTree = "<group>"; };
-		41BE85761E6D1A41003F3861 /* Graph Valid Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Graph Valid Tree.playground"; sourceTree = "<group>"; };
-		41BE85771E6D1A41003F3861 /* Knight Shortest Path.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Knight Shortest Path.playground"; sourceTree = "<group>"; };
-		41BE85781E6D1A41003F3861 /* Number of Islands BFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Number of Islands BFS.playground"; sourceTree = "<group>"; };
-		41BE85791E6D1A41003F3861 /* Search Graph Nodes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Search Graph Nodes.playground"; sourceTree = "<group>"; };
-		41BE857A1E6D1A41003F3861 /* Topological Sorting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Topological Sorting.playground"; sourceTree = "<group>"; };
-		41BE857B1E6D1A41003F3861 /* Word Ladder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Word Ladder.playground"; sourceTree = "<group>"; };
-		41BE857C1E6D1A41003F3861 /* Zombie in Matrix.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Zombie in Matrix.playground"; sourceTree = "<group>"; };
 		41BE857D1E6D1A41003F3861 /* Count and Say.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Count and Say.playground"; sourceTree = "<group>"; };
 		41BE857E1E6D1A41003F3861 /* Regular Expression Matching.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Regular Expression Matching.playground"; sourceTree = "<group>"; };
 		41BE857F1E6D1A41003F3861 /* Sparse Matrix Multiplication.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Sparse Matrix Multiplication.playground"; sourceTree = "<group>"; };
 		41BE85801E6D1A41003F3861 /* StrStr.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StrStr.playground; sourceTree = "<group>"; };
+		41BE85821E6D90B3003F3861 /* Binary Tree Serialization.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Serialization.playground"; sourceTree = "<group>"; };
+		41BE85831E6D90B3003F3861 /* Clone Graph.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Clone Graph.playground"; sourceTree = "<group>"; };
+		41BE85841E6D90B3003F3861 /* Course Schedule.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Course Schedule.playground"; sourceTree = "<group>"; };
+		41BE85851E6D90B3003F3861 /* Graph Valid Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Graph Valid Tree.playground"; sourceTree = "<group>"; };
+		41BE85861E6D90B3003F3861 /* Knight Shortest Path.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Knight Shortest Path.playground"; sourceTree = "<group>"; };
+		41BE85871E6D90B3003F3861 /* Number of Islands BFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Number of Islands BFS.playground"; sourceTree = "<group>"; };
+		41BE85881E6D90B3003F3861 /* Search Graph Nodes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Search Graph Nodes.playground"; sourceTree = "<group>"; };
+		41BE85891E6D90B3003F3861 /* Topological Sorting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Topological Sorting.playground"; sourceTree = "<group>"; };
+		41BE858A1E6D90B3003F3861 /* Word Ladder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Word Ladder.playground"; sourceTree = "<group>"; };
+		41BE858B1E6D90B4003F3861 /* Zombie in Matrix.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Zombie in Matrix.playground"; sourceTree = "<group>"; };
+		41BE858C1E6D90CF003F3861 /* Integer to English Words.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Integer to English Words.playground"; sourceTree = "<group>"; };
+		41BE858D1E6D9117003F3861 /* Binary Tree Vertical Order Traversal.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Vertical Order Traversal.playground"; sourceTree = "<group>"; };
+		41BE858E1E6D916A003F3861 /* Find the Celebrity.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Find the Celebrity.playground"; sourceTree = "<group>"; };
 		41C140371E63480A00F86BF8 /* String Permutation II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "String Permutation II.playground"; sourceTree = "<group>"; };
 		41C1403B1E63658800F86BF8 /* Expression Expand.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Expression Expand.playground"; sourceTree = "<group>"; };
 		41C1403D1E6368FA00F86BF8 /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
@@ -183,8 +178,6 @@
 		B8BC1C131E613F27000B20AB /* Combination Sum II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Combination Sum II.playground"; sourceTree = "<group>"; };
 		B8C1B38F1E6B794200C315BC /* Binary Tree Path Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Path Sum.playground"; sourceTree = "<group>"; };
 		B8C908431E635BFE004BBACA /* Number of Islands DFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Number of Islands DFS.playground"; sourceTree = "<group>"; };
-		B8C908451E636298004BBACA /* Number of Islands BFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Number of Islands BFS.playground"; sourceTree = "<group>"; };
-		B8C908461E666C9D004BBACA /* Topological Sorting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Topological Sorting.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,28 +263,29 @@
 			isa = PBXGroup;
 			children = (
 				41BE85711E6D1A41003F3861 /* Add Binary.playground */,
-				41BE85721E6D1A41003F3861 /* BFS */,
 				41BE857D1E6D1A41003F3861 /* Count and Say.playground */,
 				41BE857E1E6D1A41003F3861 /* Regular Expression Matching.playground */,
 				41BE857F1E6D1A41003F3861 /* Sparse Matrix Multiplication.playground */,
 				41BE85801E6D1A41003F3861 /* StrStr.playground */,
+				41BE858C1E6D90CF003F3861 /* Integer to English Words.playground */,
+				41BE858E1E6D916A003F3861 /* Find the Celebrity.playground */,
 			);
 			path = "String&Array";
 			sourceTree = "<group>";
 		};
-		41BE85721E6D1A41003F3861 /* BFS */ = {
+		41BE85811E6D90B3003F3861 /* BFS */ = {
 			isa = PBXGroup;
 			children = (
-				41BE85731E6D1A41003F3861 /* Binary Tree Serialization.playground */,
-				41BE85741E6D1A41003F3861 /* Clone Graph.playground */,
-				41BE85751E6D1A41003F3861 /* Course Schedule.playground */,
-				41BE85761E6D1A41003F3861 /* Graph Valid Tree.playground */,
-				41BE85771E6D1A41003F3861 /* Knight Shortest Path.playground */,
-				41BE85781E6D1A41003F3861 /* Number of Islands BFS.playground */,
-				41BE85791E6D1A41003F3861 /* Search Graph Nodes.playground */,
-				41BE857A1E6D1A41003F3861 /* Topological Sorting.playground */,
-				41BE857B1E6D1A41003F3861 /* Word Ladder.playground */,
-				41BE857C1E6D1A41003F3861 /* Zombie in Matrix.playground */,
+				41BE85821E6D90B3003F3861 /* Binary Tree Serialization.playground */,
+				41BE85831E6D90B3003F3861 /* Clone Graph.playground */,
+				41BE85841E6D90B3003F3861 /* Course Schedule.playground */,
+				41BE85851E6D90B3003F3861 /* Graph Valid Tree.playground */,
+				41BE85861E6D90B3003F3861 /* Knight Shortest Path.playground */,
+				41BE85871E6D90B3003F3861 /* Number of Islands BFS.playground */,
+				41BE85881E6D90B3003F3861 /* Search Graph Nodes.playground */,
+				41BE85891E6D90B3003F3861 /* Topological Sorting.playground */,
+				41BE858A1E6D90B3003F3861 /* Word Ladder.playground */,
+				41BE858B1E6D90B4003F3861 /* Zombie in Matrix.playground */,
 			);
 			path = BFS;
 			sourceTree = "<group>";
@@ -392,6 +386,7 @@
 				B8AF4B4E1E5A9F970004E8A1 /* convert binary search tree to doubly linked list.playground */,
 				B811C8731E5D5129009E3483 /* Symmetric Tree.playground */,
 				41BE85541E6C8EEF003F3861 /* Minimum Depth of Binary Tree.playground */,
+				41BE858D1E6D9117003F3861 /* Binary Tree Vertical Order Traversal.playground */,
 			);
 			path = "Binary Tree";
 			sourceTree = "<group>";
@@ -450,12 +445,12 @@
 		B8AF4AF31E57C2F90004E8A1 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				41BE85681E6D18DC003F3861 /* Intervals */,
-				B8C908441E636283004BBACA /* BFS */,
+				41BE85811E6D90B3003F3861 /* BFS */,
 				B8AF4AF41E57C2F90004E8A1 /* Binary Search */,
 				B82413611E58CCF5002A692F /* Binary Tree */,
 				B8BC1C0D1E5FC9AF000B20AB /* DFS */,
 				419638051E65AA0B00B34585 /* DP */,
+				41BE85681E6D18DC003F3861 /* Intervals */,
 				41C1403A1E63651600F86BF8 /* Stack */,
 				41BE85701E6D1A41003F3861 /* String&Array */,
 				41BE85551E6C937C003F3861 /* Two Pointers */,
@@ -540,24 +535,6 @@
 				419638001E6516A400B34585 /* Remove Invalid Parentheses.playground */,
 			);
 			path = DFS;
-			sourceTree = "<group>";
-		};
-		B8C908441E636283004BBACA /* BFS */ = {
-			isa = PBXGroup;
-			children = (
-				B8C908451E636298004BBACA /* Number of Islands BFS.playground */,
-				419638011E651C3E00B34585 /* Graph Valid Tree.playground */,
-				419638021E651CCC00B34585 /* Search Graph Nodes.playground */,
-				B8C908461E666C9D004BBACA /* Topological Sorting.playground */,
-				419638091E6667EC00B34585 /* Course Schedule.playground */,
-				4196380B1E668ABB00B34585 /* Zombie in Matrix.playground */,
-				4196380C1E66FC3300B34585 /* Knight Shortest Path.playground */,
-				419638111E6706D400B34585 /* Word Ladder.playground */,
-				419638161E684D4200B34585 /* Clone Graph.playground */,
-				419638171E684D5A00B34585 /* Binary Tree Serialization.playground */,
-			);
-			name = BFS;
-			path = String/BFS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
