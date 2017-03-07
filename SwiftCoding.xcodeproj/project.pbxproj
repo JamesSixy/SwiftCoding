@@ -195,6 +195,24 @@
 		B8C1B38F1E6B794200C315BC /* Binary Tree Path Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Path Sum.playground"; sourceTree = "<group>"; };
 		B8C1B3901E6D9B9A00C315BC /* Palindrome Linked List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Palindrome Linked List.playground"; sourceTree = "<group>"; };
 		B8C1B3911E6D9BDD00C315BC /* Remove Duplicates from Sorted Array II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Duplicates from Sorted Array II.playground"; sourceTree = "<group>"; };
+		B8C1B3931E6E614100C315BC /* Pow(x, n).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Pow(x, n).playground"; sourceTree = "<group>"; };
+		B8C1B3941E6E61FA00C315BC /* Multiply Strings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Multiply Strings.playground"; sourceTree = "<group>"; };
+		B8C1B3951E6E62A500C315BC /* Merge Sorted Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Merge Sorted Array.playground"; sourceTree = "<group>"; };
+		B8C1B3961E6E62E100C315BC /* Roman to Integer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Roman to Integer.playground"; sourceTree = "<group>"; };
+		B8C1B3971E6E634500C315BC /* Target Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Target Sum.playground"; sourceTree = "<group>"; };
+		B8C1B3981E6E638300C315BC /* Alien Dictionary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Alien Dictionary.playground"; sourceTree = "<group>"; };
+		B8C1B39A1E6E63D000C315BC /* Reverse Linked List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Reverse Linked List.playground"; sourceTree = "<group>"; };
+		B8C1B39B1E6E649300C315BC /* Copy List with Random Pointer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Copy List with Random Pointer.playground"; sourceTree = "<group>"; };
+		B8C1B39C1E6E654800C315BC /* Sort List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Sort List.playground"; sourceTree = "<group>"; };
+		B8C1B39D1E6E659100C315BC /* Linked List Cycle.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Linked List Cycle.playground"; sourceTree = "<group>"; };
+		B8C1B39E1E6E65CE00C315BC /* Merge Two Sorted Lists.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Merge Two Sorted Lists.playground"; sourceTree = "<group>"; };
+		B8C1B39F1E6E662D00C315BC /* Median of two Sorted Arrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Median of two Sorted Arrays.playground"; sourceTree = "<group>"; };
+		B8C1B3A01E6E666400C315BC /* Maximum Subarray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maximum Subarray.playground"; sourceTree = "<group>"; };
+		B8C1B3A11E6E66AA00C315BC /* Intersection of Two Arrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Intersection of Two Arrays.playground"; sourceTree = "<group>"; };
+		B8C1B3A21E6E66F900C315BC /* Partition List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Partition List.playground"; sourceTree = "<group>"; };
+		B8C1B3A31E6E673600C315BC /* Move Zeroes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Move Zeroes.playground"; sourceTree = "<group>"; };
+		B8C1B3A41E6E678E00C315BC /* 3Sum Closest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3Sum Closest.playground"; sourceTree = "<group>"; };
+		B8C1B3A51E6E67C500C315BC /* 4Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4Sum.playground; sourceTree = "<group>"; };
 		B8C908431E635BFE004BBACA /* Number of Islands DFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Number of Islands DFS.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -236,6 +254,7 @@
 			children = (
 				419638061E65AA1B00B34585 /* Maximal Square.playground */,
 				41BE85671E6D1868003F3861 /* Decode Ways.playground */,
+				B8C1B3971E6E634500C315BC /* Target Sum.playground */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -266,6 +285,10 @@
 				41BE85921E6D95BE003F3861 /* Minimum Window Substring.playground */,
 				41BE85A11E6D9A0C003F3861 /* Valid Palindrome.playground */,
 				B8C1B3901E6D9B9A00C315BC /* Palindrome Linked List.playground */,
+				B8C1B39F1E6E662D00C315BC /* Median of two Sorted Arrays.playground */,
+				B8C1B3A31E6E673600C315BC /* Move Zeroes.playground */,
+				B8C1B3A41E6E678E00C315BC /* 3Sum Closest.playground */,
+				B8C1B3A51E6E67C500C315BC /* 4Sum.playground */,
 			);
 			path = "Two Pointers";
 			sourceTree = "<group>";
@@ -295,6 +318,11 @@
 				41BE858F1E6D9495003F3861 /* Read N Characters Given Read4 II - Call multiple times.playground */,
 				41BE85971E6D9732003F3861 /* One Edit Distance.playground */,
 				41BE859F1E6D998F003F3861 /* Best Time to Buy and Sell Stock.playground */,
+				B8C1B3941E6E61FA00C315BC /* Multiply Strings.playground */,
+				B8C1B3951E6E62A500C315BC /* Merge Sorted Array.playground */,
+				B8C1B3961E6E62E100C315BC /* Roman to Integer.playground */,
+				B8C1B3A01E6E666400C315BC /* Maximum Subarray.playground */,
+				B8C1B3A11E6E66AA00C315BC /* Intersection of Two Arrays.playground */,
 			);
 			path = "String&Array";
 			sourceTree = "<group>";
@@ -311,6 +339,7 @@
 				41BE85891E6D90B3003F3861 /* Topological Sorting.playground */,
 				41BE858A1E6D90B3003F3861 /* Word Ladder.playground */,
 				41BE858B1E6D90B4003F3861 /* Zombie in Matrix.playground */,
+				B8C1B3981E6E638300C315BC /* Alien Dictionary.playground */,
 			);
 			path = BFS;
 			sourceTree = "<group>";
@@ -491,16 +520,18 @@
 		B8AF4AF31E57C2F90004E8A1 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				41BE859A1E6D9839003F3861 /* Trie */,
-				41BE85931E6D9679003F3861 /* Heap */,
 				41BE85811E6D90B3003F3861 /* BFS */,
 				B8AF4AF41E57C2F90004E8A1 /* Binary Search */,
 				B82413611E58CCF5002A692F /* Binary Tree (Divide&Conquer) */,
 				B8BC1C0D1E5FC9AF000B20AB /* DFS */,
+				B8C1B3991E6E63B800C315BC /* LinkedList */,
 				419638051E65AA0B00B34585 /* DP */,
+				41BE85931E6D9679003F3861 /* Heap */,
 				41BE85681E6D18DC003F3861 /* Intervals */,
+				B8C1B3921E6E612500C315BC /* Math */,
 				41C1403A1E63651600F86BF8 /* Stack */,
 				41BE85701E6D1A41003F3861 /* String&Array */,
+				41BE859A1E6D9839003F3861 /* Trie */,
 				41BE85551E6C937C003F3861 /* Two Pointers */,
 			);
 			path = Categories;
@@ -586,6 +617,27 @@
 				41BE85911E6D9573003F3861 /* Expression Add Operators.playground */,
 			);
 			path = DFS;
+			sourceTree = "<group>";
+		};
+		B8C1B3921E6E612500C315BC /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				B8C1B3931E6E614100C315BC /* Pow(x, n).playground */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		B8C1B3991E6E63B800C315BC /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				B8C1B39A1E6E63D000C315BC /* Reverse Linked List.playground */,
+				B8C1B39B1E6E649300C315BC /* Copy List with Random Pointer.playground */,
+				B8C1B39C1E6E654800C315BC /* Sort List.playground */,
+				B8C1B39D1E6E659100C315BC /* Linked List Cycle.playground */,
+				B8C1B39E1E6E65CE00C315BC /* Merge Two Sorted Lists.playground */,
+				B8C1B3A21E6E66F900C315BC /* Partition List.playground */,
+			);
+			path = LinkedList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
