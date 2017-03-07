@@ -193,6 +193,8 @@
 		B8BC1C121E5FE21F000B20AB /* Combination Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Combination Sum.playground"; sourceTree = "<group>"; };
 		B8BC1C131E613F27000B20AB /* Combination Sum II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Combination Sum II.playground"; sourceTree = "<group>"; };
 		B8C1B38F1E6B794200C315BC /* Binary Tree Path Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Path Sum.playground"; sourceTree = "<group>"; };
+		B8C1B3901E6D9B9A00C315BC /* Palindrome Linked List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Palindrome Linked List.playground"; sourceTree = "<group>"; };
+		B8C1B3911E6D9BDD00C315BC /* Remove Duplicates from Sorted Array II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Duplicates from Sorted Array II.playground"; sourceTree = "<group>"; };
 		B8C908431E635BFE004BBACA /* Number of Islands DFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Number of Islands DFS.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -251,6 +253,7 @@
 			children = (
 				41BE85571E6CAF03003F3861 /* Two Sum.playground */,
 				41BE85581E6CAF2C003F3861 /* Remove Duplicate Numbers in Array.playground */,
+				B8C1B3911E6D9BDD00C315BC /* Remove Duplicates from Sorted Array II.playground */,
 				41BE85591E6CAF40003F3861 /* Two Sum - Less than or equal to target.playground */,
 				41BE85601E6CAFB6003F3861 /* Two Sum - Input array is sorted.playground */,
 				41BE855B1E6CAF66003F3861 /* Two Sum - Unique pairs.playground */,
@@ -262,6 +265,7 @@
 				41BE85641E6D177E003F3861 /* Maximum Size Subarray Sum Equals k.playground */,
 				41BE85921E6D95BE003F3861 /* Minimum Window Substring.playground */,
 				41BE85A11E6D9A0C003F3861 /* Valid Palindrome.playground */,
+				B8C1B3901E6D9B9A00C315BC /* Palindrome Linked List.playground */,
 			);
 			path = "Two Pointers";
 			sourceTree = "<group>";
