@@ -134,6 +134,12 @@
 		41BE85A01E6D99D1003F3861 /* Binary Search Tree Iterator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Search Tree Iterator.playground"; sourceTree = "<group>"; };
 		41BE85A11E6D9A0C003F3861 /* Valid Palindrome.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Valid Palindrome.playground"; sourceTree = "<group>"; };
 		41BE85A21E7040C0003F3861 /* Minimum Size Subarray Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Minimum Size Subarray Sum.playground"; sourceTree = "<group>"; };
+		41BE85A31E718A9C003F3861 /* Minimum Subarray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Minimum Subarray.playground"; sourceTree = "<group>"; };
+		41BE85A41E718B39003F3861 /* Maximum Subarray Difference.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maximum Subarray Difference.playground"; sourceTree = "<group>"; };
+		41BE85A51E718B6B003F3861 /* Subarray Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Subarray Sum.playground"; sourceTree = "<group>"; };
+		41BE85A61E718BDA003F3861 /* Subarray Sum Closest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Subarray Sum Closest.playground"; sourceTree = "<group>"; };
+		41BE85A71E718C17003F3861 /* Subarray Sum II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Subarray Sum II.playground"; sourceTree = "<group>"; };
+		41BE85A81E718C87003F3861 /* Maximum Subarray II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maximum Subarray II.playground"; sourceTree = "<group>"; };
 		41C140371E63480A00F86BF8 /* String Permutation II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "String Permutation II.playground"; sourceTree = "<group>"; };
 		41C1403B1E63658800F86BF8 /* Expression Expand.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Expression Expand.playground"; sourceTree = "<group>"; };
 		41C1403D1E6368FA00F86BF8 /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
@@ -318,12 +324,18 @@
 				41BE858E1E6D916A003F3861 /* Find the Celebrity.playground */,
 				41BE85981E6D9789003F3861 /* Read N Characters Given Read4.playground */,
 				41BE858F1E6D9495003F3861 /* Read N Characters Given Read4 II - Call multiple times.playground */,
-				41BE85971E6D9732003F3861 /* One Edit Distance.playground */,
 				41BE859F1E6D998F003F3861 /* Best Time to Buy and Sell Stock.playground */,
+				B8C1B3A01E6E666400C315BC /* Maximum Subarray.playground */,
+				41BE85A81E718C87003F3861 /* Maximum Subarray II.playground */,
+				41BE85A31E718A9C003F3861 /* Minimum Subarray.playground */,
+				41BE85A41E718B39003F3861 /* Maximum Subarray Difference.playground */,
+				41BE85A51E718B6B003F3861 /* Subarray Sum.playground */,
+				41BE85A61E718BDA003F3861 /* Subarray Sum Closest.playground */,
+				41BE85A71E718C17003F3861 /* Subarray Sum II.playground */,
 				B8C1B3941E6E61FA00C315BC /* Multiply Strings.playground */,
 				B8C1B3951E6E62A500C315BC /* Merge Sorted Array.playground */,
 				B8C1B3961E6E62E100C315BC /* Roman to Integer.playground */,
-				B8C1B3A01E6E666400C315BC /* Maximum Subarray.playground */,
+				41BE85971E6D9732003F3861 /* One Edit Distance.playground */,
 				B8C1B3A11E6E66AA00C315BC /* Intersection of Two Arrays.playground */,
 			);
 			path = "String&Array";
