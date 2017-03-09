@@ -133,6 +133,7 @@
 		41BE859F1E6D998F003F3861 /* Best Time to Buy and Sell Stock.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Best Time to Buy and Sell Stock.playground"; sourceTree = "<group>"; };
 		41BE85A01E6D99D1003F3861 /* Binary Search Tree Iterator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Search Tree Iterator.playground"; sourceTree = "<group>"; };
 		41BE85A11E6D9A0C003F3861 /* Valid Palindrome.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Valid Palindrome.playground"; sourceTree = "<group>"; };
+		41BE85A21E7040C0003F3861 /* Minimum Size Subarray Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Minimum Size Subarray Sum.playground"; sourceTree = "<group>"; };
 		41C140371E63480A00F86BF8 /* String Permutation II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "String Permutation II.playground"; sourceTree = "<group>"; };
 		41C1403B1E63658800F86BF8 /* Expression Expand.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Expression Expand.playground"; sourceTree = "<group>"; };
 		41C1403D1E6368FA00F86BF8 /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
@@ -281,6 +282,7 @@
 				41BE85621E6CAFDD003F3861 /* Sort Colors II.playground */,
 				41BE855F1E6CAF95003F3861 /* 3Sum.playground */,
 				41BE85631E6CAFF1003F3861 /* Partition Array.playground */,
+				41BE85A21E7040C0003F3861 /* Minimum Size Subarray Sum.playground */,
 				41BE85641E6D177E003F3861 /* Maximum Size Subarray Sum Equals k.playground */,
 				41BE85921E6D95BE003F3861 /* Minimum Window Substring.playground */,
 				41BE85A11E6D9A0C003F3861 /* Valid Palindrome.playground */,
