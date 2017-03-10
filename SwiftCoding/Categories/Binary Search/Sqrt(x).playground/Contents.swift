@@ -10,9 +10,7 @@
 import UIKit
 
 func mySqrt(_ x: Int) -> Int {
-    guard x > 0 else {
-        return 0
-    }
+    guard x > 0 else { return 0 }
     var start = 1, end = x
     while start + 1 < end {
         let mid = start + (end - start) / 2

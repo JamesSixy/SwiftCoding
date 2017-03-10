@@ -17,6 +17,7 @@
 		41BE859D1E6D98A5003F3861 /* TrieNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE859C1E6D98A5003F3861 /* TrieNode.swift */; };
 		41C1403F1E6368FA00F86BF8 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C1403D1E6368FA00F86BF8 /* Heap.swift */; };
 		41C140401E6368FA00F86BF8 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C1403E1E6368FA00F86BF8 /* PriorityQueue.swift */; };
+		B8334D031E73383F00CD7D50 /* Algorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8334D021E73383F00CD7D50 /* Algorithms.swift */; };
 		B8AF4AC61E57C2540004E8A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF4AC51E57C2540004E8A1 /* AppDelegate.swift */; };
 		B8AF4AC81E57C2540004E8A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF4AC71E57C2540004E8A1 /* ViewController.swift */; };
 		B8AF4ACB1E57C2540004E8A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8AF4AC91E57C2540004E8A1 /* Main.storyboard */; };
@@ -165,6 +166,7 @@
 		B824135F1E57D345002A692F /* Find Peak Element.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Find Peak Element.playground"; sourceTree = "<group>"; };
 		B82413601E57D6B9002A692F /* First Bad Version.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "First Bad Version.playground"; sourceTree = "<group>"; };
 		B82413621E58CD1B002A692F /* Subtree with Maximum Average .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Subtree with Maximum Average .playground"; sourceTree = "<group>"; };
+		B8334D021E73383F00CD7D50 /* Algorithms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algorithms.swift; sourceTree = "<group>"; };
 		B8AF4AC21E57C2540004E8A1 /* SwiftCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8AF4AC51E57C2540004E8A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8AF4AC71E57C2540004E8A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -606,6 +608,7 @@
 				41BE856B1E6D190E003F3861 /* Interval.swift */,
 				41BE85951E6D9692003F3861 /* ListNode.swift */,
 				41BE859C1E6D98A5003F3861 /* TrieNode.swift */,
+				B8334D021E73383F00CD7D50 /* Algorithms.swift */,
 			);
 			path = ZHClasses;
 			sourceTree = "<group>";
@@ -864,6 +867,7 @@
 				41BE856C1E6D190E003F3861 /* Interval.swift in Sources */,
 				41C1403F1E6368FA00F86BF8 /* Heap.swift in Sources */,
 				41C140401E6368FA00F86BF8 /* PriorityQueue.swift in Sources */,
+				B8334D031E73383F00CD7D50 /* Algorithms.swift in Sources */,
 				B8AF4B4B1E5A3E720004E8A1 /* Stack.swift in Sources */,
 				B8AF4B4A1E5A3E720004E8A1 /* BinaryTreeTraversal.swift in Sources */,
 				4196380E1E66FC9A00B34585 /* Point.swift in Sources */,

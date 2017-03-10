@@ -9,9 +9,7 @@
 import UIKit
 
 func search(_ nums: [Int], _ target: Int) -> Int {
-    guard nums.count > 0 else {
-        return -1
-    }
+    guard nums.count > 0 else { return -1 }
     var start = 0, end = nums.count - 1
     while start + 1 < end {
         let mid = start + (end - start) / 2
