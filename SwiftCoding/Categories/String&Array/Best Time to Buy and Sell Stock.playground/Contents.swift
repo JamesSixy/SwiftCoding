@@ -14,3 +14,8 @@ func maxProfit(_ prices: [Int]) -> Int {
     }
     return best
 }
+
+/**
+    [7, 1, 5, 3, 6, 4]
+   0  -6  4 -2  3 -2
+ */
