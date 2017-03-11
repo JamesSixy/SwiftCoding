@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		419638041E651CEA00B34585 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419638031E651CEA00B34585 /* Graph.swift */; };
 		419638081E65AE0800B34585 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419638071E65AE0800B34585 /* String+Extension.swift */; };
-		4196380E1E66FC9A00B34585 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196380D1E66FC9A00B34585 /* Point.swift */; };
 		419638131E67C55000B34585 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419638121E67C55000B34585 /* LinkedList.swift */; };
 		419638151E67C59800B34585 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419638141E67C59800B34585 /* Queue.swift */; };
 		41BE856C1E6D190E003F3861 /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE856B1E6D190E003F3861 /* Interval.swift */; };
@@ -77,7 +76,6 @@
 		419638031E651CEA00B34585 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		419638061E65AA1B00B34585 /* Maximal Square.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maximal Square.playground"; sourceTree = "<group>"; };
 		419638071E65AE0800B34585 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
-		4196380D1E66FC9A00B34585 /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		419638121E67C55000B34585 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		419638141E67C59800B34585 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		41BE85511E6B65FF003F3861 /* 0304-Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0304-Tree.playground"; sourceTree = "<group>"; };
@@ -608,7 +606,6 @@
 				B8AF4B491E5A3E720004E8A1 /* Stack.swift */,
 				419638031E651CEA00B34585 /* Graph.swift */,
 				419638071E65AE0800B34585 /* String+Extension.swift */,
-				4196380D1E66FC9A00B34585 /* Point.swift */,
 				419638121E67C55000B34585 /* LinkedList.swift */,
 				419638141E67C59800B34585 /* Queue.swift */,
 				41BE856B1E6D190E003F3861 /* Interval.swift */,
@@ -876,7 +873,6 @@
 				B8334D031E73383F00CD7D50 /* Algorithms.swift in Sources */,
 				B8AF4B4B1E5A3E720004E8A1 /* Stack.swift in Sources */,
 				B8AF4B4A1E5A3E720004E8A1 /* BinaryTreeTraversal.swift in Sources */,
-				4196380E1E66FC9A00B34585 /* Point.swift in Sources */,
 				419638081E65AE0800B34585 /* String+Extension.swift in Sources */,
 				41BE859D1E6D98A5003F3861 /* TrieNode.swift in Sources */,
 				419638131E67C55000B34585 /* LinkedList.swift in Sources */,
