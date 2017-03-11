@@ -9,7 +9,6 @@ typealias Point = (x: Int, y: Int)
 func numIslands(_ grid: [[Character]]) -> Int {
     guard grid.count > 0 else { return 0 }
     var grid = grid, count = 0
-
     for (i, row) in grid.enumerated() {
         for (j, _) in row.enumerated() {
             if (grid[i][j] == "1") {
