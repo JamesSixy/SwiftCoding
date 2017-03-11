@@ -142,6 +142,12 @@
 		41BE85A91E7391C9003F3861 /* Reverse Words in a String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Reverse Words in a String.playground"; sourceTree = "<group>"; };
 		41BE85AA1E739686003F3861 /* Island Perimeter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Island Perimeter.playground"; sourceTree = "<group>"; };
 		41BE85AB1E73A67E003F3861 /* 0310-BFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0310-BFS.playground"; sourceTree = "<group>"; };
+		41BE85AD1E74B6C8003F3861 /* Kth Largest Element in an Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Kth Largest Element in an Array.playground"; sourceTree = "<group>"; };
+		41BE85AE1E74B70D003F3861 /* Median.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Median.playground; sourceTree = "<group>"; };
+		41BE85B31E74B85D003F3861 /* Partition Array by Odd and Even.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Partition Array by Odd and Even.playground"; sourceTree = "<group>"; };
+		41BE85B41E74B8A3003F3861 /* Interleaving Positive and Negative Numbers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Interleaving Positive and Negative Numbers.playground"; sourceTree = "<group>"; };
+		41BE85B51E74B8E5003F3861 /* Sort Letters by Case.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Sort Letters by Case.playground"; sourceTree = "<group>"; };
+		41BE85B61E74B93C003F3861 /* Two Sum - Difference equals to target.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Two Sum - Difference equals to target.playground"; sourceTree = "<group>"; };
 		41C140371E63480A00F86BF8 /* String Permutation II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "String Permutation II.playground"; sourceTree = "<group>"; };
 		41C1403B1E63658800F86BF8 /* Expression Expand.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Expression Expand.playground"; sourceTree = "<group>"; };
 		41C1403D1E6368FA00F86BF8 /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
@@ -281,26 +287,14 @@
 		41BE85551E6C937C003F3861 /* Two Pointers */ = {
 			isa = PBXGroup;
 			children = (
-				41BE85571E6CAF03003F3861 /* Two Sum.playground */,
-				41BE85581E6CAF2C003F3861 /* Remove Duplicate Numbers in Array.playground */,
+				41BE85B21E74B7C0003F3861 /* Bidirectional */,
+				41BE85B11E74B78B003F3861 /* Forward */,
+				41BE85AF1E74B74E003F3861 /* Partition */,
 				B8C1B3911E6D9BDD00C315BC /* Remove Duplicates from Sorted Array II.playground */,
-				41BE85591E6CAF40003F3861 /* Two Sum - Less than or equal to target.playground */,
-				41BE85601E6CAFB6003F3861 /* Two Sum - Input array is sorted.playground */,
-				41BE855B1E6CAF66003F3861 /* Two Sum - Unique pairs.playground */,
-				41BE85611E6CAFC9003F3861 /* Two Sum - Closest to target.playground */,
-				41BE855D1E6CAF81003F3861 /* Sort Colors.playground */,
-				41BE85621E6CAFDD003F3861 /* Sort Colors II.playground */,
-				41BE855F1E6CAF95003F3861 /* 3Sum.playground */,
-				41BE85631E6CAFF1003F3861 /* Partition Array.playground */,
 				41BE85A21E7040C0003F3861 /* Minimum Size Subarray Sum.playground */,
 				41BE85641E6D177E003F3861 /* Maximum Size Subarray Sum Equals k.playground */,
 				41BE85921E6D95BE003F3861 /* Minimum Window Substring.playground */,
-				41BE85A11E6D9A0C003F3861 /* Valid Palindrome.playground */,
 				B8C1B3901E6D9B9A00C315BC /* Palindrome Linked List.playground */,
-				B8C1B39F1E6E662D00C315BC /* Median of two Sorted Arrays.playground */,
-				B8C1B3A31E6E673600C315BC /* Move Zeroes.playground */,
-				B8C1B3A41E6E678E00C315BC /* 3Sum Closest.playground */,
-				B8C1B3A51E6E67C500C315BC /* 4Sum.playground */,
 			);
 			path = "Two Pointers";
 			sourceTree = "<group>";
@@ -378,6 +372,56 @@
 				41BE859B1E6D9841003F3861 /* Add and Search Word.playground */,
 			);
 			path = Trie;
+			sourceTree = "<group>";
+		};
+		41BE85AF1E74B74E003F3861 /* Partition */ = {
+			isa = PBXGroup;
+			children = (
+				41BE85631E6CAFF1003F3861 /* Partition Array.playground */,
+				41BE85AD1E74B6C8003F3861 /* Kth Largest Element in an Array.playground */,
+				B8C1B39F1E6E662D00C315BC /* Median of two Sorted Arrays.playground */,
+				41BE85AE1E74B70D003F3861 /* Median.playground */,
+			);
+			name = Partition;
+			sourceTree = "<group>";
+		};
+		41BE85B01E74B76F003F3861 /* TwoSum */ = {
+			isa = PBXGroup;
+			children = (
+				41BE85571E6CAF03003F3861 /* Two Sum.playground */,
+				41BE85591E6CAF40003F3861 /* Two Sum - Less than or equal to target.playground */,
+				41BE85601E6CAFB6003F3861 /* Two Sum - Input array is sorted.playground */,
+				41BE855B1E6CAF66003F3861 /* Two Sum - Unique pairs.playground */,
+				41BE85611E6CAFC9003F3861 /* Two Sum - Closest to target.playground */,
+				41BE855F1E6CAF95003F3861 /* 3Sum.playground */,
+				B8C1B3A41E6E678E00C315BC /* 3Sum Closest.playground */,
+				B8C1B3A51E6E67C500C315BC /* 4Sum.playground */,
+			);
+			name = TwoSum;
+			sourceTree = "<group>";
+		};
+		41BE85B11E74B78B003F3861 /* Forward */ = {
+			isa = PBXGroup;
+			children = (
+				41BE85581E6CAF2C003F3861 /* Remove Duplicate Numbers in Array.playground */,
+				B8C1B3A31E6E673600C315BC /* Move Zeroes.playground */,
+				41BE85B61E74B93C003F3861 /* Two Sum - Difference equals to target.playground */,
+			);
+			name = Forward;
+			sourceTree = "<group>";
+		};
+		41BE85B21E74B7C0003F3861 /* Bidirectional */ = {
+			isa = PBXGroup;
+			children = (
+				41BE85B01E74B76F003F3861 /* TwoSum */,
+				41BE855D1E6CAF81003F3861 /* Sort Colors.playground */,
+				41BE85621E6CAFDD003F3861 /* Sort Colors II.playground */,
+				41BE85A11E6D9A0C003F3861 /* Valid Palindrome.playground */,
+				41BE85B31E74B85D003F3861 /* Partition Array by Odd and Even.playground */,
+				41BE85B41E74B8A3003F3861 /* Interleaving Positive and Negative Numbers.playground */,
+				41BE85B51E74B8E5003F3861 /* Sort Letters by Case.playground */,
+			);
+			name = Bidirectional;
 			sourceTree = "<group>";
 		};
 		41C1403A1E63651600F86BF8 /* Stack */ = {
