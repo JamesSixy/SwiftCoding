@@ -94,33 +94,35 @@ private func spIsValid(_ grid: [[Int]], _ steps: [[Int]], _ i: Int, _ j: Int) ->
     return i >= 0 && i < steps.count && j >= 0 && j < steps[0].count && steps[i][j] == Int.max && grid[i][j] == 0
 }
 
-///////
+/**
+ Test cases
+ */
 
-let testCases = [
-    ([
-        [0,0,0],
-        [0,0,0],
-        [0,0,0]
-     ], Point(2, 0), Point(2, 2)),
-    ([
-        [0,1,0],
-        [0,0,0],
-        [0,0,0]
-        ], Point(2, 0), Point(2, 2)),
-    ([
-        [0,1,0],
-        [0,0,1],
-        [0,0,0]
-        ], Point(2, 0), Point(2, 2)),
-    ([
-        [1,0,0],
-        [0,0,1],
-        [0,1,0]
-        ], Point(2, 0), Point(0, 2))
-
-]
-
-for tuple in testCases {
-    print(shortestPath(tuple.0, source: tuple.1, destination: tuple.2))
-    print(shortestPathLevel(tuple.0, source: tuple.1, destination: tuple.2))
-}
+//let testCases = [
+//    ([
+//        [0,0,0],
+//        [0,0,0],
+//        [0,0,0]
+//     ], Point(2, 0), Point(2, 2)),
+//    ([
+//        [0,1,0],
+//        [0,0,0],
+//        [0,0,0]
+//        ], Point(2, 0), Point(2, 2)),
+//    ([
+//        [0,1,0],
+//        [0,0,1],
+//        [0,0,0]
+//        ], Point(2, 0), Point(2, 2)),
+//    ([
+//        [1,0,0],
+//        [0,0,1],
+//        [0,1,0]
+//        ], Point(2, 0), Point(0, 2))
+//
+//]
+//
+//for tuple in testCases {
+//    print(shortestPath(tuple.0, source: tuple.1, destination: tuple.2))
+//    print(shortestPathLevel(tuple.0, source: tuple.1, destination: tuple.2))
+//}
