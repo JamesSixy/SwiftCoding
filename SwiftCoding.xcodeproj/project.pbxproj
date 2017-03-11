@@ -141,6 +141,8 @@
 		41BE85A61E718BDA003F3861 /* Subarray Sum Closest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Subarray Sum Closest.playground"; sourceTree = "<group>"; };
 		41BE85A71E718C17003F3861 /* Subarray Sum II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Subarray Sum II.playground"; sourceTree = "<group>"; };
 		41BE85A81E718C87003F3861 /* Maximum Subarray II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maximum Subarray II.playground"; sourceTree = "<group>"; };
+		41BE85A91E7391C9003F3861 /* Reverse Words in a String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Reverse Words in a String.playground"; sourceTree = "<group>"; };
+		41BE85AA1E739686003F3861 /* Island Perimeter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Island Perimeter.playground"; sourceTree = "<group>"; };
 		41C140371E63480A00F86BF8 /* String Permutation II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "String Permutation II.playground"; sourceTree = "<group>"; };
 		41C1403B1E63658800F86BF8 /* Expression Expand.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Expression Expand.playground"; sourceTree = "<group>"; };
 		41C1403D1E6368FA00F86BF8 /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
@@ -339,6 +341,7 @@
 				B8C1B3961E6E62E100C315BC /* Roman to Integer.playground */,
 				41BE85971E6D9732003F3861 /* One Edit Distance.playground */,
 				B8C1B3A11E6E66AA00C315BC /* Intersection of Two Arrays.playground */,
+				41BE85A91E7391C9003F3861 /* Reverse Words in a String.playground */,
 			);
 			path = "String&Array";
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 				41BE858A1E6D90B3003F3861 /* Word Ladder.playground */,
 				41BE858B1E6D90B4003F3861 /* Zombie in Matrix.playground */,
 				B8C1B3981E6E638300C315BC /* Alien Dictionary.playground */,
+				41BE85AA1E739686003F3861 /* Island Perimeter.playground */,
 			);
 			path = BFS;
 			sourceTree = "<group>";
