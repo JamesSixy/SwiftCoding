@@ -29,6 +29,7 @@
 		B8AF4B421E5A3E4D0004E8A1 /* ZHDataStructure.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B8AF4B3A1E5A3E4D0004E8A1 /* ZHDataStructure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B8AF4B4A1E5A3E720004E8A1 /* BinaryTreeTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF4B481E5A3E720004E8A1 /* BinaryTreeTraversal.swift */; };
 		B8AF4B4B1E5A3E720004E8A1 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF4B491E5A3E720004E8A1 /* Stack.swift */; };
+		B8C1FDE41E74D01D00A14EC1 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C1FDE31E74D01D00A14EC1 /* Point.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,11 +96,7 @@
 		41BE85631E6CAFF1003F3861 /* Partition Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Partition Array.playground"; sourceTree = "<group>"; };
 		41BE85641E6D177E003F3861 /* Maximum Size Subarray Sum Equals k.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maximum Size Subarray Sum Equals k.playground"; sourceTree = "<group>"; };
 		41BE85671E6D1868003F3861 /* Decode Ways.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Decode Ways.playground"; sourceTree = "<group>"; };
-		41BE85691E6D18E8003F3861 /* Meeting Rooms II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Meeting Rooms II.playground"; sourceTree = "<group>"; };
-		41BE856A1E6D18EE003F3861 /* Meeting Rooms.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Meeting Rooms.playground"; sourceTree = "<group>"; };
 		41BE856B1E6D190E003F3861 /* Interval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interval.swift; sourceTree = "<group>"; };
-		41BE856D1E6D1962003F3861 /* Merge Intervals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Merge Intervals.playground"; sourceTree = "<group>"; };
-		41BE856E1E6D1992003F3861 /* Insert Interval.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Insert Interval.playground"; sourceTree = "<group>"; };
 		41BE85711E6D1A41003F3861 /* Add Binary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Add Binary.playground"; sourceTree = "<group>"; };
 		41BE857D1E6D1A41003F3861 /* Count and Say.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Count and Say.playground"; sourceTree = "<group>"; };
 		41BE857E1E6D1A41003F3861 /* Regular Expression Matching.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Regular Expression Matching.playground"; sourceTree = "<group>"; };
@@ -229,6 +226,46 @@
 		B8C1B3A31E6E673600C315BC /* Move Zeroes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Move Zeroes.playground"; sourceTree = "<group>"; };
 		B8C1B3A41E6E678E00C315BC /* 3Sum Closest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3Sum Closest.playground"; sourceTree = "<group>"; };
 		B8C1B3A51E6E67C500C315BC /* 4Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 4Sum.playground; sourceTree = "<group>"; };
+		B8C1FDC11E74BAD100A14EC1 /* Reverse Nodes in k-Groups.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Reverse Nodes in k-Groups.playground"; sourceTree = "<group>"; };
+		B8C1FDC21E74BB5B00A14EC1 /* Reverse Linked List II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Reverse Linked List II.playground"; sourceTree = "<group>"; };
+		B8C1FDC31E74BBED00A14EC1 /* Swap Nodes in Pairs.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Swap Nodes in Pairs.playground"; sourceTree = "<group>"; };
+		B8C1FDC41E74BC1100A14EC1 /* Swap Two Nodes in Linked List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Swap Two Nodes in Linked List.playground"; sourceTree = "<group>"; };
+		B8C1FDC51E74BC7600A14EC1 /* Reorder List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Reorder List.playground"; sourceTree = "<group>"; };
+		B8C1FDC61E74BC9700A14EC1 /* Rotate List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Rotate List.playground"; sourceTree = "<group>"; };
+		B8C1FDC71E74BD4700A14EC1 /* Delete Node in the Middle of Singly Linked List .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Delete Node in the Middle of Singly Linked List .playground"; sourceTree = "<group>"; };
+		B8C1FDC81E74BD8F00A14EC1 /* Convert Sorted List to Binary Search Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Convert Sorted List to Binary Search Tree.playground"; sourceTree = "<group>"; };
+		B8C1FDC91E74BDC200A14EC1 /* Convert Binary Search Tree to Doubly Linked List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Convert Binary Search Tree to Doubly Linked List.playground"; sourceTree = "<group>"; };
+		B8C1FDCB1E74BE3F00A14EC1 /* Window Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Window Sum.playground"; sourceTree = "<group>"; };
+		B8C1FDCC1E74BE9B00A14EC1 /* Merge Two Sorted Arrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Merge Two Sorted Arrays.playground"; sourceTree = "<group>"; };
+		B8C1FDCD1E74BF6600A14EC1 /* Implement Stack using Queues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Implement Stack using Queues.playground"; sourceTree = "<group>"; };
+		B8C1FDCE1E74BF9F00A14EC1 /* Implement Queue using Stacks.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Implement Queue using Stacks.playground"; sourceTree = "<group>"; };
+		B8C1FDCF1E74C00900A14EC1 /* Min Stack.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Min Stack.playground"; sourceTree = "<group>"; };
+		B8C1FDD01E74C05D00A14EC1 /* Maximal Rectangle.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maximal Rectangle.playground"; sourceTree = "<group>"; };
+		B8C1FDD11E74C09D00A14EC1 /* Largest Rectangle in Histogram.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Largest Rectangle in Histogram.playground"; sourceTree = "<group>"; };
+		B8C1FDD31E74C0FD00A14EC1 /* Max Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Max Tree.playground"; sourceTree = "<group>"; };
+		B8C1FDD41E74C1A700A14EC1 /* Longest Consecutive Sequence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Longest Consecutive Sequence.playground"; sourceTree = "<group>"; };
+		B8C1FDD61E74C1EC00A14EC1 /* Anagrams.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Anagrams.playground; sourceTree = "<group>"; };
+		B8C1FDD71E74C22800A14EC1 /* Group Anagrams.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Group Anagrams.playground"; sourceTree = "<group>"; };
+		B8C1FDD81E74C26400A14EC1 /* Valid Anagram.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Valid Anagram.playground"; sourceTree = "<group>"; };
+		B8C1FDD91E74C27D00A14EC1 /* Find All Anagrams in a String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Find All Anagrams in a String.playground"; sourceTree = "<group>"; };
+		B8C1FDDB1E74C2E700A14EC1 /* LRU Cache.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "LRU Cache.playground"; sourceTree = "<group>"; };
+		B8C1FDDC1E74C31800A14EC1 /* LFU Cache.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "LFU Cache.playground"; sourceTree = "<group>"; };
+		B8C1FDDD1E74C34700A14EC1 /* Ugly Number.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Ugly Number.playground"; sourceTree = "<group>"; };
+		B8C1FDDE1E74C37E00A14EC1 /* Heapify.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Heapify.playground; sourceTree = "<group>"; };
+		B8C1FDDF1E74C3AB00A14EC1 /* Top k Largest Number II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Top k Largest Number II.playground"; sourceTree = "<group>"; };
+		B8C1FDE01E74CF7100A14EC1 /* High Five.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "High Five.playground"; sourceTree = "<group>"; };
+		B8C1FDE11E74CFD100A14EC1 /* K Closest Points.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "K Closest Points.playground"; sourceTree = "<group>"; };
+		B8C1FDE31E74D01D00A14EC1 /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		B8C1FDE61E74D0CB00A14EC1 /* Merge k Sorted Arrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Merge k Sorted Arrays.playground"; sourceTree = "<group>"; };
+		B8C1FDE81E74D16600A14EC1 /* Insert Interval.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Insert Interval.playground"; sourceTree = "<group>"; };
+		B8C1FDE91E74D16600A14EC1 /* Meeting Rooms II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Meeting Rooms II.playground"; sourceTree = "<group>"; };
+		B8C1FDEA1E74D16600A14EC1 /* Meeting Rooms.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Meeting Rooms.playground"; sourceTree = "<group>"; };
+		B8C1FDEB1E74D16600A14EC1 /* Merge Intervals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Merge Intervals.playground"; sourceTree = "<group>"; };
+		B8C1FDEC1E74D18300A14EC1 /* Data Stream Median.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Data Stream Median.playground"; sourceTree = "<group>"; };
+		B8C1FDED1E74D21300A14EC1 /* Top k Largest Numbers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Top k Largest Numbers.playground"; sourceTree = "<group>"; };
+		B8C1FDEE1E74D24800A14EC1 /* Kth Smallest Number in Sorted Matrix.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Kth Smallest Number in Sorted Matrix.playground"; sourceTree = "<group>"; };
+		B8C1FDEF1E74D2B900A14EC1 /* Top K Frequent Elements.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Top K Frequent Elements.playground"; sourceTree = "<group>"; };
+		B8C1FDF01E74D30500A14EC1 /* Building Outline.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Building Outline.playground"; sourceTree = "<group>"; };
 		B8C908431E635BFE004BBACA /* Number of Islands DFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Number of Islands DFS.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -299,20 +336,13 @@
 			path = "Two Pointers";
 			sourceTree = "<group>";
 		};
-		41BE85681E6D18DC003F3861 /* Intervals */ = {
-			isa = PBXGroup;
-			children = (
-				41BE856D1E6D1962003F3861 /* Merge Intervals.playground */,
-				41BE856E1E6D1992003F3861 /* Insert Interval.playground */,
-				41BE856A1E6D18EE003F3861 /* Meeting Rooms.playground */,
-				41BE85691E6D18E8003F3861 /* Meeting Rooms II.playground */,
-			);
-			path = Intervals;
-			sourceTree = "<group>";
-		};
 		41BE85701E6D1A41003F3861 /* String&Array */ = {
 			isa = PBXGroup;
 			children = (
+				B8C1FDE71E74D16600A14EC1 /* Intervals */,
+				B8C1FDE51E74D0BF00A14EC1 /* Merge */,
+				B8C1FDD51E74C1E600A14EC1 /* Anagrams */,
+				B8C1FDCA1E74BE1E00A14EC1 /* PrefixSum */,
 				41BE85711E6D1A41003F3861 /* Add Binary.playground */,
 				41BE857D1E6D1A41003F3861 /* Count and Say.playground */,
 				41BE857E1E6D1A41003F3861 /* Regular Expression Matching.playground */,
@@ -322,20 +352,16 @@
 				41BE858E1E6D916A003F3861 /* Find the Celebrity.playground */,
 				41BE85981E6D9789003F3861 /* Read N Characters Given Read4.playground */,
 				41BE858F1E6D9495003F3861 /* Read N Characters Given Read4 II - Call multiple times.playground */,
-				41BE859F1E6D998F003F3861 /* Best Time to Buy and Sell Stock.playground */,
-				B8C1B3A01E6E666400C315BC /* Maximum Subarray.playground */,
 				41BE85A81E718C87003F3861 /* Maximum Subarray II.playground */,
-				41BE85A31E718A9C003F3861 /* Minimum Subarray.playground */,
 				41BE85A41E718B39003F3861 /* Maximum Subarray Difference.playground */,
-				41BE85A51E718B6B003F3861 /* Subarray Sum.playground */,
 				41BE85A61E718BDA003F3861 /* Subarray Sum Closest.playground */,
 				41BE85A71E718C17003F3861 /* Subarray Sum II.playground */,
 				B8C1B3941E6E61FA00C315BC /* Multiply Strings.playground */,
-				B8C1B3951E6E62A500C315BC /* Merge Sorted Array.playground */,
 				B8C1B3961E6E62E100C315BC /* Roman to Integer.playground */,
 				41BE85971E6D9732003F3861 /* One Edit Distance.playground */,
 				B8C1B3A11E6E66AA00C315BC /* Intersection of Two Arrays.playground */,
 				41BE85A91E7391C9003F3861 /* Reverse Words in a String.playground */,
+				B8C1FDD41E74C1A700A14EC1 /* Longest Consecutive Sequence.playground */,
 			);
 			path = "String&Array";
 			sourceTree = "<group>";
@@ -362,6 +388,16 @@
 			isa = PBXGroup;
 			children = (
 				41BE85941E6D967E003F3861 /* Merge k Sorted Lists.playground */,
+				B8C1FDDD1E74C34700A14EC1 /* Ugly Number.playground */,
+				B8C1FDDE1E74C37E00A14EC1 /* Heapify.playground */,
+				B8C1FDDF1E74C3AB00A14EC1 /* Top k Largest Number II.playground */,
+				B8C1FDE01E74CF7100A14EC1 /* High Five.playground */,
+				B8C1FDE11E74CFD100A14EC1 /* K Closest Points.playground */,
+				B8C1FDEC1E74D18300A14EC1 /* Data Stream Median.playground */,
+				B8C1FDED1E74D21300A14EC1 /* Top k Largest Numbers.playground */,
+				B8C1FDEE1E74D24800A14EC1 /* Kth Smallest Number in Sorted Matrix.playground */,
+				B8C1FDEF1E74D2B900A14EC1 /* Top K Frequent Elements.playground */,
+				B8C1FDF01E74D30500A14EC1 /* Building Outline.playground */,
 			);
 			path = Heap;
 			sourceTree = "<group>";
@@ -427,6 +463,7 @@
 		41C1403A1E63651600F86BF8 /* Stack */ = {
 			isa = PBXGroup;
 			children = (
+				B8C1FDD21E74C0D900A14EC1 /* Special */,
 				41C1403B1E63658800F86BF8 /* Expression Expand.playground */,
 				41C140411E63694E00F86BF8 /* Valid Parentheses.playground */,
 				41C140421E6369E600F86BF8 /* Binary Tree Iterative Traversals.playground */,
@@ -436,6 +473,9 @@
 				41C140461E636BDB00F86BF8 /* Remove K Digits.playground */,
 				41C140471E636C1600F86BF8 /* Evaluate Reverse Polish Notation.playground */,
 				41BE859E1E6D9944003F3861 /* Flatten Nested List Iterator.playground */,
+				B8C1FDCD1E74BF6600A14EC1 /* Implement Stack using Queues.playground */,
+				B8C1FDCE1E74BF9F00A14EC1 /* Implement Queue using Stacks.playground */,
+				B8C1FDCF1E74C00900A14EC1 /* Min Stack.playground */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -588,10 +628,10 @@
 				B8AF4AF41E57C2F90004E8A1 /* Binary Search */,
 				B82413611E58CCF5002A692F /* Binary Tree (Divide&Conquer) */,
 				B8BC1C0D1E5FC9AF000B20AB /* DFS */,
+				B8C1FDDA1E74C2DF00A14EC1 /* DataStructure */,
 				B8C1B3991E6E63B800C315BC /* LinkedList */,
 				419638051E65AA0B00B34585 /* DP */,
 				41BE85931E6D9679003F3861 /* Heap */,
-				41BE85681E6D18DC003F3861 /* Intervals */,
 				B8C1B3921E6E612500C315BC /* Math */,
 				41C1403A1E63651600F86BF8 /* Stack */,
 				41BE85701E6D1A41003F3861 /* String&Array */,
@@ -656,6 +696,7 @@
 				41BE85951E6D9692003F3861 /* ListNode.swift */,
 				41BE859C1E6D98A5003F3861 /* TrieNode.swift */,
 				B8334D021E73383F00CD7D50 /* Algorithms.swift */,
+				B8C1FDE31E74D01D00A14EC1 /* Point.swift */,
 			);
 			path = ZHClasses;
 			sourceTree = "<group>";
@@ -700,8 +741,80 @@
 				B8C1B39D1E6E659100C315BC /* Linked List Cycle.playground */,
 				B8C1B39E1E6E65CE00C315BC /* Merge Two Sorted Lists.playground */,
 				B8C1B3A21E6E66F900C315BC /* Partition List.playground */,
+				B8C1FDC11E74BAD100A14EC1 /* Reverse Nodes in k-Groups.playground */,
+				B8C1FDC21E74BB5B00A14EC1 /* Reverse Linked List II.playground */,
+				B8C1FDC31E74BBED00A14EC1 /* Swap Nodes in Pairs.playground */,
+				B8C1FDC41E74BC1100A14EC1 /* Swap Two Nodes in Linked List.playground */,
+				B8C1FDC51E74BC7600A14EC1 /* Reorder List.playground */,
+				B8C1FDC61E74BC9700A14EC1 /* Rotate List.playground */,
+				B8C1FDC71E74BD4700A14EC1 /* Delete Node in the Middle of Singly Linked List .playground */,
+				B8C1FDC81E74BD8F00A14EC1 /* Convert Sorted List to Binary Search Tree.playground */,
+				B8C1FDC91E74BDC200A14EC1 /* Convert Binary Search Tree to Doubly Linked List.playground */,
 			);
 			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		B8C1FDCA1E74BE1E00A14EC1 /* PrefixSum */ = {
+			isa = PBXGroup;
+			children = (
+				41BE859F1E6D998F003F3861 /* Best Time to Buy and Sell Stock.playground */,
+				B8C1B3A01E6E666400C315BC /* Maximum Subarray.playground */,
+				41BE85A31E718A9C003F3861 /* Minimum Subarray.playground */,
+				41BE85A51E718B6B003F3861 /* Subarray Sum.playground */,
+				B8C1FDCB1E74BE3F00A14EC1 /* Window Sum.playground */,
+			);
+			name = PrefixSum;
+			sourceTree = "<group>";
+		};
+		B8C1FDD21E74C0D900A14EC1 /* Special */ = {
+			isa = PBXGroup;
+			children = (
+				B8C1FDD01E74C05D00A14EC1 /* Maximal Rectangle.playground */,
+				B8C1FDD11E74C09D00A14EC1 /* Largest Rectangle in Histogram.playground */,
+				B8C1FDD31E74C0FD00A14EC1 /* Max Tree.playground */,
+			);
+			name = Special;
+			sourceTree = "<group>";
+		};
+		B8C1FDD51E74C1E600A14EC1 /* Anagrams */ = {
+			isa = PBXGroup;
+			children = (
+				B8C1FDD61E74C1EC00A14EC1 /* Anagrams.playground */,
+				B8C1FDD71E74C22800A14EC1 /* Group Anagrams.playground */,
+				B8C1FDD81E74C26400A14EC1 /* Valid Anagram.playground */,
+				B8C1FDD91E74C27D00A14EC1 /* Find All Anagrams in a String.playground */,
+			);
+			name = Anagrams;
+			sourceTree = "<group>";
+		};
+		B8C1FDDA1E74C2DF00A14EC1 /* DataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				B8C1FDDB1E74C2E700A14EC1 /* LRU Cache.playground */,
+				B8C1FDDC1E74C31800A14EC1 /* LFU Cache.playground */,
+			);
+			path = DataStructure;
+			sourceTree = "<group>";
+		};
+		B8C1FDE51E74D0BF00A14EC1 /* Merge */ = {
+			isa = PBXGroup;
+			children = (
+				B8C1B3951E6E62A500C315BC /* Merge Sorted Array.playground */,
+				B8C1FDCC1E74BE9B00A14EC1 /* Merge Two Sorted Arrays.playground */,
+				B8C1FDE61E74D0CB00A14EC1 /* Merge k Sorted Arrays.playground */,
+			);
+			name = Merge;
+			sourceTree = "<group>";
+		};
+		B8C1FDE71E74D16600A14EC1 /* Intervals */ = {
+			isa = PBXGroup;
+			children = (
+				B8C1FDE81E74D16600A14EC1 /* Insert Interval.playground */,
+				B8C1FDE91E74D16600A14EC1 /* Meeting Rooms II.playground */,
+				B8C1FDEA1E74D16600A14EC1 /* Meeting Rooms.playground */,
+				B8C1FDEB1E74D16600A14EC1 /* Merge Intervals.playground */,
+			);
+			path = Intervals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -915,6 +1028,7 @@
 				41C1403F1E6368FA00F86BF8 /* Heap.swift in Sources */,
 				41C140401E6368FA00F86BF8 /* PriorityQueue.swift in Sources */,
 				B8334D031E73383F00CD7D50 /* Algorithms.swift in Sources */,
+				B8C1FDE41E74D01D00A14EC1 /* Point.swift in Sources */,
 				B8AF4B4B1E5A3E720004E8A1 /* Stack.swift in Sources */,
 				B8AF4B4A1E5A3E720004E8A1 /* BinaryTreeTraversal.swift in Sources */,
 				419638081E65AE0800B34585 /* String+Extension.swift in Sources */,

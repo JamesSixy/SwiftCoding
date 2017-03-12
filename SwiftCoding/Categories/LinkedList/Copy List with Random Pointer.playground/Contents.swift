@@ -8,6 +8,10 @@ public class RandomListNode {
     }
 }
 
+/// Copy List with Random Pointer
+/// http://www.lintcode.com/en/problem/copy-list-with-random-pointer/
+/// - Parameter head: <#head description#>
+/// - Returns: <#return value description#>
 func copyRandomList(head: RandomListNode?) -> RandomListNode? {
     
 }
