@@ -7,5 +7,12 @@ import ZHDataStructure
 /// - Returns: <#return value description#>
 
 func reverseList(_ head: ListNode?) -> ListNode? {
-    
+    var prev: ListNode? = nil, cur = head
+    while cur != nil {
+        let tmp = cur?.next
+        cur?.next = prev
+        prev = cur
+        cur = tmp
+    }
+    return prev
 }
