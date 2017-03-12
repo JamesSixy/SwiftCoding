@@ -1,7 +1,7 @@
 
 import ZHDataStructure
 
-/// Reverse Nodes in k-Groups
+/// Reverse Nodes in k-Groups [LLFB]
 /// http://www.lintcode.com/en/problem/reverse-nodes-in-k-group/
 /// - Parameters:
 ///   - head: <#head description#>
