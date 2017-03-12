@@ -266,6 +266,13 @@
 		B8C1FDEE1E74D24800A14EC1 /* Kth Smallest Number in Sorted Matrix.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Kth Smallest Number in Sorted Matrix.playground"; sourceTree = "<group>"; };
 		B8C1FDEF1E74D2B900A14EC1 /* Top K Frequent Elements.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Top K Frequent Elements.playground"; sourceTree = "<group>"; };
 		B8C1FDF01E74D30500A14EC1 /* Building Outline.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Building Outline.playground"; sourceTree = "<group>"; };
+		B8C1FDF11E74D41500A14EC1 /* Binary Tree Postorder Traversal.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Postorder Traversal.playground"; sourceTree = "<group>"; };
+		B8C1FDF31E74D51300A14EC1 /* Binary Tree Zigzag Level Order Traversal.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Zigzag Level Order Traversal.playground"; sourceTree = "<group>"; };
+		B8C1FDF41E74D53000A14EC1 /* Convert Binary Tree to Linked Lists by Depth.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Convert Binary Tree to Linked Lists by Depth.playground"; sourceTree = "<group>"; };
+		B8C1FDF51E74D5DE00A14EC1 /* Sequence Reconstruction.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Sequence Reconstruction.playground"; sourceTree = "<group>"; };
+		B8C1FDF61E74D61900A14EC1 /* Build Post Office II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Build Post Office II.playground"; sourceTree = "<group>"; };
+		B8C1FDF71E74D67500A14EC1 /* Connected Component in Undirected Graph.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Connected Component in Undirected Graph.playground"; sourceTree = "<group>"; };
+		B8C1FDF81E74D6DE00A14EC1 /* Smallest Rectangle Enclosing Black Pixels.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Smallest Rectangle Enclosing Black Pixels.playground"; sourceTree = "<group>"; };
 		B8C908431E635BFE004BBACA /* Number of Islands DFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Number of Islands DFS.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -369,6 +376,7 @@
 		41BE85811E6D90B3003F3861 /* BFS */ = {
 			isa = PBXGroup;
 			children = (
+				B8C1FDF31E74D51300A14EC1 /* Binary Tree Zigzag Level Order Traversal.playground */,
 				41BE85831E6D90B3003F3861 /* Clone Graph.playground */,
 				41BE85841E6D90B3003F3861 /* Course Schedule.playground */,
 				41BE85851E6D90B3003F3861 /* Graph Valid Tree.playground */,
@@ -380,6 +388,10 @@
 				41BE858B1E6D90B4003F3861 /* Zombie in Matrix.playground */,
 				B8C1B3981E6E638300C315BC /* Alien Dictionary.playground */,
 				41BE85AA1E739686003F3861 /* Island Perimeter.playground */,
+				B8C1FDF51E74D5DE00A14EC1 /* Sequence Reconstruction.playground */,
+				B8C1FDF61E74D61900A14EC1 /* Build Post Office II.playground */,
+				B8C1FDF71E74D67500A14EC1 /* Connected Component in Undirected Graph.playground */,
+				B8C1FDF81E74D6DE00A14EC1 /* Smallest Rectangle Enclosing Black Pixels.playground */,
 			);
 			path = BFS;
 			sourceTree = "<group>";
@@ -565,6 +577,7 @@
 				41BE85901E6D94FF003F3861 /* Serialize and Deserialize Binary Tree.playground */,
 				41BE85991E6D97B9003F3861 /* Inorder Successor in BST.playground */,
 				41BE85A01E6D99D1003F3861 /* Binary Search Tree Iterator.playground */,
+				B8C1FDF11E74D41500A14EC1 /* Binary Tree Postorder Traversal.playground */,
 			);
 			name = "Binary Tree (Divide&Conquer)";
 			path = "Binary Tree";
@@ -720,6 +733,7 @@
 				B8C1B38F1E6B794200C315BC /* Binary Tree Path Sum.playground */,
 				419638001E6516A400B34585 /* Remove Invalid Parentheses.playground */,
 				41BE85911E6D9573003F3861 /* Expression Add Operators.playground */,
+				B8C1FDF41E74D53000A14EC1 /* Convert Binary Tree to Linked Lists by Depth.playground */,
 			);
 			path = DFS;
 			sourceTree = "<group>";
