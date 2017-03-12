@@ -273,6 +273,8 @@
 		B8C1FDF61E74D61900A14EC1 /* Build Post Office II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Build Post Office II.playground"; sourceTree = "<group>"; };
 		B8C1FDF71E74D67500A14EC1 /* Connected Component in Undirected Graph.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Connected Component in Undirected Graph.playground"; sourceTree = "<group>"; };
 		B8C1FDF81E74D6DE00A14EC1 /* Smallest Rectangle Enclosing Black Pixels.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Smallest Rectangle Enclosing Black Pixels.playground"; sourceTree = "<group>"; };
+		B8C1FDF91E74D7C100A14EC1 /* Search a 2D Matrix.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Search a 2D Matrix.playground"; sourceTree = "<group>"; };
+		B8C1FDFA1E74D7DF00A14EC1 /* Maximum Number in Mountain Sequence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maximum Number in Mountain Sequence.playground"; sourceTree = "<group>"; };
 		B8C908431E635BFE004BBACA /* Number of Islands DFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Number of Islands DFS.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -667,6 +669,8 @@
 				B8AF4AF91E57DC3D0004E8A1 /* Search in Rotated Sorted Array.playground */,
 				B8AF4AFA1E58BD410004E8A1 /*  Wood Cut.playground */,
 				B8AF4AFB1E58C0C50004E8A1 /* Copy Books.playground */,
+				B8C1FDF91E74D7C100A14EC1 /* Search a 2D Matrix.playground */,
+				B8C1FDFA1E74D7DF00A14EC1 /* Maximum Number in Mountain Sequence.playground */,
 			);
 			path = "Binary Search";
 			sourceTree = "<group>";
