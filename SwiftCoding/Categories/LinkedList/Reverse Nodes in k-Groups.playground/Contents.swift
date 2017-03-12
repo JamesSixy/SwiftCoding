@@ -33,7 +33,7 @@ private func reverseNextK(_ cur: ListNode?, _ k: Int) -> ListNode? {
     }
     //reverse
     var prev: ListNode? = nil, node = n1, nkplus = nk?.next
-    while cur !== nkplus {
+    while node !== nkplus {
         let tmp = node?.next
         node?.next = prev
         prev = node
