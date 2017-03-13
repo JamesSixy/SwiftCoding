@@ -5,6 +5,7 @@ import ZHDataStructure
 /// https://leetcode.com/problems/swap-nodes-in-pairs/?tab=Description
 /// - Parameter head: <#head description#>
 /// - Returns: <#return value description#>
+
 func swapPairs(_ head: ListNode?) -> ListNode? {
     let dummy = ListNode(0)
     dummy.next = head
