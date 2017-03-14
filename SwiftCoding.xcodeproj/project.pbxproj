@@ -136,7 +136,6 @@
 		41BE85A61E718BDA003F3861 /* Subarray Sum Closest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Subarray Sum Closest.playground"; sourceTree = "<group>"; };
 		41BE85A71E718C17003F3861 /* Subarray Sum II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Subarray Sum II.playground"; sourceTree = "<group>"; };
 		41BE85A81E718C87003F3861 /* Maximum Subarray II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maximum Subarray II.playground"; sourceTree = "<group>"; };
-		41BE85A91E7391C9003F3861 /* Reverse Words in a String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Reverse Words in a String.playground"; sourceTree = "<group>"; };
 		41BE85AA1E739686003F3861 /* Island Perimeter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Island Perimeter.playground"; sourceTree = "<group>"; };
 		41BE85AB1E73A67E003F3861 /* 0310-BFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0310-BFS.playground"; sourceTree = "<group>"; };
 		41BE85AD1E74B6C8003F3861 /* Kth Largest Element in an Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Kth Largest Element in an Array.playground"; sourceTree = "<group>"; };
@@ -287,6 +286,8 @@
 		B8C1FDF91E74D7C100A14EC1 /* Search a 2D Matrix.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Search a 2D Matrix.playground"; sourceTree = "<group>"; };
 		B8C1FDFA1E74D7DF00A14EC1 /* Maximum Number in Mountain Sequence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maximum Number in Mountain Sequence.playground"; sourceTree = "<group>"; };
 		B8C908431E635BFE004BBACA /* Number of Islands DFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Number of Islands DFS.playground"; sourceTree = "<group>"; };
+		B8D497E21E78974200E9589F /* Reverse Words in a String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Reverse Words in a String.playground"; sourceTree = "<group>"; };
+		B8D497E31E78975C00E9589F /* Reverse Words in a String II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Reverse Words in a String II.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -389,10 +390,11 @@
 				B8C1B3961E6E62E100C315BC /* Roman to Integer.playground */,
 				41BE85971E6D9732003F3861 /* One Edit Distance.playground */,
 				B8C1B3A11E6E66AA00C315BC /* Intersection of Two Arrays.playground */,
-				41BE85A91E7391C9003F3861 /* Reverse Words in a String.playground */,
 				B8C1FDD41E74C1A700A14EC1 /* Longest Consecutive Sequence.playground */,
 				B88140E01E78873D00D4A965 /* Contains Duplicate.playground */,
 				B88140E11E78898600D4A965 /* Contains Duplicate II.playground */,
+				B8D497E21E78974200E9589F /* Reverse Words in a String.playground */,
+				B8D497E31E78975C00E9589F /* Reverse Words in a String II.playground */,
 			);
 			path = "String&Array";
 			sourceTree = "<group>";
