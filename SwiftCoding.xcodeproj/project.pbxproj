@@ -171,6 +171,15 @@
 		B82413601E57D6B9002A692F /* First Bad Version.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "First Bad Version.playground"; sourceTree = "<group>"; };
 		B82413621E58CD1B002A692F /* Subtree with Maximum Average .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Subtree with Maximum Average .playground"; sourceTree = "<group>"; };
 		B8334D021E73383F00CD7D50 /* Algorithms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algorithms.swift; sourceTree = "<group>"; };
+		B88140D71E784A6900D4A965 /* Paint House.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Paint House.playground"; sourceTree = "<group>"; };
+		B88140D81E784AEF00D4A965 /* Triangle.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Triangle.playground; sourceTree = "<group>"; };
+		B88140D91E784C1F00D4A965 /* Minimum Path Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Minimum Path Sum.playground"; sourceTree = "<group>"; };
+		B88140DA1E784D1100D4A965 /* Unique Path.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Unique Path.playground"; sourceTree = "<group>"; };
+		B88140DB1E784D6400D4A965 /* Unique Paths II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Unique Paths II.playground"; sourceTree = "<group>"; };
+		B88140DC1E784DAD00D4A965 /* Climbing Stairs.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Climbing Stairs.playground"; sourceTree = "<group>"; };
+		B88140DD1E784DF200D4A965 /* Longest Increasing Subsequence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Longest Increasing Subsequence.playground"; sourceTree = "<group>"; };
+		B88140DE1E784E3900D4A965 /* Perfect Squares.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Perfect Squares.playground"; sourceTree = "<group>"; };
+		B88140DF1E784E7700D4A965 /* Largest Divisible Subset.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Largest Divisible Subset.playground"; sourceTree = "<group>"; };
 		B8AF4AC21E57C2540004E8A1 /* SwiftCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8AF4AC51E57C2540004E8A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8AF4AC71E57C2540004E8A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -317,6 +326,15 @@
 				419638061E65AA1B00B34585 /* Maximal Square.playground */,
 				41BE85671E6D1868003F3861 /* Decode Ways.playground */,
 				B8C1B3971E6E634500C315BC /* Target Sum.playground */,
+				B88140D71E784A6900D4A965 /* Paint House.playground */,
+				B88140D81E784AEF00D4A965 /* Triangle.playground */,
+				B88140D91E784C1F00D4A965 /* Minimum Path Sum.playground */,
+				B88140DA1E784D1100D4A965 /* Unique Path.playground */,
+				B88140DB1E784D6400D4A965 /* Unique Paths II.playground */,
+				B88140DC1E784DAD00D4A965 /* Climbing Stairs.playground */,
+				B88140DD1E784DF200D4A965 /* Longest Increasing Subsequence.playground */,
+				B88140DE1E784E3900D4A965 /* Perfect Squares.playground */,
+				B88140DF1E784E7700D4A965 /* Largest Divisible Subset.playground */,
 			);
 			path = DP;
 			sourceTree = "<group>";
