@@ -24,6 +24,7 @@ func partitionArray(_ nums: [Int], _ k: Int) -> Int {
             nums[end] = tmp
         }
     }
+    //always end = start, cur and k
     if nums[start] < k {
         return start + 1
     }
@@ -51,5 +52,6 @@ func partitionArrayV2(_ nums: [Int], _ k: Int) -> Int {
             end -= 1
         }
     }
+    //two cases, one [end, X, start], one [end, start], return start
     return start
 }
