@@ -1,0 +1,42 @@
+
+import ZHDataStructures
+import UIKit
+
+/**
+   <#Description#>
+   Category: [<#Description#>]
+   Link:<#Description#>
+   Solution: <#Description#>
+   Return: <#Description#>
+ 
+   Idea: <#Description#>
+ 
+   Time: <#Description#>, Space: <#Description#>
+ 
+ */
+
+//Solution 1: <#Description#>
+public func <#Description#>(<#Description#>) {
+    <#Description#>
+}
+
+private func <#Description#>(<#Description#>) -> <#Description#> {
+    
+}
+
+/**
+ TestCases: <#Description#>
+ */
+let testCases = [
+    <#Description#>
+]
+
+for <#Description#> in testCases {
+    print(<#Description#>)
+}
+
+
+
+
+
+
