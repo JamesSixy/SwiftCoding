@@ -180,6 +180,8 @@
 		B88140DD1E784DF200D4A965 /* Longest Increasing Subsequence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Longest Increasing Subsequence.playground"; sourceTree = "<group>"; };
 		B88140DE1E784E3900D4A965 /* Perfect Squares.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Perfect Squares.playground"; sourceTree = "<group>"; };
 		B88140DF1E784E7700D4A965 /* Largest Divisible Subset.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Largest Divisible Subset.playground"; sourceTree = "<group>"; };
+		B88140E01E78873D00D4A965 /* Contains Duplicate.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Contains Duplicate.playground"; sourceTree = "<group>"; };
+		B88140E11E78898600D4A965 /* Contains Duplicate II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Contains Duplicate II.playground"; sourceTree = "<group>"; };
 		B8AF4AC21E57C2540004E8A1 /* SwiftCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8AF4AC51E57C2540004E8A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8AF4AC71E57C2540004E8A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -389,6 +391,8 @@
 				B8C1B3A11E6E66AA00C315BC /* Intersection of Two Arrays.playground */,
 				41BE85A91E7391C9003F3861 /* Reverse Words in a String.playground */,
 				B8C1FDD41E74C1A700A14EC1 /* Longest Consecutive Sequence.playground */,
+				B88140E01E78873D00D4A965 /* Contains Duplicate.playground */,
+				B88140E11E78898600D4A965 /* Contains Duplicate II.playground */,
 			);
 			path = "String&Array";
 			sourceTree = "<group>";
