@@ -9,7 +9,6 @@ import UIKit
  Question: <#Description#>
  
  Link: https://leetcode.com/problems/next-permutation/#/description
- <<<<<<< HEAD
  Solution: https://segmentfault.com/a/1190000008331355
  Return: <#Description#>
  
@@ -19,7 +18,6 @@ import UIKit
  2,5,4,3 -> find 3, its index is j where nums[j] > nums[i - 1]
  swap 2 and 3 -> 3,5,4,2
  reverse 5,4,2 since it's descending -> 3,2,4,5
- =======
  Solution: <#Description#>
  Return: <#Description#>
  
