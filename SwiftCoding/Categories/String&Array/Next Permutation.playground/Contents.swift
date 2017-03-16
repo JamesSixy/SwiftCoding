@@ -30,19 +30,16 @@ import UIKit
 func nextPermutation(_ nums: inout [Int]) {
     guard nums.count > 0 else { return }
     var i = nums.count - 1, end = i
-    while i > 0 {
-        if nums[i - 1] < nums[i] { break }
+    while i > 0 && nums[i - 1] >= nums[i] {
         i -= 1
     }
     if i != 0 {
         var j = nums.count - 1
-        while j > 0 {
-            if nums[j] > nums[i - 1] { break }
+        while j > 0 && nums[j] <= nums[i - 1] {
             j -= 1
         }
         swap(&nums, i - 1, j)
     }
-    
     reverse(&nums, i, end)
 }
 
