@@ -10,7 +10,7 @@ import UIKit
  If it is overflow, return MAX_INT.
  
  Link: https://leetcode.com/problems/divide-two-integers/#/description
- Solution: <#Description#>
+ Solution: http://www.cnblogs.com/springfor/p/3871008.html
  Return: <#Description#>
  
  Idea: <#Description#>
