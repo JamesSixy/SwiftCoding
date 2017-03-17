@@ -43,3 +43,16 @@ private func powHelper(_ x: Double, _ n: Int) -> Double {
         return val * val * x
     }
 }
+
+/**
+ TestCases: <#Description#>
+ */
+let testCases = [
+    (2.0, 31),
+    (2.0, 32),
+    (2.0, 64)
+]
+
+for tuple in testCases {
+    print(myPow(tuple.0, tuple.1))
+}

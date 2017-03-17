@@ -155,6 +155,7 @@
 		41C140451E636B7C00F86BF8 /* Ternary Expression Parser.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Ternary Expression Parser.playground"; sourceTree = "<group>"; };
 		41C140461E636BDB00F86BF8 /* Remove K Digits.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove K Digits.playground"; sourceTree = "<group>"; };
 		41C140471E636C1600F86BF8 /* Evaluate Reverse Polish Notation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Evaluate Reverse Polish Notation.playground"; sourceTree = "<group>"; };
+		41F7B8F81E7B849400CD70CC /* Divide Two Integers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Divide Two Integers.playground"; sourceTree = "<group>"; };
 		B809EAAC1E78D41B00B6D090 /* Next Permutation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Next Permutation.playground"; sourceTree = "<group>"; };
 		B809EAAD1E78D43F00B6D090 /* Previous Permutation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Previous Permutation.playground"; sourceTree = "<group>"; };
 		B811C8701E5A859D009E3483 /* Lowest Common Ancestor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lowest Common Ancestor.playground"; sourceTree = "<group>"; };
@@ -774,6 +775,7 @@
 			isa = PBXGroup;
 			children = (
 				B8C1B3931E6E614100C315BC /* Pow(x, n).playground */,
+				41F7B8F81E7B849400CD70CC /* Divide Two Integers.playground */,
 			);
 			path = Math;
 			sourceTree = "<group>";
