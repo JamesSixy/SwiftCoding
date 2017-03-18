@@ -1,9 +1,20 @@
 
-/// 46. Permutations
-/// https://leetcode.com/problems/permutations/?tab=Description
-/// - Parameter nums: <#nums description#>
-/// - Returns: <#return value description#>
-/// Given a collection of distinct numbers, return all possible permutations.
+/**
+ 46. Permutations
+ Category: [DFS]
+ 
+ Question: Given a collection of distinct numbers, return all possible permutations.
+ 
+ Link: https://leetcode.com/problems/permutations/?tab=Description
+ 
+ 通用的DFS时间复杂度计算公式:
+ O(答案个数 * 构造每个答案的时间)
+ 
+ Permutations问题，求所有的排列。排列个数一共 n！，每个集合的平均长度是 O(n) 的，所以时间复杂度为：O(n * n!)
+ 
+ Time: O(n!), Space: O(n)
+ 
+ */
 
 func permute(_ nums: [Int]) -> [[Int]] {
     var res: [[Int]] = []
@@ -22,7 +33,7 @@ func permuteHelper(_ res: inout [[Int]],
         res.append(container)
         return
     }
-    for i in stride(from: 0, to: nums.count, by: 1) {
+    for i in 0 ..< nums.count {
         if visited.contains(nums[i]) {
             continue
         }
@@ -56,7 +67,7 @@ func permuteUniHelper(_ res: inout [[Int]],
         res.append(container)
         return
     }
-    for i in stride(from: 0, to: nums.count, by: 1) {
+    for i in 0 ..< nums.count {
         if visited[i] ||
             (i != 0 && nums[i] == nums[i - 1] && !visited[i - 1]) {
             continue
