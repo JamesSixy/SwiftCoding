@@ -1,10 +1,19 @@
 
-/// 40. Combination Sum II
-/// https://leetcode.com/problems/combination-sum-ii/?tab=Description
-/// - Parameters:
-///   - candidates: <#candidates description#>
-///   - target: <#target description#>
-/// - Returns: <#return value description#>
+/**
+ 40. Combination Sum II
+ Category: [DFS]
+ 
+ Question: Given a collection of candidate numbers (C) and a target number (T), find all unique combinations in C where the candidate numbers sums to T.
+ Each number in C may only be used once in the combination.
+ 
+ Link: https://leetcode.com/problems/combination-sum-ii/?tab=Description
+ 
+ 通用的DFS时间复杂度计算公式:
+ O(答案个数 * 构造每个答案的时间)
+ 
+ Time: O(n!), Space: O(n)
+ 
+ */
 
 func combinationSum2(_ candidates: [Int],
                       _ target: Int) -> [[Int]] {
@@ -28,7 +37,7 @@ private func combinationSum2Helper(_ res: inout [[Int]],
         res.append(container)
         return
     }
-    for i in stride(from: start, to: candidates.count, by: 1) {
+    for i in start ..< candidates.count {
         if target - candidates[i] < 0 {
             return
         }

@@ -1,10 +1,18 @@
 
-/// 216. Combination Sum III
-/// https://leetcode.com/problems/combination-sum-iii/?tab=Description
-/// - Parameters:
-///   - candidates: <#candidates description#>
-///   - target: <#target description#>
-/// - Returns: <#return value description#>
+/**
+ 216. Combination Sum III
+ Category: [DFS]
+ 
+ Question: Find all possible combinations of k numbers that add up to a number n, given that only numbers from 1 to 9 can be used and each combination should be a unique set of numbers.
+ 
+ Link: https://leetcode.com/problems/combination-sum-iii/?tab=Description
+ 
+ 通用的DFS时间复杂度计算公式:
+ O(答案个数 * 构造每个答案的时间)
+ 
+ Time: O(C(n, k)), Space: O(n)
+ 
+ */
 
 func combinationSum3(_ k: Int, _ n: Int) -> [[Int]] {
     var res: [[Int]] = []
