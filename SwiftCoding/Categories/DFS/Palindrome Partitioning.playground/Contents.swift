@@ -1,12 +1,18 @@
 
-/// 131. Palindrome Partitioning
-/// https://leetcode.com/problems/palindrome-partitioning/?tab=Description
-/// - Parameter s: <#s description#>
-/// - Returns: <#return value description#>
-
-/*
- Given a string s, partition s such that every substring of the partition is a palindrome.
+/**
+ 131. Palindrome Partitioning
+ Category: [DFS]
+ 
+ Question: Given a string s, partition s such that every substring of the partition is a palindrome.
  Return all possible palindrome partitioning of s.
+ 
+ Link: https://leetcode.com/problems/palindrome-partitioning/?tab=Description
+ 
+ 通用的DFS时间复杂度计算公式:
+ O(答案个数 * 构造每个答案的时间)
+ 
+ Time: , Space: O(n)
+ 
  */
 
 func partition(_ s: String) -> [[String]] {
@@ -26,8 +32,8 @@ private func helper(_ res: inout [[String]],
         res.append(container)
         return
     }
-    for i in stride(from: start, to: arr.count, by: 1) {
-        let subarr = Array(arr[start..<i+1])
+    for i in start ..< arr.count {
+        let subarr = Array(arr[start ..< i + 1])
         if (!isPalindrome(subarr)) {
             continue
         }
@@ -47,5 +53,17 @@ private func isPalindrome(_ arr: [Character]) -> Bool {
         end -= 1
     }
     return true
+}
+
+let testCases = [
+    "aab",
+    "abc",
+    "",
+    "a",
+    "aaaaa"
+]
+
+for str in testCases {
+    print(partition(str))
 }
 
