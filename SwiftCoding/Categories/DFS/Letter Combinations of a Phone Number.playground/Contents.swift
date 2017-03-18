@@ -16,10 +16,11 @@
  这种组合类的问题，如果求出所有的组合方案，一定是指数级别的。
  3^n - 4^n 是对的，因为你有n位电话号码，每一位的时候，可能按出来的字母是3-4个，所以就是 (3~4)^n
  
- Time: （3~4)^n, Space: O(n)
+ Time:（3~4)^n, Space: O(n)
  
  */
 
+//DFS
 func letterCombinations(_ digits: String) -> [String] {
     var res: [String] = []
     guard digits.characters.count > 0 else { return res }
@@ -60,4 +61,29 @@ func letterDictionary() -> [Character : [Character]] {
     return dict
 }
 
-//BFS?
+//BFS
+func letterCombinationsBFS(_ digits: String) -> [String] {
+    var res: [String] = [""]
+    guard digits.characters.count > 0 else { return [] }
+    let map = ["0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv",  "wxyz"]
+    for (i, cur) in digits.characters.enumerated() {
+        
+        guard let num = Int(String(cur)) else { return [] }
+        while res.first?.characters.count == i {
+            let tmp = res.removeFirst()
+            for char in map[num].characters {
+                res.append(tmp + String(char))
+            }
+        }
+    }
+    return res
+}
+
+let testCases = [
+    "2",
+    "23"
+]
+
+for str in testCases {
+    print(letterCombinationsBFS(str))
+}
