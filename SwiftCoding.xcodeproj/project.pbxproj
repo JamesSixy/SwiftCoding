@@ -159,6 +159,7 @@
 		41F7B8F91E7D973700CD70CC /* 0318.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0318.playground; sourceTree = "<group>"; };
 		41F7B8FA1E7DC3B400CD70CC /* Invert Binary Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Invert Binary Tree.playground"; sourceTree = "<group>"; };
 		41F7B8FB1E7DD4C000CD70CC /* Add Two Numbers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Add Two Numbers.playground"; sourceTree = "<group>"; };
+		41F7B8FC1E7DD9CB00CD70CC /* House Robber.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "House Robber.playground"; sourceTree = "<group>"; };
 		B809EAAC1E78D41B00B6D090 /* Next Permutation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Next Permutation.playground"; sourceTree = "<group>"; };
 		B809EAAD1E78D43F00B6D090 /* Previous Permutation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Previous Permutation.playground"; sourceTree = "<group>"; };
 		B811C8701E5A859D009E3483 /* Lowest Common Ancestor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lowest Common Ancestor.playground"; sourceTree = "<group>"; };
@@ -344,6 +345,7 @@
 				B88140DD1E784DF200D4A965 /* Longest Increasing Subsequence.playground */,
 				B88140DE1E784E3900D4A965 /* Perfect Squares.playground */,
 				B88140DF1E784E7700D4A965 /* Largest Divisible Subset.playground */,
+				41F7B8FC1E7DD9CB00CD70CC /* House Robber.playground */,
 			);
 			path = DP;
 			sourceTree = "<group>";
