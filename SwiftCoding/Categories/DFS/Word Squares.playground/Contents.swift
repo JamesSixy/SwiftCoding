@@ -6,6 +6,7 @@ import ZHDataStructure
 /// https://leetcode.com/problems/word-squares/?tab=Description
 /// - Parameter words: <#words description#>
 /// - Returns: <#return value description#>
+
 func wordSquares(_ words: [String]) -> [[String]] {
     var res: [[String]] = []
     guard words.count > 0 else { return res }
@@ -33,8 +34,8 @@ private func helperWS(_ res: inout [[String]],
 
 private func isWordSquare(_ container: [String], _ cur: String) -> Bool {
     let numOfWords = container.count + 1
-    for i in stride(from: 0, to: numOfWords, by: 1) {
-        for j in stride(from: i, to: numOfWords - 1, by: 1) {
+    for i in 0 ..< numOfWords {
+        for j in i ..< numOfWords - 1 {
             let up = container[j]
             let down = cur
             if up[numOfWords - 1] != down[j] {
