@@ -1,14 +1,32 @@
 
 import ZHDataStructure
 
-/// Binary Tree Path Sum
-/// http://www.lintcode.com/en/problem/binary-tree-path-sum/
+///
+///
 /// - Parameters:
 ///   - root: <#root description#>
 ///   - target: <#target description#>
 /// - Returns: <#return value description#>
-// it's still a DFS question, although you only have left right for recursion. Must remove left and right node
 
+
+/**
+ Binary Tree Path Sum
+ Category: [DFS]
+ 
+ Question: Given a binary tree, find all paths that sum of the nodes in the path equals to a given number target.
+ 
+ A valid path is from root node to any of the leaf nodes.
+ 
+ Link: http://www.lintcode.com/en/problem/binary-tree-path-sum/
+ 
+ 通用的DFS时间复杂度计算公式:
+ O(答案个数 * 构造每个答案的时间)
+ 
+ Time: O(n), Space: O(n)
+ 
+ */
+
+// it's still a DFS question, although you only have left right for recursion. Must remove left and right node
 func binaryTreePathSum(_ root: TreeNode?, _ target: Int) -> [[Int]] {
     var res: [[Int]] = []
     guard let root = root else { return res }

@@ -45,7 +45,7 @@ private func helper(_ res: inout [String],
     }
 }
 
-// Solution 2: use next permutation
+// Solution 2: use next permutation - O(n * n!) = O(n!) time
 
 func stringPermutation2NP(_ str: String) -> [String] {
     var res = [String]()
