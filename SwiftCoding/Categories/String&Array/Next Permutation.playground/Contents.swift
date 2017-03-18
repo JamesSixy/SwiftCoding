@@ -6,11 +6,8 @@ import UIKit
  31. Next Permutation
  Category: [<#Description#>]
  
- Question: <#Description#>
- 
  Link: https://leetcode.com/problems/next-permutation/#/description
- Solution: https://segmentfault.com/a/1190000008331355
- Return: <#Description#>
+ Solution: https://segmenO9tfault.com/a/1190000008331355
  
  Idea: 1 2 3 -> first, from right to left, find the first i where nums[i - 1] < nums[i]. Then, from right to left again, swap i - 1 & j if nums[j] > nums[i - 1]
  
@@ -18,12 +15,8 @@ import UIKit
  2,5,4,3 -> find 3, its index is j where nums[j] > nums[i - 1]
  swap 2 and 3 -> 3,5,4,2
  reverse 5,4,2 since it's descending -> 3,2,4,5
- Solution: <#Description#>
- Return: <#Description#>
  
- Idea: <#Description#>
- 
- Time: <#Description#>, Space: <#Description#>
+ Time: O(n), Space: O(1)
  
  */
 

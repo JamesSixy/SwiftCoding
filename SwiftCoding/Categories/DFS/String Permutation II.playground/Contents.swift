@@ -1,9 +1,18 @@
 
-/// String Permutation II
-/// http://www.lintcode.com/en/problem/string-permutation-ii/
-/// - Parameter str: <#str description#>
-/// - Returns: <#return value description#>
-/// Given a string, find all permutations of it without duplicates.
+/**
+ String Permutation II
+ Category: [DFS]
+ 
+ Question: Given a string, find all permutations of it without duplicates.
+ 
+ Link: http://www.lintcode.com/en/problem/string-permutation-ii/
+ 
+ 通用的DFS时间复杂度计算公式:
+ O(答案个数 * 构造每个答案的时间)
+ 
+ Time: O(n!), Space: O(n)
+ 
+ */
 
 //Solution 1: DFS
 func stringPermutation2(_ str: String) -> [String] {
@@ -38,10 +47,54 @@ private func helper(_ res: inout [String],
 
 // Solution 2: use next permutation
 
-//TODO
+func stringPermutation2NP(_ str: String) -> [String] {
+    var res = [String]()
+    guard str.characters.count > 0 else { return res }
+    var next = nextPermutation(str)
+    res.append(str)
+    while str != next {
+        res.append(next)
+        next = nextPermutation(next)
+    }
+    return res
+}
 
+func nextPermutation(_ str: String) -> String {
+    var arr = [Character](str.characters)
+    guard arr.count > 0 else { return "" }
+    var i = arr.count - 1, end = i
+    while i > 0 && arr[i - 1] >= arr[i] {
+        i -= 1
+    }
+    if i != 0 {
+        var j = arr.count - 1
+        while j > 0 && arr[j] <= arr[i - 1] {
+            j -= 1
+        }
+        swap(&arr, i - 1, j)
+    }
+    reverse(&arr, i, end)
+    return String(arr)
+}
 
+private func swap<T>(_ nums: inout [T], _ i: Int, _ j: Int) {
+    (nums[i], nums[j]) = (nums[j], nums[i])
+}
 
-//for str in ["abb", "aabb"] {
-//    print(stringPermutation2(str))
-//}
+private func reverse<T>(_ nums: inout [T], _ i: Int, _ j: Int) {
+    var i = i, j = j
+    while i < j {
+        swap(&nums, i, j)
+        i += 1
+        j -= 1
+    }
+}
+
+for str in [
+    "abb",
+    "aabb"
+] {
+    print(stringPermutation2(str))
+    print(stringPermutation2NP(str))
+}
+
