@@ -19,11 +19,37 @@ import UIKit
  */
 
 func uniquePathsWithObstacles(_ obstacleGrid: [[Int]]) -> Int {
-    <#Description#>
-}
-
-private func <#Description#>(<#Description#>) -> <#Description#> {
+    guard obstacleGrid.count > 0 else { return 0 }
+    //init
+    let m = obstacleGrid.count
+    let n = obstacleGrid[0].count
+    var f = Array(repeating: Array(repeating: 0, count: n), count: m)
     
+    for i in 0 ..< m {
+        if obstacleGrid[i][0] == 1 {
+            break
+        }
+        f[i][0] = 1
+    }
+    
+    for j in 0 ..< n {
+        if obstacleGrid[0][j] == 1 {
+            break
+        }
+        f[0][j] = 1
+    }
+    
+    for i in 1 ..< m {
+        for j in 1 ..< n {
+            if obstacleGrid[i][j] == 1 {
+                f[i][j] = 0
+            } else {
+                f[i][j] = f[i - 1][j] + f[i][j - 1]
+            }
+        }
+    }
+    
+    return f[m - 1][n - 1]
 }
 
 /**
