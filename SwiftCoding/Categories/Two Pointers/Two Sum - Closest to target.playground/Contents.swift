@@ -23,7 +23,7 @@ func twoSumClosest(_ nums: [Int], _ target: Int) -> Int {
         if front + rear == target {
             return 0
         } else if front + rear > target {
-            diff = min(diff, target - front - rear)
+            diff = min(diff, front + rear - target)
             end -= 1
         } else {
             diff = min(diff, target - front - rear)
@@ -33,9 +33,10 @@ func twoSumClosest(_ nums: [Int], _ target: Int) -> Int {
     return diff
 }
 
-//let testCases = [
-//    ([-1, 2, 1, -4], 4)
-//]
-//for tuple in testCases {
-//    print(twoSumClosest(tuple.0, tuple.1))
-//}
+let testCases = [
+    ([-1, 2, 1, -4], 4),
+    ([-9, -1, 0, 3, 4], -3)
+]
+for tuple in testCases {
+    print(twoSumClosest(tuple.0, tuple.1))
+}
