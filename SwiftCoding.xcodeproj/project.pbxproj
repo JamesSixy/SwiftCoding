@@ -163,6 +163,11 @@
 		B809EAAC1E78D41B00B6D090 /* Next Permutation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Next Permutation.playground"; sourceTree = "<group>"; };
 		B809EAAD1E78D43F00B6D090 /* Previous Permutation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Previous Permutation.playground"; sourceTree = "<group>"; };
 		B809EAAF1E7EDDF900B6D090 /* PhotoApp.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PhotoApp.playground; sourceTree = "<group>"; };
+		B809EAB01E7F3A2900B6D090 /* Best Time to Buy and Sell Stock with Cooldown.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Best Time to Buy and Sell Stock with Cooldown.playground"; sourceTree = "<group>"; };
+		B809EAB11E7F3AF600B6D090 /* Best Time to Buy and Sell Stock II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Best Time to Buy and Sell Stock II.playground"; sourceTree = "<group>"; };
+		B809EAB21E7F489200B6D090 /* Set Matrix Zeroes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Set Matrix Zeroes.playground"; sourceTree = "<group>"; };
+		B809EAB31E7F498700B6D090 /* Construct Binary Tree from Inorder and Postorder Traversal.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Construct Binary Tree from Inorder and Postorder Traversal.playground"; sourceTree = "<group>"; };
+		B809EAB41E7F49FF00B6D090 /* Construct Binary Tree from Preorder and Inorder Traversal.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Construct Binary Tree from Preorder and Inorder Traversal.playground"; sourceTree = "<group>"; };
 		B811C8701E5A859D009E3483 /* Lowest Common Ancestor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lowest Common Ancestor.playground"; sourceTree = "<group>"; };
 		B811C8711E5A8D15009E3483 /* Balanced Binary Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Balanced Binary Tree.playground"; sourceTree = "<group>"; };
 		B811C8721E5D3D30009E3483 /* Binary Tree Paths.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Paths.playground"; sourceTree = "<group>"; };
@@ -347,6 +352,8 @@
 				B88140DE1E784E3900D4A965 /* Perfect Squares.playground */,
 				B88140DF1E784E7700D4A965 /* Largest Divisible Subset.playground */,
 				41F7B8FC1E7DD9CB00CD70CC /* House Robber.playground */,
+				B809EAB01E7F3A2900B6D090 /* Best Time to Buy and Sell Stock with Cooldown.playground */,
+				B809EAB11E7F3AF600B6D090 /* Best Time to Buy and Sell Stock II.playground */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -407,6 +414,7 @@
 				B8D497E31E78975C00E9589F /* Reverse Words in a String II.playground */,
 				B809EAAC1E78D41B00B6D090 /* Next Permutation.playground */,
 				B809EAAD1E78D43F00B6D090 /* Previous Permutation.playground */,
+				B809EAB21E7F489200B6D090 /* Set Matrix Zeroes.playground */,
 			);
 			path = "String&Array";
 			sourceTree = "<group>";
@@ -625,6 +633,8 @@
 				41BE85A01E6D99D1003F3861 /* Binary Search Tree Iterator.playground */,
 				B8C1FDF11E74D41500A14EC1 /* Binary Tree Postorder Traversal.playground */,
 				41F7B8FA1E7DC3B400CD70CC /* Invert Binary Tree.playground */,
+				B809EAB31E7F498700B6D090 /* Construct Binary Tree from Inorder and Postorder Traversal.playground */,
+				B809EAB41E7F49FF00B6D090 /* Construct Binary Tree from Preorder and Inorder Traversal.playground */,
 			);
 			name = "Binary Tree (Divide&Conquer)";
 			path = "Binary Tree";
