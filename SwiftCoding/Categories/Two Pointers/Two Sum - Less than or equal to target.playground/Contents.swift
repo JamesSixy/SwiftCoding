@@ -5,6 +5,7 @@
 ///   - nums: <#nums description#>
 ///   - target: <#target description#>
 /// - Returns: <#return value description#>
+//O(nlogn) time, O(1) space
 
 func twoSum5(_ nums: [Int], _ target: Int) -> Int {
     guard nums.count > 0 else { return 0 }

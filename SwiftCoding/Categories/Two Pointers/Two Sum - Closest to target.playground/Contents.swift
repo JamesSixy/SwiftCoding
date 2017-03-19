@@ -1,10 +1,18 @@
 
-/// Two Sum - Closest to target
-/// http://www.lintcode.com/en/problem/two-sum-closest-to-target/
-/// - Parameters:
-///   - nums: <#nums description#>
-///   - target: <#target description#>
-/// - Returns: <#return value description#>
+/**
+ Two Sum - Closest to target
+ Category: [TP]
+ 
+ Given an array nums of n integers, find two integers in nums such that the sum is closest to a given number, target.
+ Return the difference between the sum of the two integers and the target.
+ 
+ Link: http://www.lintcode.com/en/problem/two-sum-closest-to-target/
+ 
+ Time: O(nlogn), Space: O(1)
+ 
+ Idea: Sort first and update the min value(should start from Int.max) during the while loop
+ 
+ */
 
 func twoSumClosest(_ nums: [Int], _ target: Int) -> Int {
     guard nums.count > 1 else { return 0 }

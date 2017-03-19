@@ -1,8 +1,18 @@
 
-/// 15. 3Sum
-/// https://leetcode.com/problems/3sum/?tab=Description
-/// - Parameter nums: <#nums description#>
-/// - Returns: <#return value description#>
+/**
+ 15. 3Sum
+ Category: [TP]
+ 
+ Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
+ Note: The solution set must not contain duplicate triplets.
+ 
+ Link: https://leetcode.com/problems/3sum/?tab=Description
+ 
+ Time: O(nlogn) + O(n^2) = O(n^2), Space: O(n)
+ 
+ Idea: Contains duplicates. Sort first and do a loop with uniquePairs within. Outer loop should also take care of duplicates
+ 
+ */
 
 func threeSum(_ nums: [Int]) -> [[Int]] {
     var res: [[Int]] = []
@@ -24,7 +34,8 @@ private func uniquePairs(_ res: inout [[Int]],
     var start = index + 1, end = nums.count - 1
     while start < end {
         let front = nums[start], rear = nums[end]
-        if target + front + rear == 0 {
+        let sum = target + front + rear
+        if sum == 0 {
             res.append([target, front, rear])
             while start < end && nums[start] == front {
                 start += 1
@@ -32,7 +43,7 @@ private func uniquePairs(_ res: inout [[Int]],
             while start < end && nums[end] == rear {
                 end -= 1
             }
-        } else if target + front + rear > 0 {
+        } else if sum > 0 {
             end -= 1
         } else {
             start += 1

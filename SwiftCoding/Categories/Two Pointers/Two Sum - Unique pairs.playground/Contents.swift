@@ -1,10 +1,17 @@
 
-/// Two Sum - Unique pairs
-/// http://www.lintcode.com/en/problem/two-sum-unique-pairs/
-/// - Parameters:
-///   - nums: <#nums description#>
-///   - target: <#target description#>
-/// - Returns: <#return value description#>
+/**
+ Two Sum - Unique pairs
+ Category: [TP]
+ 
+ Given an array of integers, find how many unique pairs in the array such that their sum is equal to a specific target number. Please return the number of pairs.
+ 
+ Link: http://www.lintcode.com/en/problem/two-sum-unique-pairs/
+ 
+ Time: O(nlong), Space: O(1)
+ 
+ Idea: Numbers may duplicate. Sort first and whenever find a match, do two whiles one find left end and one and right start so that it skips duplicated pairs
+ 
+ */
 
 func twoSum6(_ nums: [Int], _ target: Int) -> Int {
     guard nums.count > 0 else { return 0 }
