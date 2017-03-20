@@ -42,19 +42,19 @@ private func mergeHelper(_ lists: [ListNode?],
 private func mergeTwoLists(_ list1: ListNode?,
                            _ list2: ListNode?) -> ListNode? {
     let dummy = ListNode(0)
-    var tail = dummy, list1 = list1, list2 = list2
+    var cur = dummy, list1 = list1, list2 = list2
     
     while list1 != nil && list2 != nil {
         if list1!.val < list2!.val {
-            tail.next = list1
+            cur.next = list1
             list1 = list1?.next
         } else {
-            tail.next = list2
+            cur.next = list2
             list2 = list2?.next
         }
-        tail = tail.next!
+        cur = cur.next!
     }
-    tail.next = list1 == nil ? list2 : list1
+    cur.next = list1 == nil ? list2 : list1
     return dummy.next
 }
 

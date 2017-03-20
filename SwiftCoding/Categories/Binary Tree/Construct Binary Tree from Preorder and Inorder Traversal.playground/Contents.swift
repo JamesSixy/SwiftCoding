@@ -19,7 +19,7 @@ import UIKit
  
  */
 
-func buildTree(preorder: [Int], _ inorder: [Int]) -> TreeNode? {
+func buildTree(_ preorder: [Int], _ inorder: [Int]) -> TreeNode? {
     guard preorder.count > 0 && inorder.count > 0 && preorder.count == inorder.count else {
         return nil
     }
@@ -32,7 +32,7 @@ func buildTree(preorder: [Int], _ inorder: [Int]) -> TreeNode? {
                        inorder.count - 1)
 }
 
-private func buildHelper(preorder: [Int],
+private func buildHelper(_ preorder: [Int],
                          _ preStart: Int,
                          _ preEnd: Int,
                          _ inorder: [Int],
@@ -67,6 +67,9 @@ private func buildHelper(preorder: [Int],
 
 
 /**
+ 
+ 
+ 
  TestCases: <#Description#>
  */
 let testCases = [

@@ -36,7 +36,7 @@ func moveZeroes2(_ nums: inout [Int]) {
         nums[last] = num
         last += 1
     }
-    for i in last ..< nums.count {
+    for i in last ..< nums.count where nums[i] != 0 {
         nums[i] = 0
     }
 }

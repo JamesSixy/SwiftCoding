@@ -17,7 +17,7 @@ func strStr(_ source: String, _ target: String) -> Int {
     guard sLen > 0, tLen <= sLen else {
         return -1
     }
-    for i in stride(from: 0, to: sLen - tLen + 1, by: 1) {
+    for i in 0 ..< sLen - tLen + 1 {
         var j = 0
         while j < tLen {
             if sArr[j + i] != tArr[j] {
