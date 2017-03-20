@@ -24,10 +24,20 @@ func buildTree(inorder: [Int], _ postorder: [Int]) -> TreeNode? {
         return nil
     }
     
-    return _buildHelper(inorder, 0, inorder.count - 1, postorder, 0, postorder.count - 1)
+    return buildHelper(inorder,
+                       0,
+                       inorder.count - 1,
+                       postorder,
+                       0,
+                       postorder.count - 1)
 }
 
-private func _buildHelper(inorder: [Int], _ inStart: Int, _ inEnd: Int, _ postorder: [Int], _ postStart: Int, _ postEnd: Int) -> TreeNode? {
+private func buildHelper(inorder: [Int],
+                          _ inStart: Int,
+                          _ inEnd: Int,
+                          _ postorder: [Int],
+                          _ postStart: Int,
+                          _ postEnd: Int) -> TreeNode? {
     guard inStart <= inEnd && postStart <= postEnd else {
         return nil
     }
@@ -40,8 +50,18 @@ private func _buildHelper(inorder: [Int], _ inStart: Int, _ inEnd: Int, _ postor
         break
     }
     
-    root.left = _buildHelper(inorder, inStart, mid - 1, postorder, postStart, mid - 1 - inStart + postStart)
-    root.right = _buildHelper(inorder, mid + 1, inEnd, postorder, mid - inStart + postStart, postEnd - 1)
+    root.left = buildHelper(inorder,
+                            inStart,
+                            mid - 1,
+                            postorder,
+                            postStart,
+                            mid - 1 - inStart + postStart)
+    root.right = buildHelper(inorder,
+                             mid + 1,
+                             inEnd,
+                             postorder,
+                             mid - inStart + postStart,
+                             postEnd - 1)
     
     return root
 }

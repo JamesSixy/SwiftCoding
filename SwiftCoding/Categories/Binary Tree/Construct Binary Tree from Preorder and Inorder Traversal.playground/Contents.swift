@@ -24,10 +24,20 @@ func buildTree(preorder: [Int], _ inorder: [Int]) -> TreeNode? {
         return nil
     }
     
-    return _buildHelper(preorder, 0, preorder.count - 1, inorder, 0, inorder.count - 1)
+    return buildHelper(preorder,
+                       0,
+                       preorder.count - 1,
+                       inorder,
+                       0,
+                       inorder.count - 1)
 }
 
-private func _buildHelper(preorder: [Int], _ preStart: Int, _ preEnd: Int, _ inorder: [Int], _ inStart: Int, _ inEnd: Int) -> TreeNode? {
+private func buildHelper(preorder: [Int],
+                         _ preStart: Int,
+                         _ preEnd: Int,
+                         _ inorder: [Int],
+                         _ inStart: Int,
+                         _ inEnd: Int) -> TreeNode? {
     guard preStart <= preEnd && inStart <= inEnd else {
         return nil
     }
@@ -35,16 +45,23 @@ private func _buildHelper(preorder: [Int], _ preStart: Int, _ preEnd: Int, _ ino
     let root = TreeNode(preorder[preStart])
     
     var mid = 0
-    for i in inStart ... inEnd {
-        if inorder[i] == preorder[preStart] {
-            mid = i
-            break
-        }
+    for i in inStart ... inEnd where inorder[i] == root.val {
+        mid = i
+        break
     }
     
-    root.left = _buildHelper(preorder, preStart + 1, preStart + mid - inStart, inorder, inStart, mid - 1)
-    root.right = _buildHelper(preorder, preStart + mid - inStart + 1, preEnd, inorder, mid + 1, inEnd)
-    
+    root.left = buildHelper(preorder,
+                            preStart + 1,
+                            preStart + mid - inStart,
+                            inorder,
+                            inStart,
+                            mid - 1)
+    root.right = buildHelper(preorder,
+                             preStart + mid - inStart + 1,
+                             preEnd,
+                             inorder,
+                             mid + 1,
+                             inEnd)
     return root
 }
 
