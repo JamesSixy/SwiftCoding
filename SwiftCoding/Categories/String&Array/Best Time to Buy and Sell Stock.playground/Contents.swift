@@ -1,14 +1,41 @@
 
-/// 121. Best Time to Buy and Sell Stock
-/// https://leetcode.com/problems/best-time-to-buy-and-sell-stock/?tab=Description
-/// - Parameter prices: <#prices description#>
-/// - Returns: <#return value description#>
-/// enumerate but not DP, DP is like a 2^n, but this one is O(n^2) wrost
+/**
+ Convert Binary Tree to Linked Lists by Depth
+ Category: [PrefixSum]
+ 
+ Say you have an array for which the ith element is the price of a given stock on day i.
+ If you were only permitted to complete at most one transaction (ie, buy one and sell one share of the stock), design an algorithm to find the maximum profit.
+ 
+ Example 1:
+ Input: [7, 1, 5, 3, 6, 4]
+ Output: 5
+ max. difference = 6-1 = 5 (not 7-1 = 6, as selling price needs to be larger than buying price)
+ 
+ Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/?tab=Description
+ 
+ Enumerate but not DP, DP is like a 2^n, but this one is O(n^2) wrost
+ 
+ Time: O(n), Space: O(1)
+ 
+ Similar to Subarray Sum
 
+ 每轮用当前sellPoint减去minPrice(出现过的最小的sellPoint),就是prefixSum的思想
+ 只不过我们让前面那个前缀和尽可能小，那么两个前缀和相减则最大
+ 
+ [7, 1, 5, 3, 6, 4]
+ best = 0, minPrice = 7
+ best = max(0, 1 - 7) -> 0
+ minPrice = min(7, 1) -> 1
+ 
+ best = max(0, 5 - 1) = 4
+ minPrice = min(1, 5) = 1
+ 
+ 
+ */
 func maxProfit(_ prices: [Int]) -> Int {
     guard prices.count > 0 else { return 0 }
     var best = 0, minPrice = prices[0]
-    for sellPoint in stride(from: 1, to: prices.count, by: 1) {
+    for sellPoint in 1 ..< prices.count {
         best = max(best, prices[sellPoint] - minPrice)
         minPrice = min(minPrice, prices[sellPoint])
     }
@@ -52,3 +79,10 @@ func maxSubArray(_ nums: [Int]) -> Int {
     [7, 1, 5, 3, 6, 4]
    0  -6  4 -2  3 -2
  */
+
+let testCases = [
+    [7, 1, 5, 3, 6, 4]
+]
+for arr in testCases {
+    print(maxProfit(arr))
+}

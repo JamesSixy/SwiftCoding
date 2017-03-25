@@ -3,20 +3,23 @@ import ZHDataStructure
 
 /**
  56. Merge Intervals
- Category: [ITV]
+ Category: []
  
- Given a binary tree, design an algorithm which creates a linked list of all the nodes at each depth (e.g., if you have a tree with depth D, you'll have D linked lists).
+ Question: Divide two integers without using multiplication, division and mod operator.
+ If it is overflow, return MAX_INT.
  
  Link: https://leetcode.com/problems/merge-intervals/?tab=Description
-
- Time: O(n), Space: O(1)
  
- Very similar to Meeting Rooms
+ Idea: Sort the original intervals and then append them one by one
+ 
+ Time: O(nlogn), Space: O(n)
  
  */
 
+
 func merge(_ intervals: [Interval]) -> [Interval] {
     guard intervals.count > 0 else { return [] }
+
     let sort = intervals.sorted {$0.start < $1.start }
     var res: [Interval] = []
     var last = sort[0]

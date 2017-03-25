@@ -10,16 +10,16 @@
 func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
     let res: [Int] = []
     guard nums.count > 0 else { return res }
-    let tuples: [(i: Int, ele: Int)] = nums.enumerated().map { ($0.offset, $0.element) }.sorted { (t1, t2) -> Bool in
-        return t1.1 < t2.1
+    let tuples: [(index: Int, ele: Int)] = nums.enumerated().map { ($0.offset, $0.element) }.sorted { (t1, t2) -> Bool in
+        return t1.ele < t2.ele
     }
     var start = 0, end = tuples.count - 1
     while start < end {
-        let startVal = tuples[start].ele, endVel = tuples[end].ele
-        let startIndex = tuples[start].i, endIndex = tuples[end].i
-        if startVal + endVel > target {
+        let startVal = tuples[start].ele, endVal = tuples[end].ele
+        let startIndex = tuples[start].index, endIndex = tuples[end].index
+        if startVal + endVal > target {
             end -= 1
-        } else if startVal + endVel < target {
+        } else if startVal + endVal < target {
             start += 1
         } else {
             return [min(startIndex, endIndex), max(startIndex, endIndex)]
@@ -43,6 +43,9 @@ func twoSumHM(_ nums: [Int], _ target: Int) -> [Int] {
     return res
 }
 
+//1 2 4 5, 5
+//4, 0
+//3, 1
 
 
 

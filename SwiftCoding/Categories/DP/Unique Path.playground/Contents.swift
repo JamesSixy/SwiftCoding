@@ -10,16 +10,38 @@ import UIKit
  
  Link: https://leetcode.com/problems/unique-paths/#/description
  Solution: http://www.jiuzhang.com/solutions/unique-paths/
- Return: <#Description#>
  
- Idea: <#Description#>
+ state: f[m][n] how many unique paths from start to m,n
+ init: f[0][0] = 0
+ function: f[m][n] = f[m - 1][n] + f[m][n - 1]
+ result: f[m - 1][n - 1]
  
  Time: <#Description#>, Space: <#Description#>
  
  */
 
 func uniquePaths(_ m: Int, _ n: Int) -> Int {
-    <#Description#>
+    if m == 0 || n == 0 {
+        return 0
+    }
+    var f = Array(repeating: Array(repeating: 0, count: n), count: m)
+    
+    for i in 1 ..< m {
+        f[i][0] = 1
+    }
+    
+    for j in 1 ..< n {
+        f[0][j] = 1
+    }
+    
+    for i in 1 ..< m {
+        for j in 1 ..< n {
+            f[i][j] = f[i - 1][j] + f[i][j - 1]
+        }
+    }
+    
+    return f[m - 1][n - 1]
+
 }
 
 private func <#Description#>(<#Description#>) -> <#Description#> {

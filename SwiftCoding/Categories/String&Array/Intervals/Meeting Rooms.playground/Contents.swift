@@ -13,7 +13,7 @@ import ZHDataStructure
  
  Link: https://leetcode.com/problems/meeting-rooms/?tab=Description
  
- Sort and traverse, find if any conflicts exist
+ Idea: Sort and traverse, find if any conflicts exist
  
  Time: O(nlogn), Space: O(1)
  
@@ -29,24 +29,6 @@ func canAttendMeetings(_ intervals: [Interval]) -> Bool {
             return false
         }
         lastEnd = max(lastEnd, cur.end)
-    }
-    return true
-}
-
-//DaoZhang
-func canAttendMeetings2(_ intervals: [Interval]) -> Bool {
-    guard intervals.count > 1 else { return true }
-    var intervals = intervals.sorted { (v1, v2) -> Bool in
-        if v1.start != v2.start {
-            return v1.start < v2.start
-        } else {
-            return v1.end < v2.end
-        }
-    }
-    for i in 0 ..< intervals.count - 1 {
-        if intervals[i].end > intervals[i + 1].start {
-            return false
-        }
     }
     return true
 }

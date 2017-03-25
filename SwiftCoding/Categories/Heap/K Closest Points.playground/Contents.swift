@@ -14,7 +14,7 @@ func kClosest(_ points: [Point], _ origin: Point, _ k: Int) -> [Point] {
     var res = [Point]()
     guard points.count > 0 else { return [] }
     var pq = PriorityQueue { (p1: Point, p2: Point) -> Bool in
-        return getDistance(p1, origin) - getDistance(p2, origin) > 0
+        return getDistance(p1, origin) < getDistance(p2, origin)
     }
     for point in points {
         pq.enqueue(point)

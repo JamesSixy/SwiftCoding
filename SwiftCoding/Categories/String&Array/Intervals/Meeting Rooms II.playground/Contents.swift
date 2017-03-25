@@ -1,9 +1,7 @@
 
-import ZHDataStructure
-
 /**
  253. Meeting Rooms II
- Category: [ITV]
+ Category: []
  
  Question: Given an array of meeting time intervals consisting of start and end times [[s1,e1],[s2,e2],...] (si < ei), find the minimum number of conference rooms required.
  
@@ -13,12 +11,10 @@ import ZHDataStructure
  
  Link: https://leetcode.com/problems/meeting-rooms-ii/?tab=Description
  
- Sort start and end separately, then count conflicts
+ Idea: Sort start and end separately, then count conflicts
  
  Time: O(nlogn), Space: O(n)
  
- Same as "Number of Airplanes in the Sky"
- http://www.lintcode.com/en/problem/number-of-airplanes-in-the-sky/
  */
 
 typealias Point = (time: Int, flag: Int)
@@ -49,4 +45,3 @@ func minMeetingRooms(_ intervals: [Interval]) -> Int {
     }
     return res
 }
-
