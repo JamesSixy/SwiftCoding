@@ -10,6 +10,7 @@ import ZHDataStructure
  For example,
  Given [[0, 30],[5, 10],[15, 20]],
  return false.
+ 
  Link: https://leetcode.com/problems/meeting-rooms/?tab=Description
  
  Idea: Sort and traverse, find if any conflicts exist

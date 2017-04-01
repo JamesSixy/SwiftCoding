@@ -79,6 +79,7 @@
 		419638071E65AE0800B34585 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		419638121E67C55000B34585 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		419638141E67C59800B34585 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		41B361711E88B09A00359B88 /* Product of Array Except Self.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Product of Array Except Self.playground"; sourceTree = "<group>"; };
 		41BE85511E6B65FF003F3861 /* 0304-Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0304-Tree.playground"; sourceTree = "<group>"; };
 		41BE85521E6B9DEE003F3861 /* Maximum Depth of Binary Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maximum Depth of Binary Tree.playground"; sourceTree = "<group>"; };
 		41BE85531E6C5D7A003F3861 /* Lowest Common Ancestor of a Binary Search Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lowest Common Ancestor of a Binary Search Tree.playground"; sourceTree = "<group>"; };
@@ -417,6 +418,7 @@
 				B809EAAC1E78D41B00B6D090 /* Next Permutation.playground */,
 				B809EAAD1E78D43F00B6D090 /* Previous Permutation.playground */,
 				B809EAB21E7F489200B6D090 /* Set Matrix Zeroes.playground */,
+				41B361711E88B09A00359B88 /* Product of Array Except Self.playground */,
 			);
 			path = "String&Array";
 			sourceTree = "<group>";

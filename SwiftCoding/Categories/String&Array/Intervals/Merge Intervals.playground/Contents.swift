@@ -1,11 +1,6 @@
 
 import ZHDataStructure
 
-///
-///
-/// - Parameter intervals: <#intervals description#>
-/// - Returns: <#return value description#>
-
 /**
  56. Merge Intervals
  Category: []
@@ -27,6 +22,7 @@ import ZHDataStructure
 
 func merge(_ intervals: [Interval]) -> [Interval] {
     guard intervals.count > 0 else { return [] }
+
     let sort = intervals.sorted {$0.start < $1.start }
     var res: [Interval] = []
     var last = sort[0]
