@@ -1,4 +1,6 @@
 
+import ZHDataStructure
+
 /**
  253. Meeting Rooms II
  Category: []
@@ -17,6 +19,25 @@
  
  */
 
+func minMeetingRoomsDZ(_ intervals: [Interval]) -> Int {
+    let starts = intervals.map { interval in interval.start }.sorted()
+    let ends = intervals.map { interval in interval.end }.sorted()
+    var i = 0, j = 0, count = 0
+    
+    while i < starts.count && j < ends.count {
+        if starts[i] < ends[j] {
+            count += 1
+            i += 1
+        } else {
+            i += 1
+            j += 1
+        }
+    }
+    
+    return count
+}
+
+
 typealias Point = (time: Int, flag: Int)
 
 func minMeetingRooms(_ intervals: [Interval]) -> Int {
@@ -28,9 +49,9 @@ func minMeetingRooms(_ intervals: [Interval]) -> Int {
     
     list.sort { (p1, p2) -> Bool in
         if p1.time == p2.time {
-            return p1.flag - p2.flag < 0
+            return p1.flag < p2.flag
         } else {
-            return p1.time - p2.time < 0
+            return p1.time < p2.time
         }
     }
     

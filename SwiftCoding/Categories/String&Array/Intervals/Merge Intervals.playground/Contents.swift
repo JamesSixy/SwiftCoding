@@ -10,8 +10,11 @@ import ZHDataStructure
  56. Merge Intervals
  Category: []
  
- Question: Divide two integers without using multiplication, division and mod operator.
- If it is overflow, return MAX_INT.
+ Question: Given a collection of intervals, merge all overlapping intervals.
+ 
+ For example,
+ Given [1,3],[2,6],[8,10],[15,18],
+ return [1,6],[8,10],[15,18].
  
  Link: https://leetcode.com/problems/merge-intervals/?tab=Description
  
@@ -23,9 +26,7 @@ import ZHDataStructure
 
 
 func merge(_ intervals: [Interval]) -> [Interval] {
-    guard intervals.count > 0 else {
-        return []
-    }
+    guard intervals.count > 0 else { return [] }
     let sort = intervals.sorted {$0.start < $1.start }
     var res: [Interval] = []
     var last = sort[0]

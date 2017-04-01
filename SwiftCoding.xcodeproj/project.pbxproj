@@ -888,9 +888,9 @@
 			isa = PBXGroup;
 			children = (
 				B8C1FDE81E74D16600A14EC1 /* Insert Interval.playground */,
-				B8C1FDE91E74D16600A14EC1 /* Meeting Rooms II.playground */,
-				B8C1FDEA1E74D16600A14EC1 /* Meeting Rooms.playground */,
 				B8C1FDEB1E74D16600A14EC1 /* Merge Intervals.playground */,
+				B8C1FDEA1E74D16600A14EC1 /* Meeting Rooms.playground */,
+				B8C1FDE91E74D16600A14EC1 /* Meeting Rooms II.playground */,
 			);
 			path = Intervals;
 			sourceTree = "<group>";

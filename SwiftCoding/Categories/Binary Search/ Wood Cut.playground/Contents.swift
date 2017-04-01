@@ -7,9 +7,7 @@
 /// - Returns: max length
 
 func woodCut(_ L: [Int], _ k: Int) -> Int {
-    guard L.count > 0, k > 0 else {
-        return 0
-    }
+    guard L.count > 0, k > 0 else { return 0 }
     var maxLen = 0
     for i in L where i > maxLen {
         maxLen = i

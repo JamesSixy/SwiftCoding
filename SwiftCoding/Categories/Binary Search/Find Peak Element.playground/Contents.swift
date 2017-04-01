@@ -8,9 +8,7 @@
 import UIKit
 
 func findPeakElement(_ nums: [Int]) -> Int {
-    guard nums.count > 0 else {
-        return 0
-    }
+    guard nums.count > 0 else { return 0 }
     var start = 0, end = nums.count - 1
     while start + 1 < end {
         let mid = start + (end - start) / 2

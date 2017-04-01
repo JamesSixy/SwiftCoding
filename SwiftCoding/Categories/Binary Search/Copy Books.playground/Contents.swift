@@ -9,9 +9,7 @@
 /// min minutes depends on the longest book (at least) since speed same
 
 func copyBooks(_ pages: [Int], _ k: Int) -> Int {
-    guard pages.count > 0, k > 0 else {
-        return 0
-    }
+    guard pages.count > 0, k > 0 else { return 0 }
     var maxPages = 0, sum = 0
     for i in pages {
         maxPages = max(i, maxPages)
