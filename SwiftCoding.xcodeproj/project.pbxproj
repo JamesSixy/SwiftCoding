@@ -185,6 +185,7 @@
 		B82413601E57D6B9002A692F /* First Bad Version.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "First Bad Version.playground"; sourceTree = "<group>"; };
 		B82413621E58CD1B002A692F /* Subtree with Maximum Average .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Subtree with Maximum Average .playground"; sourceTree = "<group>"; };
 		B8334D021E73383F00CD7D50 /* Algorithms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algorithms.swift; sourceTree = "<group>"; };
+		B877739D1E9068BD0070EBD2 /* Trapping Rain Water.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Trapping Rain Water.playground"; sourceTree = "<group>"; };
 		B88140D71E784A6900D4A965 /* Paint House.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Paint House.playground"; sourceTree = "<group>"; };
 		B88140D81E784AEF00D4A965 /* Triangle.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Triangle.playground; sourceTree = "<group>"; };
 		B88140D91E784C1F00D4A965 /* Minimum Path Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Minimum Path Sum.playground"; sourceTree = "<group>"; };
@@ -518,6 +519,7 @@
 				41BE85B31E74B85D003F3861 /* Partition Array by Odd and Even.playground */,
 				41BE85B41E74B8A3003F3861 /* Interleaving Positive and Negative Numbers.playground */,
 				41BE85B51E74B8E5003F3861 /* Sort Letters by Case.playground */,
+				B877739D1E9068BD0070EBD2 /* Trapping Rain Water.playground */,
 			);
 			name = Bidirectional;
 			sourceTree = "<group>";
