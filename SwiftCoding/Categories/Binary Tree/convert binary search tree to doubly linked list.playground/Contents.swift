@@ -1,11 +1,13 @@
 
 import ZHDataStructure
 
-
-/// Convert Binary Search Tree to Doubly Linked List
-/// http://www.lintcode.com/en/problem/convert-binary-search-tree-to-doubly-linked-list/
-/// - Parameter root: <#root description#>
-/// - Returns: doubly list node
+/*
+ Convert Binary Search Tree to Doubly Linked List
+ 
+ http://www.lintcode.com/en/problem/convert-binary-search-tree-to-doubly-linked-list/
+ 
+ Convert a binary search tree to doubly linked list with in-order traversal.
+ */
 
 typealias Tuple = (first: DoublyListNode?, last: DoublyListNode?)
 

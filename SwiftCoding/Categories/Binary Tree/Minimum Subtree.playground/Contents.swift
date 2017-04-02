@@ -1,10 +1,17 @@
 
 import ZHDataStructure
 
-/// Minimum Subtree
-/// http://www.lintcode.com/en/problem/minimum-subtree/
-/// - Parameter root:
-/// - Returns: root of min subtree
+/*
+ Minimum Subtree
+ 
+ http://www.lintcode.com/en/problem/minimum-subtree/
+ 
+ Given a binary tree, find the subtree with minimum sum. Return the root of the subtree.
+ 
+ Returns: root of min subtree
+ 
+ Time: O(n), Space: O(n)
+ */
 
 typealias Tuple = (minNode: TreeNode?, sum: Int)
 

@@ -1,15 +1,18 @@
 
 import ZHDataStructure
 
-/// Lowest Common Ancestor III
-/// http://www.lintcode.com/en/problem/lowest-common-ancestor-iii/
-/// - Parameters:
-///   - root: <#root description#>
-///   - A: <#A description#>
-///   - B: <#B description#>
-/// - Returns: <#return value description#>
-/// what should we check after left right devision?
-/// if root is A or B, then return aExists, bExists. Check node
+/*
+ Lowest Common Ancestor III
+ http://www.lintcode.com/en/problem/lowest-common-ancestor-iii/
+ 
+ Given the root and two nodes in a Binary Tree. Find the lowest common ancestor(LCA) of the two nodes.
+ The lowest common ancestor is the node with largest depth which is the ancestor of both nodes.
+ Return null if LCA does not exist.
+ 
+ what should we check after left right devision?
+ if root is A or B, then return aExists, bExists. Check node
+ 
+ */
 
 typealias LCA3Tuple = (aExists: Bool, bExists: Bool, node: TreeNode?)
 

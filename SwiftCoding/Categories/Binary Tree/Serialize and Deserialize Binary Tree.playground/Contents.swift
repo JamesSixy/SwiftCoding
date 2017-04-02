@@ -21,9 +21,7 @@ import ZHDataStructure
  */
 
 func serializeLevel(_ root: TreeNode?) -> String {
-    if root == nil {
-        return "null"
-    }
+    if root == nil { return "null" }
     var res = ""
     var queue = [root]
     while !queue.isEmpty {

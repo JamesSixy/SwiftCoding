@@ -1,11 +1,19 @@
 
 import ZHDataStructure
 
-/// 298. Binary Tree Longest Consecutive Sequence
-/// https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/?tab=Description
-/// - Parameter root: <#root description#>
-/// - Returns: <#return value description#>
-/// What is consecutive sequence? [2, 3, 4, 5] each increasing by 1
+/*
+ 298. Binary Tree Longest Consecutive Sequence
+ 
+ https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/?tab=Description
+ 
+ Given a binary tree, find the length of the longest consecutive sequence path.
+ 
+ The path refers to any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The longest consecutive path need to be from parent to child (cannot be the reverse).
+ 
+ What is consecutive sequence? [2, 3, 4, 5] each increasing by 1
+ 
+ Time: O(n), Space: O(n)
+ */
 
 
 //Solution1 - Traversal + DC

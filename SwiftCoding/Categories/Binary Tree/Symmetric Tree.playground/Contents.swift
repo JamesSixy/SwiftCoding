@@ -8,9 +8,7 @@ import ZHDataStructure
 /// Can we use divide & Conquer to solve this? or preorder? when should we use preorder?
 
 func isSymmetric(_ root: TreeNode?) -> Bool {
-    guard let root = root else {
-        return true
-    }
+    guard let root = root else { return true }
     return helper(root.left, root.right)
 }
 
