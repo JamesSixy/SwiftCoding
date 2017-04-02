@@ -33,7 +33,7 @@ private func helper(_ res: inout [[String]],
         return
     }
     for i in start ..< arr.count {
-        let subarr = Array(arr[start ..< i + 1])
+        let subarr = Array(arr[start ..< i + 1]) //substring(start, i + 1)
         if (!isPalindrome(subarr)) {
             continue
         }
@@ -65,5 +65,6 @@ let testCases = [
 
 for str in testCases {
     print(partition(str))
+    print()
 }
 

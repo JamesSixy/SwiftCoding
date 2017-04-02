@@ -2,13 +2,21 @@
 import UIKit
 import ZHDataStructure
 
-/// 127. Word Ladder
-/// https://leetcode.com/problems/word-ladder/?tab=Description
-/// - Parameters:
-///   - beginWord: <#beginWord description#>
-///   - endWord: <#endWord description#>
-///   - wordList: <#wordList description#>
-/// - Returns: Shortest length of transformation
+/*
+ 127. Word Ladder
+ 
+ Given two words (start and end), and a dictionary, find the length of shortest transformation sequence from start to end, such that:
+ 
+ Only one letter can be changed at a time
+ Each intermediate word must exist in the dictionary
+
+ http://www.lintcode.com/en/problem/word-ladder/
+ https://leetcode.com/problems/word-ladder/?tab=Description
+ 
+ 
+ Returns: Shortest length of transformation
+ 
+ */
 
 
 //Solution: TLE WTF?!

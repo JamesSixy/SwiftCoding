@@ -43,6 +43,9 @@ private func helperDFS(_ grid: inout [[Character]],
 private func isValid(_ i: Int,
                      _ j: Int,
                      _ grid: [[Character]]) -> Bool {
-    return i >= 0 && i < grid.count && j >= 0 &&
-        j < grid[i].count && grid[i][j] == "1"
+    return i >= 0 &&
+        i < grid.count &&
+        j >= 0 &&
+        j < grid[i].count
+        && grid[i][j] == "1"
 }

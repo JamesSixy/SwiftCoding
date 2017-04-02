@@ -28,7 +28,8 @@ private func dfs(_ res: inout [String],
         
         if stack < 0 {
             for j in lastJ ... i {
-                if s[j] == parens.1 && (j == lastJ || s[j - 1] != parens.1) {
+                if s[j] == parens.1 &&
+                    (j == lastJ || s[j - 1] != parens.1) {
                     dfs(&res, Array(s[0 ..< j] + s[j + 1 ..< s.count]), i, j, parens)
                 }
             }
@@ -37,7 +38,12 @@ private func dfs(_ res: inout [String],
     }
     
     if parens.0 == "(" {
-        dfs(&res, s.reversed(), 0, 0, (Character(")"), Character("(")))
+        dfs(&res,
+            s.reversed(),
+            0,
+            0,
+            (Character(")"), Character("("))
+        )
     } else {
         res.append(String(s.reversed()))
     }
