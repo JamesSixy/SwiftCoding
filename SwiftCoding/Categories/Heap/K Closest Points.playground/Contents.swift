@@ -43,10 +43,8 @@ func kClosestMax(_ points: [Point], _ origin: Point, _ k: Int) -> [Point] {
             pq.dequeue()
         }
     }
-    var k = pq.count
     while !pq.isEmpty {
         res.append(pq.dequeue()!)
-        k -= 1
     }
     return res.reversed()
 }

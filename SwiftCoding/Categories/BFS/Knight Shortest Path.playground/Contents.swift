@@ -17,7 +17,9 @@
 
 typealias Point = (x: Int, y: Int)
 
-func shortestPath(_ grid: [[Int]], source: Point, destination: Point) -> Int {
+func shortestPath(_ grid: [[Int]],
+                  source: Point,
+                  destination: Point) -> Int {
     guard grid.count > 0 else { return -1 }
     guard source != destination else { return 0 }
     let dx = [-2, -2, -1, -1, 1, 1, 2, 2]
@@ -31,7 +33,8 @@ func shortestPath(_ grid: [[Int]], source: Point, destination: Point) -> Int {
     while !queue.isEmpty {
         let cur = queue.removeFirst()
         for k in 0 ..< 8 {
-            let nx = dx[k] + cur.x, ny = dy[k] + cur.y
+            let nx = dx[k] + cur.x
+            let ny = dy[k] + cur.y
             if isValid(cur.x, cur.y, nx, ny, grid, steps) {
                 queue.append(Point(nx, ny))
                 steps[nx][ny] = steps[cur.x][cur.y] + 1
