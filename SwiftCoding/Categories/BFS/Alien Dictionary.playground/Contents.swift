@@ -47,42 +47,116 @@ import ZHDataStructure
  Link: https://leetcode.com/problems/alien-dictionary/?tab=Description
  
  Summary:
-
- Time: O(n), Space: O(n) ---- n = number of characters
+ 
+ Time: O(nm), Space: O(m),
+ n represents words number, m represents length of a word
  
  */
 
-typealias Position = (x: Int, y: Int, val: String)
+//TODO
+var inDegrees = [Character: Int]()
+var toWords = [Character: [Character]]()
+var valid = true
 
 func alienOrder(_ words: [String]) -> String {
-    guard words.count > 0 else { return [] }
+    var res = "", queue = [Character]()
     
-    var set = Set<String>(), last: String?, res = ""
-    var queue = [Position]()
-    for (word, index) in words.enumerated() {
-        guard word.characters.count > 0 else { continue }
-        queue.append(Position(0, index, word[0]))
+    guard words.count > 0 else { return res }
+    
+    initGraph(words)
+    
+    for char in inDegrees.keys where inDegrees[char] == 0 {
+        queue.append(char)
     }
     
     while !queue.isEmpty {
-        let cur = queue.removeFirst()
-        if set.contains(cur.val) {
-            if let last = last where last != cur.val {
-                return ""
-            } else {
-                res = res + cur.val
+        let char = queue.removeFirst()
+        res += String(char)
+        
+        guard let toChars = toWords[char] else { continue }
+        
+        for c in toChars {
+            inDegrees[c]! -= 1
+            if inDegrees[c] == 0 {
+                queue.append(c)
             }
-        } else {
-            set.insert(cur.val)
-            last = cur
         }
-        //enqueue next
-        let word = words[cur.y]
-        guard cur.x + 1 < word.characters.count else { continue }
-        queue.append(Position(cur.x + 1, cur.y, word[cur.x + 1]))
     }
-    return res
+    
+    return res.characters.count == inDegrees.count && valid ? res : ""
 }
+
+private func initGraph(_ words: [String]) {
+    for word in words {
+        for char in word.characters {
+            inDegrees[char] = 0
+        }
+    }
+    
+    for i in 0 ..< words.count - 1 {
+        let prev = Array(words[i].characters)
+        let post = Array(words[i + 1].characters)
+        var j = 0
+        
+        while j < prev.count && j < post.count {
+            if prev[j] == post[j] {
+                j += 1
+            } else {
+                addEdge(prev[j], post[j])
+                break
+            }
+        }
+        
+        if prev.count != post.count && j == post.count {
+            valid = false
+        }
+    }
+}
+
+private func addEdge(_ from: Character, _ to: Character) {
+    if let inDegree = inDegrees[to] {
+        inDegrees[to] = inDegree + 1
+    }
+    
+    if toWords[from] != nil {
+        toWords[from]!.append(to)
+    } else {
+        toWords[from] = [to]
+    }
+}
+
+
+//typealias Position = (x: Int, y: Int, val: String)
+//
+//func alienOrder(_ words: [String]) -> String {
+//    guard words.count > 0 else { return [] }
+//
+//    var set = Set<String>(), last: String?, res = ""
+//    var queue = [Position]()
+//    for (word, index) in words.enumerated() {
+//        guard word.characters.count > 0 else { continue }
+//        queue.append(Position(0, index, word[0]))
+//    }
+//
+//    while !queue.isEmpty {
+//        let cur = queue.removeFirst()
+//        if set.contains(cur.val) {
+//            if let last = last, last != cur.val {
+//                return ""
+//            } else {
+//                res = res + cur.val
+//            }
+//        } else {
+//            set.insert(cur.val)
+//            last = cur
+//        }
+//        //enqueue next
+//        let word = words[cur.y]
+//        guard cur.x + 1 < word.characters.count else { continue }
+//        queue.append(Position(cur.x + 1, cur.y, word[cur.x + 1]))
+//    }
+//    return res
+//}
 
 
 
