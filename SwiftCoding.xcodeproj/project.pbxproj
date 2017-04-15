@@ -81,6 +81,7 @@
 		419638121E67C55000B34585 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		419638141E67C59800B34585 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		41A689BD1EA06F8600550E92 /* Remove Nth Node From End of List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Nth Node From End of List.playground"; sourceTree = "<group>"; };
+		41A689C81EA1C19700550E92 /* Remove Duplicates from Sorted List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Duplicates from Sorted List.playground"; sourceTree = "<group>"; };
 		41B361711E88B09A00359B88 /* Product of Array Except Self.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Product of Array Except Self.playground"; sourceTree = "<group>"; };
 		41BE85511E6B65FF003F3861 /* 0304-Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0304-Tree.playground"; sourceTree = "<group>"; };
 		41BE85521E6B9DEE003F3861 /* Maximum Depth of Binary Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maximum Depth of Binary Tree.playground"; sourceTree = "<group>"; };
@@ -836,6 +837,7 @@
 				41F7B8FB1E7DD4C000CD70CC /* Add Two Numbers.playground */,
 				415478DA1E9F177500692FC6 /* Odd Even Linked List.playground */,
 				41A689BD1EA06F8600550E92 /* Remove Nth Node From End of List.playground */,
+				41A689C81EA1C19700550E92 /* Remove Duplicates from Sorted List.playground */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
