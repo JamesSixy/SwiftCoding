@@ -83,6 +83,7 @@
 		41A689BD1EA06F8600550E92 /* Remove Nth Node From End of List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Nth Node From End of List.playground"; sourceTree = "<group>"; };
 		41A689C81EA1C19700550E92 /* Remove Duplicates from Sorted List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Duplicates from Sorted List.playground"; sourceTree = "<group>"; };
 		41AC3F2F1EA5A918004F3826 /* 0417.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0417.playground; sourceTree = "<group>"; };
+		41B1A5C01EA7026000449BAF /* 0418.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0418.playground; sourceTree = "<group>"; };
 		41B361711E88B09A00359B88 /* Product of Array Except Self.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Product of Array Except Self.playground"; sourceTree = "<group>"; };
 		41B445571EA31D4A00804D3D /* Remove Duplicates from Sorted List II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Duplicates from Sorted List II.playground"; sourceTree = "<group>"; };
 		41BE85511E6B65FF003F3861 /* 0304-Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0304-Tree.playground"; sourceTree = "<group>"; };
@@ -374,6 +375,7 @@
 				41F7B8F91E7D973700CD70CC /* 0318.playground */,
 				B809EAB51E7F6E5A00B6D090 /* 0319.playground */,
 				41AC3F2F1EA5A918004F3826 /* 0417.playground */,
+				41B1A5C01EA7026000449BAF /* 0418.playground */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
