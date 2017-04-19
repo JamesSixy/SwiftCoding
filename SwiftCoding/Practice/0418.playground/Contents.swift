@@ -43,3 +43,36 @@ private func initIndegree(_ numCourses: Int, _ prerequisites: [Int]) -> [Int] {
     }
     return res
 }
+
+func validTree(_ n: Int, _ edges: [[Int]]) -> Bool {
+    guard n > 0, n == edges.count + 1 else { return false }
+    let dict = getValidTreeMapping(n, edges)
+    var queue = [0], visited = Set<Int>()
+    visited.insert(0)
+    var count = 0
+    while !queue.isEmpty {
+        let cur = queue.removeFirst()
+        count += 1
+        for neighbor in dict[cur]! {
+            if !visited.contains(neighbor) {
+                queue.append(neighbor)
+                visited.insert(neighbor)
+            }
+        }
+    }
+    return n == count
+}
+
+private func getValidTreeMapping(_ n: Int, _ edges: [[Int]]) -> [[Int]] {
+    var dict: [Int: [Int]] = [:]
+    for (i, ele) in edges.enumerated() {
+        let firstNode = ele[0]
+        let secondNode = ele[1]
+        if dict[firstNode] == nil {
+            dict[firstNode] = []
+        }
+        dict[firstNode]!.append(secondNode)
+        dict[secondNode]!.append(firstNode)
+    }
+    return dict
+}

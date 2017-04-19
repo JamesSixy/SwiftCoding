@@ -23,7 +23,11 @@
  
  Link: https://leetcode.com/problems/course-schedule/?tab=Description
  
- Idea: Topology sort: 1.Build edges and nodes 2. check if nodes == count
+ Idea: Topology sort: 
+    1.Build edges and indegreeCountsForEachNode
+    2.topology BFS (first found all 0 degree node and then traverse)
+    3.check if nodes == count.
+    PS: prep[i][0] is neighbor of prep[i][1] and will be used to calculate indegree count, prep[i][1] is outdegree node and will be used to get its neighbors
  
  Time: O(n), Space: O(n)
  
@@ -135,8 +139,8 @@ private func initEdges(_ numCourses: Int, _ prerequisites: [[Int]]) -> [[Int]] {
 
 func findOrder(_ numCourses: Int, _ prerequisites: [[Int]]) -> [Int] {
     var res: [Int] = Array(repeatElement(0, count: numCourses))
-    var indegree = getInDegree(numCourses, prerequisites)
-    let edges = getEdges(numCourses, prerequisites)
+    var indegree = initIndegree(numCourses, prerequisites)
+    let edges = initEdges(numCourses, prerequisites)
     
     var queue = indegree.enumerated().filter {
         $0.element == 0
