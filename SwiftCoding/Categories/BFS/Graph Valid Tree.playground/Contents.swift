@@ -15,7 +15,7 @@
  
  Link: https://leetcode.com/problems/graph-valid-tree/?tab=Description
  
- Idea:
+ Idea: construct edges dict<Node: Neighbors>-- [Int: [Int]] or [Int: Set<Int>] and BFS
  
  How would you construct a graph given numOfNodes and edges?
  

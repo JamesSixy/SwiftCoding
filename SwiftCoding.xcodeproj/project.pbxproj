@@ -162,6 +162,7 @@
 		41C140451E636B7C00F86BF8 /* Ternary Expression Parser.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Ternary Expression Parser.playground"; sourceTree = "<group>"; };
 		41C140461E636BDB00F86BF8 /* Remove K Digits.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove K Digits.playground"; sourceTree = "<group>"; };
 		41C140471E636C1600F86BF8 /* Evaluate Reverse Polish Notation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Evaluate Reverse Polish Notation.playground"; sourceTree = "<group>"; };
+		41CB40A51EA7920A00C5AE65 /* 0419.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0419.playground; sourceTree = "<group>"; };
 		41F7B8F81E7B849400CD70CC /* Divide Two Integers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Divide Two Integers.playground"; sourceTree = "<group>"; };
 		41F7B8F91E7D973700CD70CC /* 0318.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0318.playground; sourceTree = "<group>"; };
 		41F7B8FA1E7DC3B400CD70CC /* Invert Binary Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Invert Binary Tree.playground"; sourceTree = "<group>"; };
@@ -376,6 +377,7 @@
 				B809EAB51E7F6E5A00B6D090 /* 0319.playground */,
 				41AC3F2F1EA5A918004F3826 /* 0417.playground */,
 				41B1A5C01EA7026000449BAF /* 0418.playground */,
+				41CB40A51EA7920A00C5AE65 /* 0419.playground */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
