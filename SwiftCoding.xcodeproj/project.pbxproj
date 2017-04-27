@@ -73,6 +73,7 @@
 /* Begin PBXFileReference section */
 		412EAB3D1EB04D0C00411F49 /* 0425.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0425.playground; sourceTree = "<group>"; };
 		412EAB3E1EB18FD600411F49 /* 0426.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0426.playground; sourceTree = "<group>"; };
+		412EAB3F1EB219CB00411F49 /* 0427.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0427.playground; sourceTree = "<group>"; };
 		415478DA1E9F177500692FC6 /* Odd Even Linked List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Odd Even Linked List.playground"; sourceTree = "<group>"; };
 		419637F91E6507B900B34585 /* Word Break II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Word Break II.playground"; sourceTree = "<group>"; };
 		419637FA1E6509D700B34585 /* Word Break I.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Word Break I.playground"; sourceTree = "<group>"; };
@@ -385,6 +386,7 @@
 				B8593AC91EAB050B00A72157 /* 0421.playground */,
 				412EAB3D1EB04D0C00411F49 /* 0425.playground */,
 				412EAB3E1EB18FD600411F49 /* 0426.playground */,
+				412EAB3F1EB219CB00411F49 /* 0427.playground */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
