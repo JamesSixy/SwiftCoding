@@ -76,6 +76,7 @@
 		412EAB3F1EB219CB00411F49 /* 0427.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0427.playground; sourceTree = "<group>"; };
 		4141CFFA1EB4250A0033F667 /* 0428.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0428.playground; sourceTree = "<group>"; };
 		415478DA1E9F177500692FC6 /* Odd Even Linked List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Odd Even Linked List.playground"; sourceTree = "<group>"; };
+		415E565F1EB576A900BD2D5B /* Rectangle Overlap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Rectangle Overlap.playground"; sourceTree = "<group>"; };
 		419637F91E6507B900B34585 /* Word Break II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Word Break II.playground"; sourceTree = "<group>"; };
 		419637FA1E6509D700B34585 /* Word Break I.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Word Break I.playground"; sourceTree = "<group>"; };
 		419638001E6516A400B34585 /* Remove Invalid Parentheses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Invalid Parentheses.playground"; sourceTree = "<group>"; };
@@ -831,6 +832,7 @@
 			children = (
 				B8C1B3931E6E614100C315BC /* Pow(x, n).playground */,
 				41F7B8F81E7B849400CD70CC /* Divide Two Integers.playground */,
+				415E565F1EB576A900BD2D5B /* Rectangle Overlap.playground */,
 			);
 			path = Math;
 			sourceTree = "<group>";
