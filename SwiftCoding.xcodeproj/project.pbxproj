@@ -87,6 +87,7 @@
 		419638071E65AE0800B34585 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		419638121E67C55000B34585 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		419638141E67C59800B34585 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		419CF0001EBAB4D800B32A4F /* 0503.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0503.playground; sourceTree = "<group>"; };
 		41A689BD1EA06F8600550E92 /* Remove Nth Node From End of List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Nth Node From End of List.playground"; sourceTree = "<group>"; };
 		41A689C81EA1C19700550E92 /* Remove Duplicates from Sorted List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Duplicates from Sorted List.playground"; sourceTree = "<group>"; };
 		41AC3F2F1EA5A918004F3826 /* 0417.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0417.playground; sourceTree = "<group>"; };
@@ -395,6 +396,7 @@
 				4141CFFA1EB4250A0033F667 /* 0428.playground */,
 				41C835551EB6C24D008392BB /* 0430.playground */,
 				414E66D21EB82A1B00C2B347 /* 0501.playground */,
+				419CF0001EBAB4D800B32A4F /* 0503.playground */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
