@@ -29,17 +29,42 @@ import ZHDataStructure
  
  */
 
-//reverse levelArray if odd
+//insertAtZero if odd
 func zigzagLevelOrder(_ root: TreeNode?) -> [[Int]] {
+    var res: [[Int]] = []
+    guard let root = root else { return res }
+    var queue = [root], isOdd = true
+    while !queue.isEmpty {
+        let size = queue.count
+        var level = [Int]()
+        for _ in 0 ..< size {
+            let cur = queue.removeFirst()
+            isOdd ? level.append(cur.val) : level.insert(cur.val, at: 0)
+            if let left = cur.left {
+                queue.append(left)
+            }
+            if let right = cur.right {
+                queue.append(right)
+            }
+        }
+        res.append(level)
+        isOdd = !isOdd
+    }
+    return res
+}
+
+
+//reverse levelArray if odd
+func zigzagLevelOrder2(_ root: TreeNode?) -> [[Int]] {
     var res: [[Int]] = []
     guard let root = root else { return res }
     
     var queue = [root]
     var flag = false
     while !queue.isEmpty {
-        var size = queue.count
+        let size = queue.count
         var arr: [Int] = []
-        for i in 0 ..< size {
+        for _ in 0 ..< size {
             let cur = queue.removeFirst()
             arr.append(cur.val)
             if let left = cur.left {
@@ -52,32 +77,6 @@ func zigzagLevelOrder(_ root: TreeNode?) -> [[Int]] {
         let shouldReverse = flag
         flag = !flag
         res.append(shouldReverse ? arr.reversed() : arr)
-    }
-    return res
-}
-
-//insertAtZero if odd
-func zigzagLevelOrder2(_ root: TreeNode?) -> [[Int]] {
-    var res: [[Int]] = []
-    guard let root = root else { return res }
-    
-    var queue = [root]
-    var isOdd = false
-    while !queue.isEmpty {
-        var size = queue.count
-        var arr: [Int] = []
-        for i in 0 ..< size {
-            let cur = queue.removeFirst()
-            isOdd ? arr.insert(cur.val, at: 0) : arr.append(cur.val)
-            if let left = cur.left {
-                queue.append(left)
-            }
-            if let right = cur.right {
-                queue.append(right)
-            }
-        }
-        isOdd = !isOdd
-        res.append(arr)
     }
     return res
 }
