@@ -74,6 +74,7 @@
 		412EAB3D1EB04D0C00411F49 /* 0425.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0425.playground; sourceTree = "<group>"; };
 		412EAB3E1EB18FD600411F49 /* 0426.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0426.playground; sourceTree = "<group>"; };
 		412EAB3F1EB219CB00411F49 /* 0427.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0427.playground; sourceTree = "<group>"; };
+		4136F6431EC2A8DC00D91672 /* 0509.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0509.playground; sourceTree = "<group>"; };
 		4141CFFA1EB4250A0033F667 /* 0428.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0428.playground; sourceTree = "<group>"; };
 		414E66D21EB82A1B00C2B347 /* 0501.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0501.playground; sourceTree = "<group>"; };
 		415478DA1E9F177500692FC6 /* Odd Even Linked List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Odd Even Linked List.playground"; sourceTree = "<group>"; };
@@ -397,6 +398,7 @@
 				41C835551EB6C24D008392BB /* 0430.playground */,
 				414E66D21EB82A1B00C2B347 /* 0501.playground */,
 				419CF0001EBAB4D800B32A4F /* 0503.playground */,
+				4136F6431EC2A8DC00D91672 /* 0509.playground */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
