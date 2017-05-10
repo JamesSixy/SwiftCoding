@@ -8,8 +8,7 @@ import ZHDataStructure
 func levelOrder(_ root: TreeNode?) -> [[Int]] {
     var res: [[Int]] = []
     guard let root = root else { return res }
-    var queue: [TreeNode] = [] //use array to mock queue
-    queue.append(root)
+    var queue = [root]
     while !queue.isEmpty {
         let size = queue.count
         var level: [Int] = []
