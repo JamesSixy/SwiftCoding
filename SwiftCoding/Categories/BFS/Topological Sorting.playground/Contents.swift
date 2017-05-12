@@ -1,10 +1,27 @@
 
 import ZHDataStructure
 
-/// Topological Sorting
-/// http://www.lintcode.com/en/problem/topological-sorting/
-/// - Parameter graph: <#graph description#>
-/// - Returns: Find any topological order for the given graph.
+/**
+ Topological Sorting
+ 
+ Category: [BFS]
+ 
+ Question: Given an directed graph, a topological order of the graph nodes is defined as follow:
+ 
+ For each directed edge A -> B in graph, A must before B in the order list.
+ The first node in the order can be any node in the graph with no nodes direct to it.
+ Find any topological order for the given graph.
+ 
+ Notice
+ 
+ You can assume that there is at least one topological order in the graph.
+ 
+ Link: http://www.lintcode.com/en/problem/topological-sorting/
+ 
+ Time: O(n), Space: O(n)
+ 
+ */
+
 func topSort(_ graph: [DirectedGraphNode]) -> [DirectedGraphNode] {
 
     var res = [DirectedGraphNode]()

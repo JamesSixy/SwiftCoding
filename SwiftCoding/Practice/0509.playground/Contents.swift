@@ -28,5 +28,28 @@ func zigzagLevelOrder(_ root: TreeNode?) -> [[Int]] {
     return res
 }
 
+func topSort(_ graph: [DirectedGraphNode]) -> [DirectedGraphNode] {
+    let dict = getIndegreeDict(graph)
+    
+}
+
+private func getIndegreeDict(_ graph: [DirectedGraphNode]) -> [DirectedGraphNode: Int] {
+    let dict = [DirectedGraphNode: Int]()
+    var queue = [graph[0]]
+    while !queue.isEmpty {
+        let cur = queue.removeFirst()
+        for neighbor in cur.neighbors {
+            if dict[neighbor] == nil {
+                dict[neighbor] = 1
+            } else {
+                dict[neighbor] = dict[neighbor] + 1
+            }
+            
+            queue.append(neighbor)
+        }
+    }
+    return dict
+}
+
 
 
