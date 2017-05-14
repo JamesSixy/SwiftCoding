@@ -13,8 +13,7 @@ import ZHDataStructure
  Find any topological order for the given graph.
  
  Notice
- 
- You can assume that there is at least one topological order in the graph.
+You can assume that there is at least one topological order in the graph.
  
  Link: http://www.lintcode.com/en/problem/topological-sorting/
  
@@ -25,10 +24,9 @@ import ZHDataStructure
 func topSort(_ graph: [DirectedGraphNode]) -> [DirectedGraphNode] {
 
     var res = [DirectedGraphNode]()
+    guard graph.count > 0 else { return res }
     var dict = getIndegreeNodes(graph)
-    var queue = graph.filter {
-        dict[$0] == nil
-    }
+    var queue = graph.filter { dict[$0] == nil }
     res += queue
     while !queue.isEmpty {
         let cur = queue.removeFirst()
@@ -44,10 +42,10 @@ func topSort(_ graph: [DirectedGraphNode]) -> [DirectedGraphNode] {
 }
 
 private func getIndegreeNodes(_ graph: [DirectedGraphNode]) -> [DirectedGraphNode : Int] {
-    var dict = [DirectedGraphNode : Int]()
+    var dict = [DirectedGraphNode: Int]()
     for node in graph {
         for neighbor in node.neighbors {
-            if var _ = dict[neighbor] {
+            if let _ = dict[neighbor] {
                 dict[neighbor]! += 1
             } else {
                 dict[neighbor] = 1

@@ -13,7 +13,6 @@ import ZHDataStructure
  http://www.lintcode.com/en/problem/word-ladder/
  https://leetcode.com/problems/word-ladder/?tab=Description
  
- 
  Returns: Shortest length of transformation
  
  */
