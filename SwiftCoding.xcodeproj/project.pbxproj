@@ -205,6 +205,7 @@
 		B824135F1E57D345002A692F /* Find Peak Element.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Find Peak Element.playground"; sourceTree = "<group>"; };
 		B82413601E57D6B9002A692F /* First Bad Version.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "First Bad Version.playground"; sourceTree = "<group>"; };
 		B82413621E58CD1B002A692F /* Subtree with Maximum Average .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Subtree with Maximum Average .playground"; sourceTree = "<group>"; };
+		B831FD341EC93394003EAA04 /* 0514.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0514.playground; sourceTree = "<group>"; };
 		B8334D021E73383F00CD7D50 /* Algorithms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algorithms.swift; sourceTree = "<group>"; };
 		B8593AC91EAB050B00A72157 /* 0421.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0421.playground; sourceTree = "<group>"; };
 		B877739D1E9068BD0070EBD2 /* Trapping Rain Water.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Trapping Rain Water.playground"; sourceTree = "<group>"; };
@@ -405,6 +406,7 @@
 				414A7EDF1EC53E9400BD13C1 /* 0511.playground */,
 				4177386F1EC6A1BD00059076 /* 0512.playground */,
 				417738701EC786EC00059076 /* 0513.playground */,
+				B831FD341EC93394003EAA04 /* 0514.playground */,
 			);
 			path = Practice;
 			sourceTree = "<group>";

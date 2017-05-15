@@ -1,5 +1,7 @@
 
 import ZHDataStructure
+import UIKit
+
 
 /**
  133. Clone Graph
@@ -16,8 +18,9 @@ import ZHDataStructure
  */
 
 func cloneGraph(_ node: UndirectedGraphNode) -> UndirectedGraphNode {
-    let dict = cloneNodesDict(node)
-    for (cur, copy) in dict {
+    let dict = copyNodes(node)
+    for cur in dict.keys {
+        let copy = dict[cur]!
         for neighbor in cur.neighbors {
             copy.neighbors.append(dict[neighbor]!)
         }
@@ -25,17 +28,17 @@ func cloneGraph(_ node: UndirectedGraphNode) -> UndirectedGraphNode {
     return dict[node]!
 }
 
-private func cloneNodesDict(_ node: UndirectedGraphNode) -> [UndirectedGraphNode : UndirectedGraphNode] {
-    var dict = [UndirectedGraphNode : UndirectedGraphNode]()
-    var queue = [node], visited = Set<UndirectedGraphNode>()
+private func copyNodes(_ node: UndirectedGraphNode) -> [UndirectedGraphNode: UndirectedGraphNode] {
+    var dict = [UndirectedGraphNode: UndirectedGraphNode]()
+    var queue = [node]
+    var visited = Set<UndirectedGraphNode>()
     visited.insert(node)
-    
     while !queue.isEmpty {
-        let cur = queue.removeFirst() // dequeue O(n)
+        let cur = queue.removeFirst()
         dict[cur] = UndirectedGraphNode(cur.label)
         for neighbor in cur.neighbors {
             if !visited.contains(neighbor) {
-                queue.append(neighbor) // enqueue O(1)
+                queue.append(neighbor)
                 visited.insert(neighbor)
             }
         }
