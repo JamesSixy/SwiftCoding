@@ -19,7 +19,9 @@ import ZHDataStructure
 
 
 //Solution: TLE WTF?!
-func ladderLength(_ beginWord: String, _ endWord: String, _ wordList: [String]) -> Int {
+func ladderLength(_ beginWord: String,
+                  _ endWord: String,
+                  _ wordList: [String]) -> Int {
     
     guard beginWord != endWord,
         wordList.count > 0 else { return 0 }
@@ -29,17 +31,16 @@ func ladderLength(_ beginWord: String, _ endWord: String, _ wordList: [String]) 
     //    set.insert(beginWord)
     //    set.insert(endWord)
     
+    var queue = [beginWord]
     var visited = Set<String>()
-    var queue = Queue<String>()
     visited.insert(beginWord)
-    queue.enqueue(beginWord)
     
     var res = 1
     while !queue.isEmpty {
         res += 1
         let size = queue.count
         for _ in 0 ..< size {
-            let cur = queue.dequeue()! //dequeue
+            let cur = queue.removeFirst() //dequeue
             for word in transformedWordsInDict(cur, set) {
                 if visited.contains(word) {
                     continue
@@ -47,7 +48,7 @@ func ladderLength(_ beginWord: String, _ endWord: String, _ wordList: [String]) 
                 if word == endWord {
                     return res
                 }
-                queue.enqueue(word)
+                queue.append(word)
                 visited.insert(word)
             }
         }
