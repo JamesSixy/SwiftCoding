@@ -71,6 +71,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4100F9C11ECD477800F13A65 /* 0516.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0516.playground; sourceTree = "<group>"; };
 		412EAB3D1EB04D0C00411F49 /* 0425.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0425.playground; sourceTree = "<group>"; };
 		412EAB3E1EB18FD600411F49 /* 0426.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0426.playground; sourceTree = "<group>"; };
 		412EAB3F1EB219CB00411F49 /* 0427.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0427.playground; sourceTree = "<group>"; };
@@ -409,6 +410,7 @@
 				417738701EC786EC00059076 /* 0513.playground */,
 				B831FD341EC93394003EAA04 /* 0514.playground */,
 				4139C44A1ECA9342006BB23F /* 0515.playground */,
+				4100F9C11ECD477800F13A65 /* 0516.playground */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
