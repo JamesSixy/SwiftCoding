@@ -94,6 +94,7 @@
 		419638121E67C55000B34585 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		419638141E67C59800B34585 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		419CF0001EBAB4D800B32A4F /* 0503.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0503.playground; sourceTree = "<group>"; };
+		419E6F891ECE792D00F16B99 /* 0518.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0518.playground; sourceTree = "<group>"; };
 		41A689BD1EA06F8600550E92 /* Remove Nth Node From End of List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Nth Node From End of List.playground"; sourceTree = "<group>"; };
 		41A689C81EA1C19700550E92 /* Remove Duplicates from Sorted List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Duplicates from Sorted List.playground"; sourceTree = "<group>"; };
 		41AC3F2F1EA5A918004F3826 /* 0417.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0417.playground; sourceTree = "<group>"; };
@@ -411,6 +412,7 @@
 				B831FD341EC93394003EAA04 /* 0514.playground */,
 				4139C44A1ECA9342006BB23F /* 0515.playground */,
 				4100F9C11ECD477800F13A65 /* 0516.playground */,
+				419E6F891ECE792D00F16B99 /* 0518.playground */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
