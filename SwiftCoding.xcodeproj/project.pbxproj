@@ -101,6 +101,7 @@
 		41B1A5C01EA7026000449BAF /* 0418.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0418.playground; sourceTree = "<group>"; };
 		41B361711E88B09A00359B88 /* Product of Array Except Self.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Product of Array Except Self.playground"; sourceTree = "<group>"; };
 		41B445571EA31D4A00804D3D /* Remove Duplicates from Sorted List II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Duplicates from Sorted List II.playground"; sourceTree = "<group>"; };
+		41B457C61ED0DB0800125ADC /* 0520.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0520.playground; sourceTree = "<group>"; };
 		41BE85511E6B65FF003F3861 /* 0304-Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0304-Tree.playground"; sourceTree = "<group>"; };
 		41BE85521E6B9DEE003F3861 /* Maximum Depth of Binary Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maximum Depth of Binary Tree.playground"; sourceTree = "<group>"; };
 		41BE85531E6C5D7A003F3861 /* Lowest Common Ancestor of a Binary Search Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lowest Common Ancestor of a Binary Search Tree.playground"; sourceTree = "<group>"; };
@@ -413,6 +414,7 @@
 				4139C44A1ECA9342006BB23F /* 0515.playground */,
 				4100F9C11ECD477800F13A65 /* 0516.playground */,
 				419E6F891ECE792D00F16B99 /* 0518.playground */,
+				41B457C61ED0DB0800125ADC /* 0520.playground */,
 			);
 			path = Practice;
 			sourceTree = "<group>";

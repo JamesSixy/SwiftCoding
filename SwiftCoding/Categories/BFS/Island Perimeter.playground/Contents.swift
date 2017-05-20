@@ -1,4 +1,7 @@
 
+import ZHDataStructure
+import UIKit
+
 /**
  463. Island Perimeter
  
@@ -8,11 +11,67 @@
  
  Link: https://leetcode.com/problems/island-perimeter/?tab=Description
  
- Time: , Space:
+ Time: O(n * m), Space: O(n * m) - BFS
  
  */
 
+public typealias Point = (x: Int, y: Int)
+
+//BFS
 func islandPerimeter(_ grid: [[Int]]) -> Int {
+    
+    let res = 0
+    guard grid.count > 0 else { return res }
+    
+    for (i, row) in grid.enumerated() {
+        for (j, _) in row.enumerated() {
+            if grid[i][j] == 1 {
+                return islandBFS(i, j, grid)
+            }
+        }
+    }
+    return res
+}
+
+private func islandBFS(_ i: Int,
+                       _ j: Int,
+                       _ grid: [[Int]]) -> Int {
+    var queue = [Point(x: i, y: j)], res = 0
+    var visited = Array(repeating: Array(repeatElement(false, count: grid[0].count)), count: grid.count)
+    visited[i][j] = true
+    let dx = [0, 0, 1, -1]
+    let dy = [1, -1, 0, 0]
+    while !queue.isEmpty {
+        let cur = queue.removeFirst()
+        for k in 0 ..< 4 {
+            let nx = cur.x + dx[k]
+            let ny = cur.y + dy[k]
+            let np = Point(x: nx, y: ny)
+            if isValid(grid, nx, ny) {
+                if !visited[nx][ny] {
+                    queue.append(np)
+                    visited[nx][ny] = true
+                }
+            } else {
+                res += 1
+            }
+        }
+    }
+    return res
+}
+
+private func isValid(_ grid: [[Int]],
+                     _ i: Int,
+                     _ j: Int) -> Bool {
+    return i >= 0 &&
+        i < grid.count &&
+        j >= 0 &&
+        j < grid[i].count &&
+        grid[i][j] == 1
+}
+
+//Daozhang
+func islandPerimeterDZ(_ grid: [[Int]]) -> Int {
     var islands = 0, neighbors = 0
     
     for i in 0 ..< grid.count {
