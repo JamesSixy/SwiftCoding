@@ -71,19 +71,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4100F9C11ECD477800F13A65 /* 0516.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0516.playground; sourceTree = "<group>"; };
-		412EAB3D1EB04D0C00411F49 /* 0425.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0425.playground; sourceTree = "<group>"; };
-		412EAB3E1EB18FD600411F49 /* 0426.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0426.playground; sourceTree = "<group>"; };
-		412EAB3F1EB219CB00411F49 /* 0427.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0427.playground; sourceTree = "<group>"; };
-		4136F6431EC2A8DC00D91672 /* 0509.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0509.playground; sourceTree = "<group>"; };
-		4139C44A1ECA9342006BB23F /* 0515.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0515.playground; sourceTree = "<group>"; };
-		4141CFFA1EB4250A0033F667 /* 0428.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0428.playground; sourceTree = "<group>"; };
-		414A7EDF1EC53E9400BD13C1 /* 0511.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0511.playground; sourceTree = "<group>"; };
-		414E66D21EB82A1B00C2B347 /* 0501.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0501.playground; sourceTree = "<group>"; };
 		415478DA1E9F177500692FC6 /* Odd Even Linked List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Odd Even Linked List.playground"; sourceTree = "<group>"; };
 		415E565F1EB576A900BD2D5B /* Rectangle Overlap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Rectangle Overlap.playground"; sourceTree = "<group>"; };
-		4177386F1EC6A1BD00059076 /* 0512.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0512.playground; sourceTree = "<group>"; };
-		417738701EC786EC00059076 /* 0513.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0513.playground; sourceTree = "<group>"; };
 		4182B8EB1EB96D92004D1511 /* Check Word Abbreviation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Check Word Abbreviation.playground"; sourceTree = "<group>"; };
 		419637F91E6507B900B34585 /* Word Break II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Word Break II.playground"; sourceTree = "<group>"; };
 		419637FA1E6509D700B34585 /* Word Break I.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Word Break I.playground"; sourceTree = "<group>"; };
@@ -93,16 +82,10 @@
 		419638071E65AE0800B34585 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		419638121E67C55000B34585 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		419638141E67C59800B34585 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
-		419CF0001EBAB4D800B32A4F /* 0503.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0503.playground; sourceTree = "<group>"; };
-		419E6F891ECE792D00F16B99 /* 0518.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0518.playground; sourceTree = "<group>"; };
 		41A689BD1EA06F8600550E92 /* Remove Nth Node From End of List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Nth Node From End of List.playground"; sourceTree = "<group>"; };
 		41A689C81EA1C19700550E92 /* Remove Duplicates from Sorted List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Duplicates from Sorted List.playground"; sourceTree = "<group>"; };
-		41AC3F2F1EA5A918004F3826 /* 0417.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0417.playground; sourceTree = "<group>"; };
-		41B1A5C01EA7026000449BAF /* 0418.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0418.playground; sourceTree = "<group>"; };
 		41B361711E88B09A00359B88 /* Product of Array Except Self.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Product of Array Except Self.playground"; sourceTree = "<group>"; };
 		41B445571EA31D4A00804D3D /* Remove Duplicates from Sorted List II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove Duplicates from Sorted List II.playground"; sourceTree = "<group>"; };
-		41B457C61ED0DB0800125ADC /* 0520.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0520.playground; sourceTree = "<group>"; };
-		41BE85511E6B65FF003F3861 /* 0304-Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0304-Tree.playground"; sourceTree = "<group>"; };
 		41BE85521E6B9DEE003F3861 /* Maximum Depth of Binary Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maximum Depth of Binary Tree.playground"; sourceTree = "<group>"; };
 		41BE85531E6C5D7A003F3861 /* Lowest Common Ancestor of a Binary Search Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lowest Common Ancestor of a Binary Search Tree.playground"; sourceTree = "<group>"; };
 		41BE85541E6C8EEF003F3861 /* Minimum Depth of Binary Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Minimum Depth of Binary Tree.playground"; sourceTree = "<group>"; };
@@ -160,7 +143,6 @@
 		41BE85A71E718C17003F3861 /* Subarray Sum II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Subarray Sum II.playground"; sourceTree = "<group>"; };
 		41BE85A81E718C87003F3861 /* Maximum Subarray II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Maximum Subarray II.playground"; sourceTree = "<group>"; };
 		41BE85AA1E739686003F3861 /* Island Perimeter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Island Perimeter.playground"; sourceTree = "<group>"; };
-		41BE85AB1E73A67E003F3861 /* 0310-BFS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "0310-BFS.playground"; sourceTree = "<group>"; };
 		41BE85AD1E74B6C8003F3861 /* Kth Largest Element in an Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Kth Largest Element in an Array.playground"; sourceTree = "<group>"; };
 		41BE85AE1E74B70D003F3861 /* Median.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Median.playground; sourceTree = "<group>"; };
 		41BE85B31E74B85D003F3861 /* Partition Array by Odd and Even.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Partition Array by Odd and Even.playground"; sourceTree = "<group>"; };
@@ -178,23 +160,18 @@
 		41C140451E636B7C00F86BF8 /* Ternary Expression Parser.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Ternary Expression Parser.playground"; sourceTree = "<group>"; };
 		41C140461E636BDB00F86BF8 /* Remove K Digits.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Remove K Digits.playground"; sourceTree = "<group>"; };
 		41C140471E636C1600F86BF8 /* Evaluate Reverse Polish Notation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Evaluate Reverse Polish Notation.playground"; sourceTree = "<group>"; };
-		41C835551EB6C24D008392BB /* 0430.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0430.playground; sourceTree = "<group>"; };
-		41CB40A51EA7920A00C5AE65 /* 0419.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0419.playground; sourceTree = "<group>"; };
 		41F4B92D1EAED147006A9F94 /* Binary Tree Upside Down.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Upside Down.playground"; sourceTree = "<group>"; };
 		41F7B8F81E7B849400CD70CC /* Divide Two Integers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Divide Two Integers.playground"; sourceTree = "<group>"; };
-		41F7B8F91E7D973700CD70CC /* 0318.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0318.playground; sourceTree = "<group>"; };
 		41F7B8FA1E7DC3B400CD70CC /* Invert Binary Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Invert Binary Tree.playground"; sourceTree = "<group>"; };
 		41F7B8FB1E7DD4C000CD70CC /* Add Two Numbers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Add Two Numbers.playground"; sourceTree = "<group>"; };
 		41F7B8FC1E7DD9CB00CD70CC /* House Robber.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "House Robber.playground"; sourceTree = "<group>"; };
 		B809EAAC1E78D41B00B6D090 /* Next Permutation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Next Permutation.playground"; sourceTree = "<group>"; };
 		B809EAAD1E78D43F00B6D090 /* Previous Permutation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Previous Permutation.playground"; sourceTree = "<group>"; };
-		B809EAAF1E7EDDF900B6D090 /* PhotoApp.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PhotoApp.playground; sourceTree = "<group>"; };
 		B809EAB01E7F3A2900B6D090 /* Best Time to Buy and Sell Stock with Cooldown.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Best Time to Buy and Sell Stock with Cooldown.playground"; sourceTree = "<group>"; };
 		B809EAB11E7F3AF600B6D090 /* Best Time to Buy and Sell Stock II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Best Time to Buy and Sell Stock II.playground"; sourceTree = "<group>"; };
 		B809EAB21E7F489200B6D090 /* Set Matrix Zeroes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Set Matrix Zeroes.playground"; sourceTree = "<group>"; };
 		B809EAB31E7F498700B6D090 /* Construct Binary Tree from Inorder and Postorder Traversal.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Construct Binary Tree from Inorder and Postorder Traversal.playground"; sourceTree = "<group>"; };
 		B809EAB41E7F49FF00B6D090 /* Construct Binary Tree from Preorder and Inorder Traversal.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Construct Binary Tree from Preorder and Inorder Traversal.playground"; sourceTree = "<group>"; };
-		B809EAB51E7F6E5A00B6D090 /* 0319.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0319.playground; sourceTree = "<group>"; };
 		B811C8701E5A859D009E3483 /* Lowest Common Ancestor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lowest Common Ancestor.playground"; sourceTree = "<group>"; };
 		B811C8711E5A8D15009E3483 /* Balanced Binary Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Balanced Binary Tree.playground"; sourceTree = "<group>"; };
 		B811C8721E5D3D30009E3483 /* Binary Tree Paths.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Binary Tree Paths.playground"; sourceTree = "<group>"; };
@@ -209,9 +186,7 @@
 		B824135F1E57D345002A692F /* Find Peak Element.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Find Peak Element.playground"; sourceTree = "<group>"; };
 		B82413601E57D6B9002A692F /* First Bad Version.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "First Bad Version.playground"; sourceTree = "<group>"; };
 		B82413621E58CD1B002A692F /* Subtree with Maximum Average .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Subtree with Maximum Average .playground"; sourceTree = "<group>"; };
-		B831FD341EC93394003EAA04 /* 0514.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0514.playground; sourceTree = "<group>"; };
 		B8334D021E73383F00CD7D50 /* Algorithms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algorithms.swift; sourceTree = "<group>"; };
-		B8593AC91EAB050B00A72157 /* 0421.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0421.playground; sourceTree = "<group>"; };
 		B877739D1E9068BD0070EBD2 /* Trapping Rain Water.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Trapping Rain Water.playground"; sourceTree = "<group>"; };
 		B88140D71E784A6900D4A965 /* Paint House.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Paint House.playground"; sourceTree = "<group>"; };
 		B88140D81E784AEF00D4A965 /* Triangle.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Triangle.playground; sourceTree = "<group>"; };
@@ -388,37 +363,6 @@
 			path = DP;
 			sourceTree = "<group>";
 		};
-		41BE85501E6B65EE003F3861 /* Practice */ = {
-			isa = PBXGroup;
-			children = (
-				41BE85511E6B65FF003F3861 /* 0304-Tree.playground */,
-				41BE85AB1E73A67E003F3861 /* 0310-BFS.playground */,
-				41F7B8F91E7D973700CD70CC /* 0318.playground */,
-				B809EAB51E7F6E5A00B6D090 /* 0319.playground */,
-				41AC3F2F1EA5A918004F3826 /* 0417.playground */,
-				41B1A5C01EA7026000449BAF /* 0418.playground */,
-				41CB40A51EA7920A00C5AE65 /* 0419.playground */,
-				B8593AC91EAB050B00A72157 /* 0421.playground */,
-				412EAB3D1EB04D0C00411F49 /* 0425.playground */,
-				412EAB3E1EB18FD600411F49 /* 0426.playground */,
-				412EAB3F1EB219CB00411F49 /* 0427.playground */,
-				4141CFFA1EB4250A0033F667 /* 0428.playground */,
-				41C835551EB6C24D008392BB /* 0430.playground */,
-				414E66D21EB82A1B00C2B347 /* 0501.playground */,
-				419CF0001EBAB4D800B32A4F /* 0503.playground */,
-				4136F6431EC2A8DC00D91672 /* 0509.playground */,
-				414A7EDF1EC53E9400BD13C1 /* 0511.playground */,
-				4177386F1EC6A1BD00059076 /* 0512.playground */,
-				417738701EC786EC00059076 /* 0513.playground */,
-				B831FD341EC93394003EAA04 /* 0514.playground */,
-				4139C44A1ECA9342006BB23F /* 0515.playground */,
-				4100F9C11ECD477800F13A65 /* 0516.playground */,
-				419E6F891ECE792D00F16B99 /* 0518.playground */,
-				41B457C61ED0DB0800125ADC /* 0520.playground */,
-			);
-			path = Practice;
-			sourceTree = "<group>";
-		};
 		41BE85551E6C937C003F3861 /* Two Pointers */ = {
 			isa = PBXGroup;
 			children = (
@@ -592,14 +536,6 @@
 			path = Stack;
 			sourceTree = "<group>";
 		};
-		B809EAAE1E7EDDE700B6D090 /* System Design */ = {
-			isa = PBXGroup;
-			children = (
-				B809EAAF1E7EDDF900B6D090 /* PhotoApp.playground */,
-			);
-			path = "System Design";
-			sourceTree = "<group>";
-		};
 		B811C8741E5E7C02009E3483 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
@@ -720,8 +656,6 @@
 		B8AF4AC41E57C2540004E8A1 /* SwiftCoding */ = {
 			isa = PBXGroup;
 			children = (
-				B809EAAE1E7EDDE700B6D090 /* System Design */,
-				41BE85501E6B65EE003F3861 /* Practice */,
 				B8AF4AF31E57C2F90004E8A1 /* Categories */,
 				B811C8741E5E7C02009E3483 /* Basic */,
 				B8AF4AF51E57C3070004E8A1 /* Others */,
